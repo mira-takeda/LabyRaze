@@ -1,0 +1,54 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Logs
+*.log
+
+# Environment files and secrets
+.env*
+*.pem
+*.key
+
+# Regenerated screenshots
+tools/gallery/shots/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Root scratch outputs created by local command runs (root only)
+/.*.txt
+/*.out.txt
+/*.err.txt
+/.*.cmd
+/.*.code
+/.*.out
+/.*.cjs
+/.*.mjs
+/.*.ts
+/.cp39.done
+/.cp39.log
+/.cp39.probe
+
+# Never ignored: project specs, steering and hooks, balance baseline and logs, the Soundtrack
+!.kiro/
+!tools/balance/baseline.json
+!tools/balance/logs/**
+!public/audio/
+# ...except the uncompressed master WAV, which must never ship in public/
+public/audio/*.wav
+# ...except local run transcripts that embed private filesystem paths (kept on disk, never committed)
+tools/balance/logs/measure-*.log
+# Raw local balance/calibration transcripts (machine paths, scratch; results live in baseline.json)
+tools/balance/evidence/
+
+# Private recovery copies and unredacted local verification
+/.release-local/
+
+# Retain public, sanitized verification transcripts
+!docs/verification/*.log
+!docs/verification/**

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "balance-baseline-check-on-save",
+      "description": "Compare balance tooling output with the committed baseline when tools/balance changes.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])tools[\\\\/]balance[\\\\/].*\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run balance:check"
+      },
+      "timeout": 180
+    }
+  ]
+}

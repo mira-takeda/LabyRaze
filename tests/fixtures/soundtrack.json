@@ -1,0 +1,28 @@
+{
+  "path": "public/audio/Pixel Pulse.opus",
+  "sizeBytes": 3548469,
+  "sha256": "33A527904CFE23F497B38FAA912BC5C6DDFD36A686068895DA68B77C380C776C",
+  "header": {
+    "magic": "OggS",
+    "head": "OpusHead",
+    "version": 1,
+    "channels": 2,
+    "inputSampleRate": 48000
+  },
+  "master": {
+    "name": "Pixel Pulse.wav",
+    "note": "The user-owned master recording. Never edited or overwritten; kept outside public/ so builds ship only the Opus file. Anyone holding the master verifies it with these facts.",
+    "sizeBytes": 33926694,
+    "sha256": "137D2DF0ABD3C5ED079D0B1B80858D7F14C4D0AE1E9C4DC43A2F5BBC7AE13147"
+  },
+  "fallback": {
+    "path": "public/audio/Pixel Pulse.mp3",
+    "sizeBytes": 2739456,
+    "sha256": "03168C4CD278417399A9048DA9C756E15F7E5D4C9D0AF5A2F0A2641C165EC5BA",
+    "format": "MPEG-1 Layer III",
+    "channels": 2,
+    "sampleRate": 48000,
+    "bitrateKbps": 128,
+    "metadata": "No ID3/APIC/GEOB metadata; MPEG frames copied without re-encoding"
+  }
+}

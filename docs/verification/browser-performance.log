@@ -1,0 +1,26 @@
+{
+  "browser": "chrome.exe",
+  "frames": 1667,
+  "frameP95Ms": 2.7,
+  "frameMeanMs": 1.76,
+  "rafDeltaP95Ms": 18.1,
+  "inputs": 73,
+  "maxTicksToConsume": 1,
+  "inputLatencyP95Ms": 910.2,
+  "pass": true,
+  "budgets": {
+    "frameP95Ms": 16.7,
+    "maxTicksToConsume": 1
+  },
+  "queued": 73,
+  "discarded": 0,
+  "pending": 0,
+  "heldInputs": 11,
+  "intentionalPauseMs": 4032,
+  "activeLatencyP95Ms": 0.2,
+  "maxQueueTicks": 4,
+  "overdueInputs": 0,
+  "tier": "high",
+  "errors": []
+}
+PASS

@@ -1,0 +1,47 @@
+{
+  "name": "labyraze-halloween-maze",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Labyraze Halloween Maze: a deterministic Canvas 2D maze game built with Vite and TypeScript.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && tsc --noEmit -p src/core/tsconfig.json && vite build",
+    "preview": "vite preview",
+    "test": "node tools/runTests.mjs --project unit --project dom",
+    "test:sim": "node tools/runTests.mjs --project unit tests/core tests/maze tests/doors tests/hunter tests/powers tests/bombs tests/ghostHunt tests/wisps tests/rules tests/progression",
+    "test:mechanics": "node tools/runTests.mjs --project unit tests/bombs tests/ghostHunt tests/wisps",
+    "test:audio": "node tools/runTests.mjs --project unit tests/audio tests/assets",
+    "test:perf": "node tools/runTests.mjs --project perf",
+    "test:e2e": "node tools/runTests.mjs --project unit tests/e2e",
+    "lint": "eslint .",
+    "lint:determinism": "node --import ./tools/registerTypeScript.mjs tools/lintDeterminism.ts",
+    "check:soundtrack": "node --import ./tools/registerTypeScript.mjs tools/checkSoundtrack.ts",
+    "balance:measure": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts measure",
+    "balance:calibrate": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts calibrate",
+    "balance:check": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts check",
+    "balance:smoke": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts smoke",
+    "balance:full": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts full",
+    "perf:browser": "node --import ./tools/registerTypeScript.mjs tools/perfBrowser.ts",
+    "balance:verify": "node --import ./tools/registerTypeScript.mjs tools/balance/verifyBaseline.ts",
+    "verify:release": "node tools/verifyRelease.mjs",
+    "release:export": "node tools/exportRelease.mjs",
+    "check:audio-browser": "node --import ./tools/registerTypeScript.mjs tools/verifyAudioBrowser.ts"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "eslint": "10.14.0",
+    "fast-check": "4.10.2",
+    "happy-dom": "21.0.4",
+    "puppeteer-core": "25.17.0",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  },
+  "license": "GPL-3.0-only"
+}

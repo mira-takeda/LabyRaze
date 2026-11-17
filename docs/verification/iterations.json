@@ -1,0 +1,81 @@
+[
+  {
+    "step": "Initial audio regression typecheck",
+    "exitCode": 1,
+    "result": "Mock method signature mismatch; corrected; later TypeScript gate passed."
+  },
+  {
+    "step": "Git stage and recovery commit",
+    "exitCode": null,
+    "result": "Managed filesystem denied .git/index.lock. No repeated Git write attempts; private recovery copy retained."
+  },
+  {
+    "step": "tsx startup",
+    "exitCode": 1,
+    "result": "Windows uv_os_get_passwd ENOMEM before test execution. Replaced tool startup with project-local installed-TypeScript loader; no OS/account changes."
+  },
+  {
+    "step": "Default temporary browser profile",
+    "exitCode": 1,
+    "result": "30-second automation timeout. Workspace-confined isolated profile succeeded."
+  },
+  {
+    "step": "Initial real-browser audio scenario set",
+    "exitCode": 1,
+    "result": "Five playback scenarios passed; all404 test intercepted /src/audio modules. Restricted interception to /audio assets."
+  },
+  {
+    "step": "Required missing test filter",
+    "exitCode": 1,
+    "result": "Expected negative check: rejected before execution; not counted as a passing test run."
+  },
+  {
+    "step": "First complete suite",
+    "exitCode": 1,
+    "passed": 997,
+    "failed": 2,
+    "result": "Worker loader --import received a Windows drive path; changed to a file URL without changing assertions or gameplay. Transcript preserved in attempt-1."
+  },
+  {
+    "step": "Corrected worker and determinism suites",
+    "exitCode": 0,
+    "passed": 4,
+    "result": "Single-worker/multi-worker equivalence passes with the corrected file URL."
+  },
+  {
+    "step": "Second complete suite",
+    "exitCode": 1,
+    "passed": 999,
+    "failed": 1,
+    "result": "Random Ghost Hunt rescue property found a pre-existing lifecycle defect; reproduced deterministically before fixing. Transcript preserved in attempt-2."
+  },
+  {
+    "step": "First production browser benchmark",
+    "exitCode": 1,
+    "result": "Automation protocol call had a 15-second limit while waiting for a 30-second measurement. Launch remains bounded at 15 seconds; protocol timeout now accommodates the existing 60-second measurement window. No gameplay budget changed."
+  },
+  {
+    "step": "Deterministic late-rescue reproduction before core correction",
+    "exitCode": 1,
+    "passed": 3,
+    "failed": 2,
+    "result": "Both returning and already-inactive cage states failed before the correction."
+  },
+  {
+    "step": "Read-only progress summary",
+    "exitCode": 1,
+    "result": "Windows console encoding replaced a regex character. No test or project change; progress read from runner thereafter."
+  },
+  {
+    "step": "Initial served-build negative WAV probe",
+    "exitCode": 1,
+    "result": "A status-only assertion mistook Vite SPA HTML fallback for a WAV. Corrected content/MIME/build-file checks pass; no WAV is served."
+  },
+  {
+    "step": "Final complete release verification",
+    "exitCode": 0,
+    "passed": 1003,
+    "files": 156,
+    "result": "All 14 required local gates passed; no required or optional tests skipped. Network dependency audit remains separately UNVERIFIED (exit 1)."
+  }
+]

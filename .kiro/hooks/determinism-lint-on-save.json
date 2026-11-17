@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "determinism-lint-on-save",
+      "description": "Scan src/core for Date, performance, Math.random and other nondeterministic APIs.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])src[\\\\/]core[\\\\/].*\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run lint:determinism"
+      },
+      "timeout": 60
+    }
+  ]
+}

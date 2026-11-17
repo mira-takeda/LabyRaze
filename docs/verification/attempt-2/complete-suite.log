@@ -1,0 +1,440 @@
+
+ RUN  v5.1.0 <workspace>
+
+ ✓ |dom| tests/render/readonly.test.ts (2 tests) 1828ms
+   ✓ Property 3: the Renderer never mutates the Simulation (1)
+     ✓ drawing frames and handling events leaves state and events unchanged 1098ms
+   ✓ Property 3 (completed): particle and audio handlers never mutate the Simulation (1)
+     ✓ deep-frozen state and events survive particle bindings and the audio engine unchanged 728ms
+ ✓ |dom| tests/render/cosmeticSkins.test.ts (3 tests) 2213ms
+   ✓ custom skins are cosmetic only (3)
+     ✓ the same Seed and inputs give identical Simulation states with and without custom skins drawn 2192ms
+ ✓ |dom| tests/render/feedback.test.ts (25 tests) 716ms
+ ✓ |dom| tests/render/hudRenderer.test.ts (7 tests) 504ms
+ ✓ |dom| tests/shell/skinStore.test.ts (6 tests) 241ms
+ ✓ |dom| tests/render/biomes.test.ts (10 tests) 489ms
+   ✓ ambient particles (2)
+     ✓ spawn from the pool for the biome flavour and respect the cap 321ms
+ ✓ |dom| tests/shell/celebrationHold.test.ts (4 tests) 312ms
+ ✓ |dom| tests/render/phase2Layers.test.ts (8 tests) 201ms
+ ✓ |dom| tests/shell/screens.test.ts (11 tests) 237ms
+ ✓ |dom| tests/shell/workshop.test.ts (10 tests) 272ms
+ ✓ |dom| tests/render/staticLayer.test.ts (2 tests) 167ms
+ ✓ |dom| tests/render/renderer.test.ts (5 tests) 254ms
+ ✓ |dom| tests/render/skins.test.ts (6 tests) 115ms
+ ✓ |dom| tests/render/celebration.test.ts (6 tests) 141ms
+ ✓ |dom| tests/render/particleBindings.test.ts (2 tests) 101ms
+ ✓ |dom| tests/shell/cheat.test.ts (10 tests) 89ms
+ ✓ |dom| tests/shell/accumulator.test.ts (2 tests) 51ms
+ ✓ |dom| tests/shell/highScores.test.ts (8 tests) 133ms
+ ✓ |dom| tests/render/quality.test.ts (3 tests) 77ms
+ ✓ |dom| tests/render/particles.test.ts (4 tests) 94ms
+ ✓ |dom| tests/render/interpProperty.test.ts (2 tests) 17ms
+ ✓ |dom| tests/shell/audioSettings.test.ts (3 tests) 15ms
+ ✓ |dom| tests/shell/display.test.ts (5 tests) 25ms
+ ✓ |dom| tests/shell/keybindings.test.ts (10 tests) 16ms
+ ✓ |dom| tests/render/spriteCache.test.ts (4 tests) 19ms
+ ✓ |dom| tests/render/sprites/ghost.test.ts (8 tests) 21ms
+ ✓ |dom| tests/shell/difficulty.test.ts (10 tests) 10ms
+ ✓ |dom| tests/render/placeholders.test.ts (7 tests) 13ms
+ ✓ |dom| tests/render/sprites/squareman.test.ts (3 tests) 7ms
+ ✓ |dom| tests/shell/loop.test.ts (7 tests) 7ms
+ ✓ |dom| tests/shell/perfHarness.test.ts (8 tests) 8ms
+ ✓ |dom| tests/render/shake.test.ts (3 tests) 7ms
+ ✓ |dom| tests/shell/input.test.ts (7 tests) 9ms
+ ✓ |dom| tests/render/sprites/world.test.ts (4 tests) 11ms
+ ✓ |dom| tests/render/interp.test.ts (4 tests) 8ms
+ ✓ |dom| tests/render/spawnFx.test.ts (3 tests) 9ms
+ ✓ |dom| tests/shell/help.test.ts (3 tests) 7ms
+ ✓ |dom| tests/render/sprites/items.test.ts (4 tests) 10ms
+ ✓ |unit| tests/balance/neutrality.test.ts (2 tests) 97694ms
+   ✓ post-baseline config neutrality (2)
+     ✓ 1UP and celebrations on/off give identical balance results (check seeds, all levels x policies) 97675ms
+ ✓ |unit| tests/balance/calibrate.test.ts (3 tests) 127774ms
+   ✓ balance calibrate (3)
+     ✓ bombRadius sweeps 1.5 to 3.5 in steps of 0.5 and only chooses a qualifying radius 43793ms
+     ✓ combo keeps the window unless the cap is never or always reached 83975ms
+ ✓ |unit| tests/core/determinism.test.ts (3 tests) 82822ms
+   ✓ Property 1: simulation determinism (3)
+     ✓ same Seed and random input sequence give equal states after every Tick 11225ms
+     ✓ stays in lockstep through Bomb detonations and a Ghost Hunt 71576ms
+ ✓ |unit| tests/rules/oneUp.test.ts (12 tests) 77329ms
+   ✓ 1UP properties (3)
+     ✓ Property 51: 1UP award count matches crossed milestones 2167ms
+     ✓ Property 52: milestones survive life loss and levels 16902ms
+     ✓ Property 53: 1UP non-interference 57943ms
+stdout | tests/maze/generate.test.ts > generateMaze validity > validates for every seed and level (fast-check, 200 runs, levels 1 to 200)
+fast-check attempts histogram {"1":197,"2":3}, fallbacks 0
+
+ ✓ |unit| tests/wisps/accounting.test.ts (4 tests) 41226ms
+   ✓ Property 42: Wisps never change pellet accounting (2)
+     ✓ Wisp pickups leave ordinaryRemaining untouched and are counted separately 39488ms
+     ✓ the Hunter never collects a Wisp and Wisps never end a level 1733ms
+stdout | tests/maze/generate.test.ts > generateMaze validity > validates on 1000 consecutive seeds and reports the attempts distribution and timing
+generateMaze 21x21 x1000: mean 15.30 ms, p95 30.55 ms, max 58.23 ms (budget 50 ms p95)
+attempts {"1":983,"2":17}; with repairs 143; fallback 0; invalid 0
+
+ ✓ |unit| tests/maze/generate.test.ts (13 tests) 39986ms
+   ✓ generateMaze validity (2)
+     ✓ validates for every seed and level (fast-check, 200 runs, levels 1 to 200) 3941ms
+     ✓ validates on 1000 consecutive seeds and reports the attempts distribution and timing 17785ms
+   ✓ generateMaze determinism and variety (2)
+     ✓ returns identical Mazes for identical inputs 588ms
+     ✓ gives different layouts for different seeds, levels and retry indices 594ms
+   ✓ generateMaze regeneration and fallback (9)
+     ✓ fallback validates for 400 consecutive seeds across levels 1 to 200 10223ms
+     ✓ fallback validates across seeds and levels (fast-check, 300 runs) 5695ms
+     ✓ fallback honours configured size and Door count 584ms
+ ✓ |unit| tests/doors/occupancy.test.ts (2 tests) 33770ms
+   ✓ Property 11: Doors never trap a character (2)
+     ✓ no character occupies a closed Door Cell under random play 33750ms
+ ✓ |unit| tests/balance/smoke.test.ts (3 tests) 30244ms
+   ✓ balance smoke (3)
+     ✓ a small fixed Seed set lies within the committed bands 20112ms
+     ✓ a deliberately shifted statistic fails, naming the statistic and the worst Seed 10126ms
+ ✓ |unit| tests/balance/determinism.test.ts (1 test) 25203ms
+   ✓ Property 28: balance simulator determinism (1)
+     ✓ identical reports for 1 and N workers and for repeated runs 25201ms
+ ✓ |unit| tests/bombs/playerOnly.test.ts (2 tests) 26530ms
+   ✓ Property 36: Player-only items are never collected by Squareman (2)
+     ✓ a Bomb, Ghost_Hunt item or Wisp the Hunter walks over stays and changes nothing 22188ms
+     ✓ a detonation destroys no pellet and does not move, damage or delay Squareman 4340ms
+ ✓ |unit| tests/core/movementProperty.test.ts (1 test) 26102ms
+   ✓ Property 4: movement stays on passable Cells (1)
+     ✓ characters never stand on or move into a wall, and steps are between adjacent Cells 26100ms
+ ✓ |unit| tests/rules/pelletAccounting.test.ts (2 tests) 24233ms
+   ✓ Property 15: pellet accounting (2)
+     ✓ ordinaryRemaining always equals the Ordinary_Pellets on the floor and only the Hunter lowers it 21095ms
+     ✓ the Hunter wins exactly when the last Ordinary_Pellet is cleared (no Rescue that Tick) 3135ms
+ ✓ |unit| tests/rules/victory.test.ts (5 tests) 21833ms
+   ✓ Property 50: two competing victory conditions (5)
+     ✓ every level end matches exactly one condition under random play 21635ms
+ ✓ |unit| tests/bombs/validity.test.ts (1 test) 16845ms
+   ✓ Property 34: state is valid after every explosion (1)
+     ✓ random detonation sequences keep the state valid and the tables fresh 16843ms
+ ✓ |unit| tests/rules/lives.test.ts (6 tests) 21595ms
+   ✓ Property 49: lives, respawn and dropped Keys (6)
+     ✓ under random play lives never rise within a level and Keys are conserved 21399ms
+ ✓ |unit| tests/core/difficulty.test.ts (5 tests) 15170ms
+   ✓ Squareman speed multiplier (3)
+     ✓ exact units per Tick at levels 1, 5, 10, 20, 40 for 1000/1150/1250; the Player is unchanged 1269ms
+     ✓ NORMAL (explicit 1000) is identical to the default config Tick by Tick, with random inputs 13530ms
+ ✓ |unit| tests/hunter/routes.test.ts (6 tests) 18196ms
+   ✓ Feature: kirobit-halloween-maze, Property 13: Hunter routes respect current Doors (6)
+     ✓ never occupies a wall or closed Door, and every step lies on a shortest path over the current Doors (carved 21x21) 3624ms
+     ✓ holds on fixture mazes with a Door that closes and reopens 374ms
+     ✓ checks the first decision after Door changes and explosions (not vacuous) 5634ms
+     ✓ keeps collecting: consecutive pellets are reached within a bound proportional to the maze size 3309ms
+     ✓ is deterministic: identical scenarios give identical traces 5248ms
+ ✓ |unit| tests/balance/worker.test.ts (3 tests) 12737ms
+   ✓ balance worker pool (3)
+     ✓ merges worker results in canonical order and matches the single-thread run 12731ms
+ ✓ |unit| tests/progression/milestones.test.ts (9 tests) 17926ms
+   ✓ Property 54 and 55 (3)
+     ✓ Property 54 (real step): wins and retries emit once per celebration level 7821ms
+     ✓ Feature: kirobit-halloween-maze, Property 55: Celebration non-interference 9710ms
+ ✓ |unit| tests/e2e/fullRun.test.ts (1 test) 10754ms
+   ✓ end-to-end run (1)
+     ✓ plays scripted levels to game over with every mechanic, deterministically 10751ms
+ ✓ |unit| tests/bombs/connectivity.test.ts (1 test) 12132ms
+   ✓ Property 33: destruction only improves connectivity (1)
+     ✓ reachability, component structure, objective connectivity and restore times never get worse 12130ms
+ ✓ |unit| tests/balance/policyBehaviour.test.ts (12 tests) 8918ms
+   ✓ policy behaviour on sample Mazes (Player-only race) (12)
+     ✓ oneKey completes a Rescue on every sample Maze 973ms
+     ✓ twoKey completes a Rescue on every sample Maze 544ms
+     ✓ threeKey completes a Rescue on every sample Maze 491ms
+     ✓ bombAggressive completes a Rescue on every sample Maze 1067ms
+     ✓ bombNone completes a Rescue on every sample Maze 511ms
+     ✓ ghostHuntOpportunistic completes a Rescue on every sample Maze 696ms
+     ✓ ghostHuntNone completes a Rescue on every sample Maze 557ms
+     ✓ wispSweep completes a Rescue on every sample Maze 1066ms
+     ✓ bombNone never uses its item and only collects one that cannot be avoided 640ms
+     ✓ ghostHuntNone never uses its item and only collects one that cannot be avoided 627ms
+     ✓ bombAggressive uses at least one Bomb across the sample Mazes 1053ms
+     ✓ ghostHuntOpportunistic starts a Ghost Hunt on at least one sample Maze 688ms
+ ✓ |unit| tests/audio/engine.test.ts (8 tests) 7780ms
+   ✓ gameplay-triggered audio through real step runs (1)
+     ✓ Key pickups, Bombs, Ghost Hunt, Wisps, rescues, Doors and level ends produce their cues 7757ms
+ ✓ |unit| tests/core/ice.test.ts (13 tests) 6383ms
+   ✓ ice placement (5)
+     ✓ is deterministic for the same Seed and level 303ms
+     ✓ exists only on snow levels (and only when enabled) 1320ms
+     ✓ never covers the Cage, gate, entrance, Doors, Keys, starts or special items 1639ms
+     ✓ keeps snow Mazes valid 604ms
+   ✓ ice never traps (2)
+     ✓ from any Cell and heading every objective stays reachable 2024ms
+     ✓ ice does not change passability: identical tiles with and without ice 300ms
+ ✓ |unit| tests/core/stepIntegration.test.ts (8 tests) 5898ms
+   ✓ step integration: determinism (2)
+     ✓ replays a hand-built maze with every mechanic active over 3000 ticks 2467ms
+     ✓ replays a generated maze over 3000 ticks 3056ms
+stdout | tests/core/step.test.ts > step > ends the level with a hunter win when the player idles
+[balance] idle player, seed 21: hunter cleared all pellets in 1914 ticks
+
+ ✓ |unit| tests/core/step.test.ts (7 tests) 5009ms
+   ✓ step (7)
+     ✓ is deterministic over 2000 ticks with the same seed and inputs 2274ms
+     ✓ lets the hunter move on its own and collect ordinary pellets 394ms
+     ✓ ends the level with a hunter win when the player idles 1111ms
+     ✓ produces events in per-tick order 1116ms
+ ✓ |unit| tests/bombs/pathRefresh.test.ts (2 tests) 5614ms
+   ✓ Property 35: pathfinding refresh after explosions (2)
+     ✓ a destroying blast bumps walls.version and the Hunter decides as if its route were fresh 5608ms
+ ✓ |unit| tests/doors/reachability.test.ts (1 test) 5201ms
+   ✓ Property 12: door reachability and confinement bounds (1)
+     ✓ no objective stays disconnected from the Player, and no character stays confined, beyond maxDisconnectTicks 5199ms
+ ✓ |unit| tests/balance/measure.test.ts (5 tests) 4932ms
+   ✓ balance measure (5)
+     ✓ runs the real step: the Hunter clears pellets and a policy rescues, giving a ratio 3179ms
+     ✓ a unit result is a pure function of the unit 1468ms
+ ✓ |unit| tests/maze/determinism.test.ts (4 tests) 4734ms
+   ✓ Feature: kirobit-halloween-maze, Property 7: Maze generation is deterministic (4)
+     ✓ same (seed, level, config, retryIndex) yields deep-equal Mazes 1658ms
+     ✓ does not depend on call order or history 1251ms
+     ✓ every level of one run gets a different maze (independent streams per level) 1100ms
+     ✓ retryIndex shifts every derived stream, changing the result 722ms
+ ✓ |unit| tests/core/invariants.test.ts (12 tests) 4118ms
+   ✓ assertValidState (12)
+     ✓ holds after every Tick of long scripted runs with checks enabled in step 3743ms
+ ✓ |unit| tests/balance/humanPolicies.test.ts (4 tests) 4203ms
+   ✓ human-like policies (4)
+     ✓ are deterministic for the same Seed and differ across Seeds 415ms
+     ✓ still rescue all Captives alone, but slower than the perfect policy, novices slowest 3087ms
+     ✓ never detonate Bombs 697ms
+ ✓ |unit| tests/maze/placement.test.ts (8 tests) 4024ms
+   ✓ placement (8)
+     ✓ puts starts in opposite quadrants 484ms
+     ✓ places 3 reachable Keys in distinct regions within the fairness delta 430ms
+     ✓ places the configured counts of every item kind 474ms
+     ✓ keeps Power_Pellets and Speed_Pellets fair and not all near one character 551ms
+     ✓ respects Bomb and Ghost_Hunt distances, thirds and cycle Cells 445ms
+     ✓ keeps everything reachable, disjoint and player-only items flagged 420ms
+     ✓ is deterministic for equal inputs and varies with the seed 917ms
+ ✓ |unit| tests/maze/keyFairness.test.ts (4 tests) 3755ms
+   ✓ Key route band (task 36.8) (2)
+     ✓ every generated Maze keeps three Keys with a greedy route inside keyRouteMin..keyRouteMax 3748ms
+ ✓ |unit| tests/doors/stepExamples.test.ts (2 tests) 3666ms
+   ✓ Doors through step (2)
+     ✓ every Door emits a warning before each state change after the first warn window 3390ms
+ ✓ |unit| tests/ghostHunt/catches.test.ts (4 tests) 3992ms
+   ✓ Property 41: fleeing and ally catches (4)
+     ✓ a fleeing Squareman never steps closer to the nearest ally when a non-closer neighbour exists 3770ms
+ ✓ |unit| tests/maze/structure.test.ts (1 test) 3692ms
+   ✓ Property 9: Maze structure and limits (1)
+     ✓ Feature: kirobit-halloween-maze, Property 9: Maze structure and limits 3690ms
+ ✓ |unit| tests/rules/respawn.test.ts (8 tests) 3031ms
+   ✓ fair respawn (7)
+     ✓ Property 49: respawn Cell is valid and far from Squareman whenever such a Cell exists 2435ms
+     ✓ a camping Squareman cannot chain deaths faster than the invulnerability window 402ms
+ ✓ |unit| tests/core/bufferedTurns.test.ts (1 test) 3134ms
+   ✓ Property 5: buffered turns (1)
+     ✓ the buffer holds the latest unfulfilled press and is consumed at the first possible boundary 3131ms
+stdout | tests/maze/repair.test.ts > repairMaze properties > never changes item counts and keeps repaired mazes valid across seeds
+repair pass rate before 83/100, after 99/100 = 99.0%
+repair remaining failures {
+ "7: speed pellet (x,y) distance gap N exceeds N": 1
+}
+repair time per maze (repair only): mean 4.39 ms, max 29.00 ms
+
+ ✓ |unit| tests/maze/repair.test.ts (12 tests) 2638ms
+   ✓ repairMaze properties (3)
+     ✓ never changes item counts and keeps repaired mazes valid across seeds 2202ms
+ ✓ |unit| tests/ghostHunt/activation.test.ts (4 tests) 2445ms
+   ✓ Property 37: Ghost Hunt activation, refresh and power neutrality (4)
+     ✓ power fields change only through the power rules while the hunt is active 2107ms
+stdout | tests/maze/partition.test.ts > partition > reports summary stats
+partition stats: wisps min=96 mean=99.7; ordinary min=74 mean=79.0; fraction min=0.536 mean=0.558 max=0.582; min per-window minority count=0
+
+ ✓ |unit| tests/maze/partition.test.ts (9 tests) 4283ms
+   ✓ partition (9)
+     ✓ is disjoint, covers exactly the eligible set and avoids reserved cells 1249ms
+     ✓ puts at least one of each kind in every block with 2 or more cells 782ms
+     ✓ leaves a key-path window with one kind only when the block minimum blocks every flip 731ms
+     ✓ keeps the wisp fraction close to wispDensity 837ms
+     ✓ is deterministic 496ms
+ ✓ |unit| tests/balance/policies.test.ts (8 tests) 3018ms
+   ✓ balance policies (8)
+     ✓ give identical level traces for the same seed 732ms
+     ✓ press a direction on the first Tick of a level 533ms
+     ✓ wispSweep collects more Wisps than threeKey on the same Mazes 1408ms
+ ✓ |unit| tests/progression/endless.test.ts (3 tests) 2181ms
+   ✓ endless progression (3)
+     ✓ after 80 consecutive Player wins there is no final phase, speed stays capped and the Maze does not grow 2116ms
+ ✓ |unit| tests/maze/nonSnowRegression.test.ts (1 test) 2310ms
+   ✓ non-snow generation is unchanged by the ice feature (1)
+     ✓ matches the post-partition-fix hash for seeds 1..20 at levels 1, 5, 10, 20, 40 2307ms
+ ✓ |unit| tests/smoke/vite.test.ts (2 tests) 2162ms
+   ✓ vite serves public/audio/Pixel Pulse.opus (2)
+     ✓ GET returns 200 with the full recorded byte length 1998ms
+stdout | tests/maze/validate.test.ts > pipeline pass rate across seeds > validates at least 95% of seeds and reports the failure histogram
+validate pass rate 87/100 = 87.0%
+failure histogram {
+ "7: key (x,y) is N cells nearer the hunter (player N, hunter N), limit N": 7,
+ "7: speed pellet (x,y) distance gap N exceeds N": 2,
+ "7: bomb (x,y) favours the hunter by N, limit N": 2,
+ "7a: path window of N cells starting at (x,y) has no ordinary pellet": 1,
+ "7: key (x,y) is N cells from the cage entrance, allowed N..N": 1
+}
+
+ ✓ |unit| tests/maze/validate.test.ts (14 tests) 1669ms
+   ✓ pipeline pass rate across seeds (1)
+     ✓ validates at least 95% of seeds and reports the failure histogram 1361ms
+ ✓ |unit| tests/ghostHunt/ending.test.ts (2 tests) 1888ms
+   ✓ Property 40: Ghost Hunt ends cleanly (2)
+     ✓ after expiry every ally is inactive within the bound; rescue state never changes 1849ms
+
+P43 statistics over 60 generated mazes (quadrant minimum k=8, window=6, block=3)
+wisps per quadrant (Player): n=240 min=17 p5=20 mean=23.52
+ordinary per quadrant (Squareman): n=240 min=14 p5=15 mean=18.76
+wisps per window (all key paths): n=7558 min=1 p5=1 mean=2.95
+ordinary per window (all key paths): n=7558 min=1 p5=1 mean=2.43
+wisps per window (Player paths): n=6416 min=1 p5=1 mean=2.92
+ordinary per window (Squareman path): n=1142 min=1 p5=1 mean=2.50
+ ✓ |unit| tests/wisps/coverage.test.ts (1 test) 1507ms
+   ✓ Feature: kirobit-halloween-maze, Property 43: Wisp and pellet coverage (1)
+     ✓ Feature: kirobit-halloween-maze, Property 43: Wisp and pellet coverage 1494ms
+ ✓ |unit| tests/maze/reachability.test.ts (1 test) 1335ms
+   ✓ maze reachability (1)
+     ✓ Feature: kirobit-halloween-maze, Property 8: Maze connectivity and reachability 1333ms
+ ✓ |unit| tests/ghostHunt/allies.test.ts (14 tests) 969ms
+   ✓ determinism and invariants (2)
+     ✓ rescue state invariant holds with real movement (property) 750ms
+ ❯ |unit| tests/ghostHunt/rescueState.test.ts (3 tests | 1 failed) 2686ms
+   ❯ Feature: kirobit-halloween-maze, Property 38: Ghost Hunt never changes Captives or Carried_Keys (3)
+     × rescue state is preserved, rescued Kiros are never re-imprisoned, captives return to the cage 2120ms
+     ✓ without Rescue events the captives, count and carriedKeys end identical to the start 512ms
+     ✓ Rescue at the Cage entrance still works during Ghost Hunt 47ms
+ ✓ |unit| tests/ghostHunt/respect.test.ts (5 tests) 938ms
+   ✓ Property 39: allies respect the Maze and never harm the Player (3)
+     ✓ on carved + placeDoors 21x21 mazes with changing Door masks and mid-hunt Bombs 409ms
+     ✓ on the hand-built fixtures with changing Door masks and Bombs 398ms
+ ✓ |unit| tests/ghostHunt/lifecycle.test.ts (8 tests) 967ms
+   ✓ Ghost Hunt never touches rescue state (property) (1)
+     ✓ random start/refresh/tick/levelEnd leaves rescue flags unchanged and rescued allies out of the cage 954ms
+ ✓ |unit| tests/maze/doorPlacement.test.ts (8 tests) 924ms
+stdout | tests/maze/carve.test.ts > carveMaze > generates a 21x21 maze quickly
+carveMaze 21x21 average: 0.890 ms
+
+ ✓ |unit| tests/maze/carve.test.ts (8 tests) 678ms
+ ✓ |unit| tests/bombs/blast.test.ts (4 tests) 681ms
+   ✓ blast set (4)
+     ✓ Feature: kirobit-halloween-maze, Property 31: Blast destroys exactly the destructible walls in range 676ms
+ ✓ |unit| tests/bombs/indestructible.test.ts (3 tests) 703ms
+   ✓ Feature: kirobit-halloween-maze, Property 32: Indestructible tiles are preserved (3)
+     ✓ Property 32: Indestructible tiles are preserved 691ms
+ ✓ |unit| tests/helpers/helpers.test.ts (5 tests) 569ms
+   ✓ arbitraries (3)
+     ✓ other arbitraries generate values 542ms
+ ✓ |unit| tests/core/createRun.test.ts (8 tests) 542ms
+ ✓ |unit| tests/powers/timing.test.ts (3 tests) 474ms
+   ✓ Feature: kirobit-halloween-maze, Property 18: Power timing and refresh (3)
+     ✓ a grant lasts exactly powerTicks Ticks, then PowerEnded fires once 407ms
+ ✓ |unit| tests/powers/cancellation.test.ts (6 tests) 435ms
+   ✓ Feature: kirobit-halloween-maze, Property 17: Single power holder with cancellation (1)
+     ✓ holds for random sequences of pickups, ticks and same-Tick double pickups 431ms
+ ✓ |unit| tests/maze/prefilter.test.ts (3 tests) 500ms
+   ✓ check 8: analytic race-ratio pre-filter (3)
+     ✓ the analytic ratio is positive and deterministic for generated Mazes 354ms
+ ✓ |unit| tests/doors/scheduleShape.test.ts (3 tests) 359ms
+ ✓ |unit| tests/powers/stepCancellation.test.ts (6 tests) 377ms
+ ✓ |unit| tests/smoke/noDevShortcuts.test.ts (8 tests) 503ms
+   ✓ no development shortcuts in the shipped game (8)
+     ✓ the production bundle contains no gallery module or hook 433ms
+ ✓ |unit| tests/hunter/collect.test.ts (12 tests) 301ms
+ ✓ |unit| tests/doors/schedule.test.ts (12 tests) 357ms
+   ✓ door determinism property (1)
+     ✓ identical inputs give identical event sequences; warning precedes change by >= doorWarnTicks 318ms
+ ✓ |unit| tests/powers/speed.test.ts (4 tests) 287ms
+ ✓ |unit| tests/bombs/detonate.test.ts (13 tests) 239ms
+ ✓ |unit| tests/bombs/refresh.test.ts (9 tests) 192ms
+ ✓ |unit| tests/rules/eatenPlayer.test.ts (2 tests) 193ms
+ ✓ |unit| tests/doors/gate.test.ts (9 tests) 186ms
+ ✓ |unit| tests/hunter/fleeChase.test.ts (12 tests) 159ms
+ ✓ |unit| tests/rules/rescueAccounting.test.ts (5 tests) 132ms
+ ✓ |unit| tests/core/hud.test.ts (13 tests) 176ms
+ ✓ |unit| tests/audio/arcadeSfx.test.ts (5 tests) 118ms
+ ✓ |unit| tests/progression/speed.test.ts (4 tests) 81ms
+ ✓ |unit| tests/core/hudProperty.test.ts (2 tests) 68ms
+ ✓ |unit| tests/core/pathfinding.test.ts (11 tests) 121ms
+ ✓ |unit| tests/audio/effects.test.ts (6 tests) 69ms
+ ✓ |unit| tests/progression/progression.test.ts (7 tests) 103ms
+ ✓ |unit| tests/assets/soundtrack.test.ts (6 tests) 79ms
+ ✓ |unit| tests/bombs/inventory.test.ts (3 tests) 60ms
+ ✓ |unit| tests/wisps/combo.test.ts (8 tests) 57ms
+ ✓ |unit| tests/wisps/comboProperty.test.ts (3 tests) 88ms
+ ✓ |unit| tests/audio/audioStore.test.ts (4 tests) 73ms
+ ✓ |unit| tests/rules/eating.test.ts (2 tests) 94ms
+ ✓ |unit| tests/hunter/examples.test.ts (7 tests) 58ms
+ ✓ |unit| tests/core/prng.test.ts (9 tests) 43ms
+ ✓ |unit| tests/smoke/assets.test.ts (3 tests) 57ms
+ ✓ |unit| tests/audio/sfx.test.ts (7 tests) 51ms
+ ✓ |unit| tests/audio/soundtrack.test.ts (7 tests) 49ms
+ ✓ |unit| tests/balance/stats.property.test.ts (7 tests) 36ms
+ ✓ |unit| tests/powers/powers.test.ts (9 tests) 32ms
+ ✓ |unit| tests/balance/stats.test.ts (16 tests) 26ms
+ ✓ |unit| tests/rules/rescue.test.ts (17 tests) 22ms
+ ✓ |unit| tests/core/movement.test.ts (10 tests) 33ms
+ ✓ |unit| tests/core/config.test.ts (50 tests) 13ms
+ ✓ |unit| tests/rules/collisions.test.ts (14 tests) 22ms
+ ✓ |unit| tests/smoke/lintDeterminism.test.ts (6 tests) 38ms
+ ✓ |unit| tests/smoke/kiro.test.ts (42 tests) 20ms
+ ✓ |unit| tests/core/openQuestions.test.ts (11 tests) 9ms
+ ✓ |unit| tests/audio/codecFallback.test.ts (7 tests) 19ms
+ ✓ |unit| tests/core/wrap.test.ts (5 tests) 7ms
+ ✓ |unit| tests/smoke.test.ts (2 tests) 8ms
+ ✓ |unit| tests/core/grid.test.ts (5 tests) 8ms
+ ✓ |unit| tests/balance/cli.test.ts (4 tests) 10ms
+ ✓ |unit| tests/balance/bombChoice.test.ts (2 tests) 11ms
+ ✓ |unit| tests/audio/mockAudio.test.ts (2 tests) 8ms
+ ✓ |unit| tests/core/score.test.ts (9 tests) 6ms
+ ✓ |unit| tests/balance/consistency.test.ts (6 tests) 9ms
+ ✓ |unit| tests/balance/check.test.ts (3 tests) 9ms
+ ✓ |unit| tests/balance/ghostHuntChoice.test.ts (2 tests) 9ms
+ ✓ |unit| tests/smoke/readme.test.ts (6 tests) 10ms
+ ✓ |unit| tests/smoke/releaseAudit.test.ts (3 tests) 7ms
+ ✓ |unit| tests/core/types.test.ts (4 tests) 8ms
+ ✓ |unit| tests/audio/buses.test.ts (3 tests) 7ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |unit| tests/ghostHunt/rescueState.test.ts > Feature: kirobit-halloween-maze, Property 38: Ghost Hunt never changes Captives or Carried_Keys > rescue state is preserved, rescued Kiros are never re-imprisoned, captives return to the cage
+Error: Property failed after 51 tests
+{ seed: -1398346137, path: "50:0:5:3:5:11:8:8:9:16:17:1:1:1:1:6:19:19", endOnFailure: true }
+Counterexample: [{"rescued":[false,false,false],"keys":1,"hunter":0,"hunterRespawn":0,"steps":[{"k":"pickup","n":1},{"k":"tick","n":16},{"k":"tick","n":24},{"k":"rescue","n":1},{"k":"tick","n":1}],"allowRescue":true}]
+Shrunk 17 time(s)
+
+Hint: Enable verbose mode in order to have the list of all failing values encountered during the run
+ ❯ buildError node_modules/fast-check/lib/fast-check.js:2469:16
+ ❯ throwIfFailed node_modules/fast-check/lib/fast-check.js:2476:8
+ ❯ reportRunDetails node_modules/fast-check/lib/fast-check.js:2492:14
+ ❯ Proxy.assert node_modules/fast-check/lib/fast-check.js:2662:7
+ ❯ tests/ghostHunt/rescueState.test.ts:167:8
+    165| describe('Feature: kirobit-halloween-maze, Property 38: Ghost Hunt nev…
+    166|   it('rescue state is preserved, rescued Kiros are never re-imprisoned…
+    167|     fc.assert(
+       |        ^
+    168|       fc.property(scenarioArb, (sc) => {
+    169|         const { s, cleaned, returned } = simulate(sc);
+
+Caused by: AssertionError: expected 'returning' not to be 'returning' // Object.is equality
+ ❯ tests/ghostHunt/rescueState.test.ts:90:24
+ ❯ checkAllies tests/ghostHunt/rescueState.test.ts:88:13
+ ❯ tickOnce tests/ghostHunt/rescueState.test.ts:118:5
+ ❯ simulate tests/ghostHunt/rescueState.test.ts:151:38
+ ❯ tests/ghostHunt/rescueState.test.ts:169:42
+ ❯ Property.predicate node_modules/fast-check/lib/fast-check.js:1355:99
+ ❯ Property.run node_modules/fast-check/lib/fast-check.js:1324:24
+ ❯ propertyExecution node_modules/fast-check/lib/fast-check.js:2549:23
+ ❯ run node_modules/fast-check/lib/fast-check.js:2639:91
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 155 passed (156)
+      Tests  1 failed | 999 passed (1000)
+   Start at  17:04:17
+   Duration  506.67s (tests 94%, environment 4%, import 1%)
+
+JSON report written to <workspace>/.release-local/test-results/vitest-1794870257297.json
+Required test run failed: 1

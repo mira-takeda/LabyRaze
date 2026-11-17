@@ -1,0 +1,43 @@
+Historical report supplied by Muse, not an independently captured transcript.
+
+KiroBit controlled stabilization — verification log (2026-11-16)
+Recovery point: <recovery-backup> (robocopy, node_modules excluded) + RECOVERY-MANIFEST.csv
+500-seed balance measurement NOT re-run (no gameplay-affecting change justified it).
+
+FINAL GATES (all sequential, one test process at a time)
+- npx tsc --noEmit                                  exit 0
+- npx tsc --noEmit -p src/core/tsconfig.json        exit 0
+- npm run lint (eslint .)                           exit 0
+- npm run lint:determinism                          exit 0 ("no forbidden APIs in src\core")
+- npm run check:soundtrack                          exit 0 (3548469 bytes, SHA-256 33A52790...80C776C)
+- npm run test:perf                                 exit 0 (2 files / 2 tests passed)
+- npm test (unit+dom)                               exit 0 (155 files / 986 tests, 537s)
+- npm run build                                     exit 0 (dist: index.html 4405 B + index-DycIEFdE.js 216234 B + audio/Pixel Pulse.opus 3548469 B)
+- npm run balance:smoke                             exit 0 (360 units PASSED; "config differs" note is informational)
+- Chrome headless play check (preview build)        exit 0 (0 errors, opus 200, canvas alive, no __kirobit global)
+- Browser perf equivalent of perf:browser           FAIL as designed (frame p95 3.7ms OK; maxTicksToConsume 4 vs budget 1 — pre-existing harness artifact, see report)
+- npm audit --audit-level=moderate                  9 moderate, dev-only (typescript-eslint chain, eslint/minimatch); zero runtime deps, nothing ships
+
+EARLIER FOCUSED RUNS (each after its fix, all exit 0)
+- neutrality, consistency, cli, refresh, pathfinding, ghostHunt (40), determinism
+- input, highScores, skinStore, workshop, config (50), soundtrack (7), respawn (8)
+- noDevShortcuts (8), assets/soundtrack (5), smoke/assets (3), vite (2), releaseAudit (3)
+- audio/soundtrack (7), arcadeSfx (5), engine (8), kiro (42), readme (6), cheat (10)
+
+INTEGRITY (final hashes match the recovery manifest)
+- tools/balance/baseline.json                       390BD749... (untouched, never rewritten)
+- .kiro/specs/.../tasks.md                          F412C460... (untouched)
+- .kiro/specs/.../tasks.meta.json                   B041BAA9... (untouched)
+- master WAV backup                                 137D2DF0... (intact, verified before the move)
+- public/audio                                      Pixel Pulse.opus only (3,548,469 B); no WAV ships
+
+MUSIC COMPARISON (measured in headless Chrome via decodeAudioData; master 171.157s, 8215552 samples)
+- Opus 160k VBR  3,548,469 B (9.6x smaller)  8215552 samples, gapless by design  -> SHIPPED
+- Opus 128k VBR  2,845,456 B (11.9x smaller) 8215552 samples, gapless by design  -> staged for A/B
+- MP3 V0         7,299,731 B (4.6x smaller)  8215552 samples, trimmed by Chrome  -> staged fallback
+Staging dir (outside the repo): %TEMP%\kiro-audio ; screenshots: %TEMP%\kiro-shots
+Audible-quality ear check is the owner's call; all three candidates are staged.
+
+KONAMI
+- Zero references remain in src/tests/tools/docs/.kiro (case-insensitive search).
+- Identifier is now CLASSIC_ARCADE_CODE; key sequence, 30 lives and separate cheat scores unchanged (cheat suite 10/10).

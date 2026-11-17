@@ -1,0 +1,23 @@
+
+ RUN  v5.1.0 <workspace>
+
+stdout | tests/perf/tick.perf.test.ts > Tick performance > step p95 <= 2 ms over 12000 Ticks with Bombs and Ghost Hunt
+tick perf: p95 0.797 ms, mean 0.395 ms, bombs 30, ghost hunts 29, levels 32
+
+ ✓ |perf| tests/perf/tick.perf.test.ts (1 test) 7688ms
+   ✓ Tick performance (1)
+     ✓ step p95 <= 2 ms over 12000 Ticks with Bombs and Ghost Hunt 7686ms
+stdout | tests/perf/generation.test.ts > maze generation performance > generates 100 mazes within 50 ms at p95
+generateMaze x100: mean 15.19 ms, p95 29.75 ms, max 42.51 ms (budget 50 ms p95)
+
+ ✓ |perf| tests/perf/generation.test.ts (1 test) 1777ms
+   ✓ maze generation performance (1)
+     ✓ generates 100 mazes within 50 ms at p95 1775ms
+
+ Test Files  2 passed (2)
+      Tests  2 passed (2)
+   Start at  17:23:28
+   Duration  10.20s (tests 97%, import 1%, transform 1%)
+
+JSON report written to <workspace>/.release-local/test-results/vitest-1794871408249.json
+VERIFIED: 2 passed; 0 optional skipped; 0 required skipped.

@@ -1,0 +1,60 @@
+
+ RUN  v5.1.0 <workspace>
+
+ ✓ |dom| tests/shell/perfHarness.test.ts (8 tests) 12ms
+ ✓ |dom| tests/shell/input.test.ts (7 tests) 9ms
+ ✓ |unit| tests/ghostHunt/catches.test.ts (4 tests) 3775ms
+   ✓ Property 41: fleeing and ally catches (4)
+     ✓ a fleeing Squareman never steps closer to the nearest ally when a non-closer neighbour exists 3524ms
+ ✓ |unit| tests/ghostHunt/activation.test.ts (4 tests) 2204ms
+   ✓ Property 37: Ghost Hunt activation, refresh and power neutrality (4)
+     ✓ power fields change only through the power rules while the hunt is active 1898ms
+ ✓ |unit| tests/audio/engine.test.ts (8 tests) 7404ms
+   ✓ gameplay-triggered audio through real step runs (1)
+     ✓ Key pickups, Bombs, Ghost Hunt, Wisps, rescues, Doors and level ends produce their cues 7376ms
+ ✓ |unit| tests/smoke/vite.test.ts (2 tests) 2171ms
+   ✓ vite serves public/audio/Pixel Pulse.opus (2)
+     ✓ GET returns 200 with the full recorded byte length 2029ms
+ ✓ |unit| tests/ghostHunt/ending.test.ts (2 tests) 1532ms
+   ✓ Property 40: Ghost Hunt ends cleanly (2)
+     ✓ after expiry every ally is inactive within the bound; rescue state never changes 1498ms
+ ✓ |unit| tests/ghostHunt/respect.test.ts (5 tests) 854ms
+   ✓ Property 39: allies respect the Maze and never harm the Player (3)
+     ✓ on carved + placeDoors 21x21 mazes with changing Door masks and mid-hunt Bombs 349ms
+     ✓ on the hand-built fixtures with changing Door masks and Bombs 366ms
+ ✓ |unit| tests/ghostHunt/rescueState.test.ts (5 tests) 1434ms
+   ✓ Feature: kirobit-halloween-maze, Property 38: Ghost Hunt never changes Captives or Carried_Keys (5)
+     ✓ rescue state is preserved, rescued Kiros are never re-imprisoned, captives return to the cage 827ms
+     ✓ without Rescue events the captives, count and carriedKeys end identical to the start 437ms
+ ✓ |unit| tests/ghostHunt/lifecycle.test.ts (8 tests) 948ms
+   ✓ Ghost Hunt never touches rescue state (property) (1)
+     ✓ random start/refresh/tick/levelEnd leaves rescue flags unchanged and rescued allies out of the cage 934ms
+ ✓ |unit| tests/ghostHunt/allies.test.ts (14 tests) 1190ms
+   ✓ determinism and invariants (2)
+     ✓ rescue state invariant holds with real movement (property) 960ms
+ ✓ |unit| tests/smoke/noDevShortcuts.test.ts (8 tests) 296ms
+ ✓ |unit| tests/core/pathfinding.test.ts (11 tests) 88ms
+ ✓ |unit| tests/audio/arcadeSfx.test.ts (5 tests) 124ms
+ ✓ |unit| tests/assets/soundtrack.test.ts (6 tests) 102ms
+ ✓ |unit| tests/audio/effects.test.ts (6 tests) 103ms
+ ✓ |unit| tests/audio/audioStore.test.ts (4 tests) 66ms
+ ✓ |unit| tests/smoke/assets.test.ts (3 tests) 50ms
+ ✓ |unit| tests/audio/sfx.test.ts (7 tests) 59ms
+ ✓ |unit| tests/smoke/lintDeterminism.test.ts (6 tests) 21ms
+ ✓ |unit| tests/audio/soundtrack.test.ts (7 tests) 79ms
+ ✓ |unit| tests/smoke/kiro.test.ts (42 tests) 18ms
+ ✓ |unit| tests/audio/codecFallback.test.ts (7 tests) 14ms
+ ✓ |unit| tests/smoke/readme.test.ts (6 tests) 12ms
+ ✓ |unit| tests/balance/consistency.test.ts (6 tests) 12ms
+ ✓ |unit| tests/audio/mockAudio.test.ts (2 tests) 7ms
+ ✓ |unit| tests/smoke.test.ts (2 tests) 9ms
+ ✓ |unit| tests/smoke/releaseAudit.test.ts (3 tests) 7ms
+ ✓ |unit| tests/audio/buses.test.ts (3 tests) 6ms
+
+ Test Files  29 passed (29)
+      Tests  201 passed (201)
+   Start at  17:18:17
+   Duration  17.25s (tests 82%, environment 8%, import 7%, transform 1%, worker 1%)
+
+JSON report written to <workspace>/.release-local/test-results/vitest-1794871096526.json
+VERIFIED: 201 passed; 0 optional skipped; 0 required skipped.

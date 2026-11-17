@@ -1,0 +1,65 @@
+
+ RUN  v5.1.0 <workspace>
+
+ ✓ |dom| tests/shell/input.test.ts (7 tests) 9ms
+ ✓ |dom| tests/shell/perfHarness.test.ts (8 tests) 13ms
+ ✓ |unit| tests/ghostHunt/catches.test.ts (4 tests) 5679ms
+   ✓ Property 41: fleeing and ally catches (4)
+     ✓ an ally sharing the Cell of an alive Squareman eats it: score, respawn, no harm to the Player 302ms
+     ✓ a fleeing Squareman never steps closer to the nearest ally when a non-closer neighbour exists 5276ms
+ ✓ |unit| tests/ghostHunt/activation.test.ts (4 tests) 3870ms
+   ✓ Property 37: Ghost Hunt activation, refresh and power neutrality (4)
+     ✓ activates on the pickup Tick with the full duration and all three allies staggered at the entrance 317ms
+     ✓ power fields change only through the power rules while the hunt is active 3214ms
+ ✓ |unit| tests/audio/engine.test.ts (8 tests) 10686ms
+   ✓ gameplay-triggered audio through real step runs (1)
+     ✓ Key pickups, Bombs, Ghost Hunt, Wisps, rescues, Doors and level ends produce their cues 10666ms
+ ✓ |unit| tests/ghostHunt/ending.test.ts (2 tests) 2255ms
+   ✓ Property 40: Ghost Hunt ends cleanly (2)
+     ✓ after expiry every ally is inactive within the bound; rescue state never changes 2171ms
+ ✓ |unit| tests/smoke/vite.test.ts (2 tests) 4751ms
+   ✓ vite serves public/audio/Pixel Pulse.opus (2)
+     ✓ GET returns 200 with the full recorded byte length 4315ms
+ ✓ |unit| tests/ghostHunt/rescueState.test.ts (6 tests) 2708ms
+   ✓ Feature: kirobit-halloween-maze, Property 38: Ghost Hunt never changes Captives or Carried_Keys (6)
+     ✓ rescue state is preserved, rescued Kiros are never re-imprisoned, captives return to the cage 1497ms
+     ✓ without Rescue events the captives, count and carriedKeys end identical to the start 810ms
+ ✓ |unit| tests/ghostHunt/allies.test.ts (14 tests) 1753ms
+   ✓ determinism and invariants (2)
+     ✓ rescue state invariant holds with real movement (property) 1460ms
+ ✓ |unit| tests/ghostHunt/lifecycle.test.ts (8 tests) 1674ms
+   ✓ Ghost Hunt never touches rescue state (property) (1)
+     ✓ random start/refresh/tick/levelEnd leaves rescue flags unchanged and rescued allies out of the cage 1638ms
+ ✓ |unit| tests/ghostHunt/respect.test.ts (5 tests) 1679ms
+   ✓ Property 39: allies respect the Maze and never harm the Player (3)
+     ✓ on carved + placeDoors 21x21 mazes with changing Door masks and mid-hunt Bombs 739ms
+     ✓ on the hand-built fixtures with changing Door masks and Bombs 609ms
+     ✓ is deterministic: the same inputs give identical allies, events and catches 308ms
+ ✓ |unit| tests/smoke/noDevShortcuts.test.ts (8 tests) 520ms
+   ✓ no development shortcuts in the shipped game (8)
+     ✓ the production bundle contains no gallery module or hook 465ms
+ ✓ |unit| tests/audio/arcadeSfx.test.ts (5 tests) 203ms
+ ✓ |unit| tests/audio/effects.test.ts (6 tests) 176ms
+ ✓ |unit| tests/assets/soundtrack.test.ts (6 tests) 100ms
+ ✓ |unit| tests/core/pathfinding.test.ts (11 tests) 99ms
+ ✓ |unit| tests/audio/soundtrack.test.ts (7 tests) 48ms
+ ✓ |unit| tests/audio/audioStore.test.ts (4 tests) 67ms
+ ✓ |unit| tests/smoke/assets.test.ts (3 tests) 83ms
+ ✓ |unit| tests/audio/sfx.test.ts (7 tests) 133ms
+ ✓ |unit| tests/smoke/lintDeterminism.test.ts (6 tests) 19ms
+ ✓ |unit| tests/smoke/kiro.test.ts (42 tests) 43ms
+ ✓ |unit| tests/audio/codecFallback.test.ts (7 tests) 19ms
+ ✓ |unit| tests/smoke/readme.test.ts (6 tests) 12ms
+ ✓ |unit| tests/smoke.test.ts (2 tests) 8ms
+ ✓ |unit| tests/balance/consistency.test.ts (6 tests) 14ms
+ ✓ |unit| tests/smoke/releaseAudit.test.ts (3 tests) 9ms
+ ✓ |unit| tests/audio/mockAudio.test.ts (2 tests) 11ms
+ ✓ |unit| tests/audio/buses.test.ts (3 tests) 9ms
+
+ Test Files  29 passed (29)
+      Tests  202 passed (202)
+   Start at  17:23:00
+   Duration  27.43s (tests 84%, environment 7%, import 7%, worker 1%, transform 1%)
+
+JSON report written to <workspace>/.release-local/test-results/vitest-1794871380015.json
+VERIFIED: 202 passed; 0 optional skipped; 0 required skipped.

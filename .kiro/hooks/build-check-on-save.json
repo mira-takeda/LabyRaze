@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "build-check-on-save",
+      "description": "Type-check and build when a src or tools TypeScript file is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])(src|tools)[\\\\/].*\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run build"
+      },
+      "timeout": 300
+    }
+  ]
+}

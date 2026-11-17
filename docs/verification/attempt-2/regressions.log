@@ -1,0 +1,37 @@
+
+ RUN  v5.1.0 <workspace>
+
+ ✓ |dom| tests/shell/input.test.ts (7 tests) 9ms
+ ✓ |dom| tests/shell/perfHarness.test.ts (8 tests) 10ms
+ ✓ |unit| tests/smoke/vite.test.ts (2 tests) 1906ms
+   ✓ vite serves public/audio/Pixel Pulse.opus (2)
+     ✓ GET returns 200 with the full recorded byte length 1718ms
+ ✓ |unit| tests/smoke/noDevShortcuts.test.ts (8 tests) 322ms
+ ✓ |unit| tests/audio/arcadeSfx.test.ts (5 tests) 129ms
+ ✓ |unit| tests/core/pathfinding.test.ts (11 tests) 83ms
+ ✓ |unit| tests/audio/effects.test.ts (6 tests) 80ms
+ ✓ |unit| tests/assets/soundtrack.test.ts (6 tests) 68ms
+ ✓ |unit| tests/audio/audioStore.test.ts (4 tests) 58ms
+ ✓ |unit| tests/audio/soundtrack.test.ts (7 tests) 37ms
+ ✓ |unit| tests/smoke/assets.test.ts (3 tests) 47ms
+ ✓ |unit| tests/audio/sfx.test.ts (7 tests) 39ms
+ ✓ |unit| tests/smoke/kiro.test.ts (42 tests) 17ms
+ ✓ |unit| tests/smoke/lintDeterminism.test.ts (6 tests) 21ms
+ ✓ |unit| tests/audio/codecFallback.test.ts (7 tests) 13ms
+ ✓ |unit| tests/audio/mockAudio.test.ts (2 tests) 9ms
+ ✓ |unit| tests/balance/consistency.test.ts (6 tests) 9ms
+ ✓ |unit| tests/smoke/readme.test.ts (6 tests) 9ms
+ ✓ |unit| tests/smoke/releaseAudit.test.ts (3 tests) 7ms
+ ✓ |unit| tests/audio/engine.test.ts (8 tests) 7877ms
+   ✓ gameplay-triggered audio through real step runs (1)
+     ✓ Key pickups, Bombs, Ghost Hunt, Wisps, rescues, Doors and level ends produce their cues 7852ms
+ ✓ |unit| tests/smoke.test.ts (2 tests) 11ms
+ ✓ |unit| tests/audio/buses.test.ts (3 tests) 7ms
+
+ Test Files  22 passed (22)
+      Tests  159 passed (159)
+   Start at  17:04:07
+   Duration  9.99s (tests 72%, environment 15%, import 9%, transform 2%, worker 2%)
+
+JSON report written to <workspace>/.release-local/test-results/vitest-1794870246643.json
+VERIFIED: 159 passed; 0 optional skipped; 0 required skipped.

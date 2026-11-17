@@ -1,0 +1,27 @@
+{
+  "exitCode": 0,
+  "url": "http://localhost:4173/",
+  "asset": "/assets/index-DGFDKvUx.js",
+  "indexMatchesBuild": true,
+  "scriptMatchesBuild": true,
+  "productionLiveRunGlobalAbsent": true,
+  "audio": {
+    "opus": {
+      "status": 200,
+      "bytes": 3548469,
+      "mime": "audio/ogg"
+    },
+    "mp3": {
+      "status": 200,
+      "bytes": 2739456,
+      "mime": "audio/mpeg"
+    }
+  },
+  "masterWav": {
+    "existsInBuild": false,
+    "status": 200,
+    "mime": "text/html",
+    "returnsIndexHtml": true
+  },
+  "licenseNoticesInBuild": true
+}

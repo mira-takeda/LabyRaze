@@ -1,0 +1,174 @@
+{
+  "started": "2026-11-16T23:22:36.594Z",
+  "status": "PASS",
+  "gates": [
+    {
+      "name": "typescript",
+      "command": "node node_modules/typescript/bin/tsc --noEmit",
+      "exitCode": 0,
+      "seconds": 8.2,
+      "log": "docs/verification/typescript.log"
+    },
+    {
+      "name": "typescript-core",
+      "command": "node node_modules/typescript/bin/tsc --noEmit -p src/core/tsconfig.json",
+      "exitCode": 0,
+      "seconds": 1.5,
+      "log": "docs/verification/typescript-core.log"
+    },
+    {
+      "name": "eslint",
+      "command": "node node_modules/eslint/bin/eslint.js .",
+      "exitCode": 0,
+      "seconds": 7.2,
+      "log": "docs/verification/eslint.log"
+    },
+    {
+      "name": "determinism",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/lintDeterminism.ts",
+      "exitCode": 0,
+      "seconds": 0.6,
+      "log": "docs/verification/determinism.log"
+    },
+    {
+      "name": "baseline",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/balance/verifyBaseline.ts",
+      "exitCode": 0,
+      "seconds": 1.7,
+      "log": "docs/verification/baseline.log"
+    },
+    {
+      "name": "soundtrack",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/checkSoundtrack.ts",
+      "exitCode": 0,
+      "seconds": 0.6,
+      "log": "docs/verification/soundtrack.log"
+    },
+    {
+      "name": "test-runner-guards",
+      "command": "node tools/verifyTestRunner.mjs",
+      "exitCode": 0,
+      "seconds": 3.4,
+      "log": "docs/verification/test-runner-guards.log"
+    },
+    {
+      "name": "regressions",
+      "command": "node tools/runTests.mjs --project unit --project dom tests/audio tests/assets tests/ghostHunt tests/core/pathfinding.test.ts tests/balance/consistency.test.ts tests/shell/input.test.ts tests/shell/perfHarness.test.ts tests/smoke",
+      "exitCode": 0,
+      "seconds": 28.3,
+      "log": "docs/verification/regressions.log"
+    },
+    {
+      "name": "simulation-performance",
+      "command": "node tools/runTests.mjs --project perf",
+      "exitCode": 0,
+      "seconds": 10.9,
+      "log": "docs/verification/simulation-performance.log"
+    },
+    {
+      "name": "production-build",
+      "command": "node node_modules/vite/bin/vite.js build",
+      "exitCode": 0,
+      "seconds": 0.7,
+      "log": "docs/verification/production-build.log"
+    },
+    {
+      "name": "browser-audio",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/verifyAudioBrowser.ts",
+      "exitCode": 0,
+      "seconds": 16.7,
+      "log": "docs/verification/browser-audio.log"
+    },
+    {
+      "name": "browser-performance",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/perfBrowser.ts",
+      "exitCode": 0,
+      "seconds": 32.8,
+      "log": "docs/verification/browser-performance.log"
+    },
+    {
+      "name": "balance-smoke",
+      "command": "node --import ./tools/registerTypeScript.mjs tools/balance/cli.ts smoke --workers 2",
+      "exitCode": 0,
+      "seconds": 19.8,
+      "log": "docs/verification/balance-smoke.log"
+    },
+    {
+      "name": "complete-suite",
+      "command": "node tools/runTests.mjs --project unit --project dom",
+      "exitCode": 0,
+      "seconds": 679.4,
+      "log": "docs/verification/complete-suite.log"
+    }
+  ],
+  "protectedFiles": {
+    "status": "PASS",
+    "count": 95
+  },
+  "finished": "2026-11-16T23:36:08.591Z",
+  "completeSuite": {
+    "files": 156,
+    "passed": 1003,
+    "failed": 0,
+    "pending": 0,
+    "todo": 0,
+    "results": "docs/verification/complete-suite.results.json"
+  },
+  "dependencyAudit": {
+    "status": "UNVERIFIED",
+    "exitCode": 1,
+    "command": "npm audit --json --audit-level=moderate --fetch-retries=0 --fetch-timeout=15000",
+    "reason": "npm advisory endpoint request failed; no retries; this is not a clean security audit",
+    "log": "docs/verification/dependency-audit.log",
+    "priorClaim": "Muse reported nine moderate development-dependency vulnerabilities; not independently refreshed"
+  },
+  "publicationStatus": "BLOCKED: artwork/music rights, provisional identity checks and dependency advisory review remain",
+  "playableBuild": {
+    "exitCode": 0,
+    "url": "http://localhost:4173/",
+    "asset": "/assets/index-DGFDKvUx.js",
+    "indexMatchesBuild": true,
+    "scriptMatchesBuild": true,
+    "productionLiveRunGlobalAbsent": true,
+    "audio": {
+      "opus": {
+        "status": 200,
+        "bytes": 3548469,
+        "mime": "audio/ogg"
+      },
+      "mp3": {
+        "status": 200,
+        "bytes": 2739456,
+        "mime": "audio/mpeg"
+      }
+    },
+    "masterWav": {
+      "existsInBuild": false,
+      "status": 200,
+      "mime": "text/html",
+      "returnsIndexHtml": true
+    },
+    "licenseNoticesInBuild": true
+  },
+  "preservation": {
+    "originalProtectedFilesUnchanged": 38,
+    "finalProtectedFiles": 95,
+    "originalProtectedSourceFilesUnchanged": 94,
+    "documentedCoreCorrection": "docs/verification/core-correction.json",
+    "masterWavPreserved": true,
+    "downloadedMp3Preserved": true,
+    "historicalBaselinePreserved": true
+  },
+  "sourceExport": {
+    "exitCode": 0,
+    "path": ".release-local/public-source-1794872234974",
+    "files": 478,
+    "kiroFiles": 27,
+    "machinePathRemnants": 0,
+    "wavFiles": 0,
+    "baselineBytesUnchanged": true,
+    "protectedHashesVerified": 95,
+    "published": false,
+    "gitCommitCreated": false
+  }
+}

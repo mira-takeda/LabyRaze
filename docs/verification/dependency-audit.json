@@ -1,0 +1,8 @@
+{
+  "status": "UNVERIFIED",
+  "exitCode": 1,
+  "command": "npm audit --json --audit-level=moderate --fetch-retries=0 --fetch-timeout=15000",
+  "reason": "npm advisory endpoint request failed; no retries; this is not a clean security audit",
+  "log": "docs/verification/dependency-audit.log",
+  "priorClaim": "Muse reported nine moderate development-dependency vulnerabilities; not independently refreshed"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "sim-tests-on-save",
+      "description": "Run the simulation test suites when a src/core TypeScript file is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])src[\\\\/]core[\\\\/].*\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run test:sim"
+      },
+      "timeout": 300
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "audio-tests-on-save",
+      "description": "Run audio and asset tests when a src/audio TypeScript file is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])src[\\\\/]audio[\\\\/].*\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run test:audio"
+      },
+      "timeout": 120
+    }
+  ]
+}

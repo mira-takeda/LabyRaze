@@ -1,0 +1,36 @@
+import { carveMaze } from './src/core/maze/carve';
+import { placeDoors } from './src/core/maze/doorPlacement';
+import { placeItems, placeStarts, startCells } from './src/core/maze/placement';
+import { partitionItems } from './.diagpart';
+import { DEFAULT_CONFIG as cfg } from './src/core/config';
+import { isPassable } from './src/core/grid';
+const seed=15, level=5;
+const carved = carveMaze(seed, level, 0, cfg);
+const starts = placeStarts(carved, seed, level, 0);
+const doorRes = placeDoors(carved, seed, level, 0, cfg, { exclude: startCells(starts) });
+const base = { width: carved.width, height: carved.height, tiles: doorRes.tiles, doors: doorRes.doors, cage: carved.cage, playerStart: starts.playerStart, hunterStart: starts.hunterStart };
+const placement = placeItems(base, cfg, starts.rng);
+const special = [...placement.power, ...placement.speed, ...placement.bombs, ...placement.ghostHunt];
+const input = { ...base, keys: placement.keys, special };
+const W0=base.width; const watch=new Set([2*W0+11,3*W0+10,3*W0+9,3*W0+8]); const logs=[]; let total=0; const perPass=new Map();
+(globalThis as any).__log=(pass,pi,s,c,k,len)=>{ total++; perPass.set(pass,(perPass.get(pass)??0)+1); if(watch.has(c)) logs.push('pass '+pass+' path '+pi+'(len '+len+') win '+s+' flip ('+(c%W0)+','+Math.floor(c/W0)+') from '+(k===1?'W':'o')); };
+let lastPass=-1, lastChanged=false; (globalThis as any).__pass=(p,c)=>{lastPass=p; lastChanged=c;};
+const res = partitionItems(input, cfg, placement.rng);
+const W = input.width, H = input.height;
+const kind = new Map(); for (const c of res.wisps) kind.set(c.y*W+c.x,'W'); for (const c of res.ordinary) kind.set(c.y*W+c.x,'o');
+const ks = new Set(input.keys.map(c=>c.y*W+c.x)); const sp = new Set(special.map(c=>c.y*W+c.x));
+function bfs(from,to,open){ const par=new Int32Array(W*H).fill(-2); const q=[from]; par[from]=-1; for(let h=0;h<q.length&&par[to]===-2;h++){const cur=q[h]; for(const [dx,dy] of [[0,-1],[1,0],[0,1],[-1,0]]){const x=cur%W+dx,y=Math.floor(cur/W)+dy; if(x<0||y<0||x>=W||y>=H) continue; const j=y*W+x; if(par[j]!==-2) continue; if(j!==to && !open(x,y)) continue; par[j]=cur; q.push(j);}} const p=[]; if(par[to]===-2) return p; for(let c=to;c!==-1;c=par[c]) p.push(c); return p.reverse(); }
+const mask=(1<<input.doors.length)-1;
+const a=1*W+15, b=3*W+7;
+const pPart=bfs(a,b,(x,y)=>isPassable(input.tiles,W,H,input.doors,mask,x,y));
+const pTest=bfs(a,b,(x,y)=>{const t=input.tiles[y*W+x]; return t===0||t===5;});
+const fmt=p=>p.map(i=>`(${i%W},${Math.floor(i/W)})${kind.get(i)??(ks.has(i)?'K':sp.has(i)?'S':'.')}`).join(' ');
+console.log('same path:', JSON.stringify(pPart)===JSON.stringify(pTest), 'lens', pPart.length, pTest.length);
+console.log('partition path:', fmt(pPart));
+console.log('test path     :', fmt(pTest));
+console.log('repairs', res.repairs, 'doors', input.doors.map(d=>`${d.cell.x},${d.cell.y}`).join(' '));
+const blk=i=>Math.floor(i/W/3)*Math.ceil(W/3)+Math.floor((i%W)/3);
+for (let s=0;s+6<=pPart.length;s++){ const win=pPart.slice(s,s+6); const w=win.filter(i=>kind.get(i)==='W').length, o=win.filter(i=>kind.get(i)==='o').length; if(w+o>=2 && (w===0||o===0)) { console.log('one-kind window (partition path) at',s,'w',w,'o',o, win.map(i=>{const k=kind.get(i); if(!k) return '-'; let same=0; for(const [j,kj] of kind) if(kj===k && blk(j)===blk(i)) same++; return `(${i%W},${Math.floor(i/W)})${k} blk${blk(i)} same=${same}`;}).join(' | ')); } }
+for (const [x,y] of [[11,2]]) { const i=y*W+x; console.log('cell',x,y,'tile',input.tiles[i],'kind',kind.get(i),'block',blk(i)); }
+
+console.log(logs.slice(0,40).join('\n')); console.log('watched flips', logs.length, 'total flips', total, 'per pass', JSON.stringify([...perPass]), 'last pass', lastPass, 'changed', lastChanged);

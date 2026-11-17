@@ -1,0 +1,11 @@
+{
+  // Core Simulation: no DOM lib and no ambient types, so DOM globals
+  // (document, window, requestAnimationFrame, ...) fail to compile here.
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": []
+  },
+  "include": ["./**/*.ts"],
+  "exclude": []
+}

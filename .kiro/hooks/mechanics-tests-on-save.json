@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "mechanics-tests-on-save",
+      "description": "Run Bomb, Ghost Hunt and Wisp tests (includes tests/ghostHunt rescue-state preservation) when mechanics files change.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])src[\\\\/]core[\\\\/](bombs|ghostHunt|score|maze[\\\\/]placement|maze[\\\\/]partition)\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run test:mechanics"
+      },
+      "timeout": 180
+    }
+  ]
+}

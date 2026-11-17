@@ -1,0 +1,16 @@
+{
+ "ok": true,
+ "legacyHash": "2f2f11a8aec2760f",
+ "baselineHash": "2f2f11a8aec2760f",
+ "n": 500,
+ "threeKeyCounts": [
+  500,
+  500,
+  500,
+  500,
+  500
+ ],
+ "generationUnits": 20000,
+ "fallbacks": 0,
+ "problems": []
+}

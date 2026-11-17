@@ -1,0 +1,38 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "soundtrack-integrity-on-save",
+      "description": "Read-only size and SHA-256 check of the Soundtrack. Never writes to public/audio.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])public[\\\\/]audio[\\\\/].*",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run check:soundtrack"
+      },
+      "timeout": 60
+    },
+    {
+      "name": "soundtrack-integrity-on-create",
+      "description": "Read-only size and SHA-256 check of the Soundtrack. Never writes to public/audio.",
+      "trigger": "PostFileCreate",
+      "matcher": "(^|[\\\\/])public[\\\\/]audio[\\\\/].*",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run check:soundtrack"
+      },
+      "timeout": 60
+    },
+    {
+      "name": "soundtrack-integrity-on-delete",
+      "description": "Read-only size and SHA-256 check of the Soundtrack. Never writes to public/audio.",
+      "trigger": "PostFileDelete",
+      "matcher": "(^|[\\\\/])public[\\\\/]audio[\\\\/].*",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run check:soundtrack"
+      },
+      "timeout": 60
+    }
+  ]
+}

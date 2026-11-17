@@ -1,0 +1,5 @@
+required-skip: actual exit 1; expected 1
+optional-skip: actual exit 0; expected 0
+focused-test: actual exit 1; expected 1
+empty-filter: actual exit 1; expected 1
+PASS: required skips, focused tests and empty filters fail; optional skips stay separate.

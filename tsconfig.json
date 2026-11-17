@@ -1,0 +1,23 @@
+{
+  // Root config: browser code (src/render, src/audio, src/shell, src/input), tests and tools.
+  // src/core is additionally checked by src/core/tsconfig.json without the DOM lib.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["node", "vite/client"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts", "tools/**/*.ts", "vitest.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}

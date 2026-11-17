@@ -1,0 +1,17 @@
+npm.cmd : npm warn audit request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: 
+En línea: 2 Carácter: 26
++ ... ditOutput = & npm.cmd audit --json --audit-level=moderate --cache .re ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn audit ...ailed, reason: :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error audit endpoint returned an error
+{
+  "message": "request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: ",
+  "error": {
+    "summary": "",
+    "detail": ""
+  }
+}
+npm error A complete log of this run can be found in: 
+<workspace>\.release-local\npm-cache\_logs\2026-11-16T22_59_30_131Z-debug-0.log

@@ -1,0 +1,7 @@
+# Normalize text to LF in the repository; check out native line endings.
+* text=auto
+# Audio and images are binary; never convert or diff as text.
+*.opus binary
+*.mp3 binary
+*.wav binary
+*.png binary

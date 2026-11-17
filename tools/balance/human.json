@@ -1,0 +1,9187 @@
+{
+ "schema": 1,
+ "meta": {
+  "kind": "human-evidence",
+  "configHash": "df95ff354f9c8e1d",
+  "seedSetHash": "53ea9503eabe1967",
+  "n": 100,
+  "baseSeed": 1,
+  "levels": [
+   1,
+   5,
+   10,
+   20,
+   40
+  ],
+  "policies": [
+   "threeKey",
+   "humanSkilled",
+   "humanCasual",
+   "humanNovice"
+  ],
+  "profiles": {
+   "humanSkilled": {
+    "reactionTicks": 12,
+    "turnErrorRate": 0.03
+   },
+   "humanCasual": {
+    "reactionTicks": 18,
+    "turnErrorRate": 0.08
+   },
+   "humanNovice": {
+    "reactionTicks": 27,
+    "turnErrorRate": 0.15
+   }
+  },
+  "toolVersion": "1.0.0"
+ },
+ "report": {
+  "schema": 1,
+  "levels": [
+   1,
+   5,
+   10,
+   20,
+   40
+  ],
+  "n": 100,
+  "stats": {
+   "B1G1W1": {
+    "1": {
+     "threeKey": {
+      "ratio": {
+       "mean": 4.975773,
+       "median": 4.841066,
+       "p5": 2.715893,
+       "p95": 7.407089,
+       "min": 2.371765,
+       "max": 9.969957,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 7.15625
+       },
+       {
+        "seed": 2,
+        "value": 4.418981
+       },
+       {
+        "seed": 3,
+        "value": 4.512295
+       },
+       {
+        "seed": 4,
+        "value": 7.256579
+       },
+       {
+        "seed": 5,
+        "value": 5.484375
+       },
+       {
+        "seed": 6,
+        "value": 6.252976
+       },
+       {
+        "seed": 7,
+        "value": 3.369748
+       },
+       {
+        "seed": 8,
+        "value": 4.226087
+       },
+       {
+        "seed": 9,
+        "value": 3.128125
+       },
+       {
+        "seed": 10,
+        "value": 4.142857
+       },
+       {
+        "seed": 11,
+        "value": 4.445
+       },
+       {
+        "seed": 12,
+        "value": 4.172161
+       },
+       {
+        "seed": 13,
+        "value": 5.159722
+       },
+       {
+        "seed": 14,
+        "value": 4.247768
+       },
+       {
+        "seed": 15,
+        "value": 6.222222
+       },
+       {
+        "seed": 16,
+        "value": 3.827206
+       },
+       {
+        "seed": 17,
+        "value": 6.368876
+       },
+       {
+        "seed": 18,
+        "value": 4.88651
+       },
+       {
+        "seed": 19,
+        "value": 5.625293
+       },
+       {
+        "seed": 20,
+        "value": 6.996951
+       },
+       {
+        "seed": 21,
+        "value": 7.532374
+       },
+       {
+        "seed": 22,
+        "value": 5.053571
+       },
+       {
+        "seed": 23,
+        "value": 4.87931
+       },
+       {
+        "seed": 24,
+        "value": 2.717918
+       },
+       {
+        "seed": 25,
+        "value": 7.529412
+       },
+       {
+        "seed": 26,
+        "value": 3.378136
+       },
+       {
+        "seed": 27,
+        "value": 4.693798
+       },
+       {
+        "seed": 28,
+        "value": 3.796875
+       },
+       {
+        "seed": 29,
+        "value": 9.969957
+       },
+       {
+        "seed": 30,
+        "value": 5.811881
+       },
+       {
+        "seed": 31,
+        "value": 4.244635
+       },
+       {
+        "seed": 32,
+        "value": 4.594421
+       },
+       {
+        "seed": 33,
+        "value": 7.242647
+       },
+       {
+        "seed": 34,
+        "value": 6.092391
+       },
+       {
+        "seed": 35,
+        "value": 5.5325
+       },
+       {
+        "seed": 36,
+        "value": 5.771712
+       },
+       {
+        "seed": 37,
+        "value": 2.568831
+       },
+       {
+        "seed": 38,
+        "value": 4.914286
+       },
+       {
+        "seed": 39,
+        "value": 3.768145
+       },
+       {
+        "seed": 40,
+        "value": 3.655357
+       },
+       {
+        "seed": 41,
+        "value": 4.802885
+       },
+       {
+        "seed": 42,
+        "value": 4.968487
+       },
+       {
+        "seed": 43,
+        "value": 4.300403
+       },
+       {
+        "seed": 44,
+        "value": 5.231608
+       },
+       {
+        "seed": 45,
+        "value": 4.066667
+       },
+       {
+        "seed": 46,
+        "value": 5.86911
+       },
+       {
+        "seed": 47,
+        "value": 2.644947
+       },
+       {
+        "seed": 48,
+        "value": 3.277778
+       },
+       {
+        "seed": 49,
+        "value": 6.715719
+       },
+       {
+        "seed": 50,
+        "value": 4.96875
+       },
+       {
+        "seed": 51,
+        "value": 4.068182
+       },
+       {
+        "seed": 52,
+        "value": 3.250789
+       },
+       {
+        "seed": 53,
+        "value": 3.942966
+       },
+       {
+        "seed": 54,
+        "value": 2.897638
+       },
+       {
+        "seed": 55,
+        "value": 7.400651
+       },
+       {
+        "seed": 56,
+        "value": 2.371765
+       },
+       {
+        "seed": 57,
+        "value": 4.3375
+       },
+       {
+        "seed": 58,
+        "value": 4.224609
+       },
+       {
+        "seed": 59,
+        "value": 4.146293
+       },
+       {
+        "seed": 60,
+        "value": 5.192935
+       },
+       {
+        "seed": 61,
+        "value": 3.894643
+       },
+       {
+        "seed": 62,
+        "value": 4.675926
+       },
+       {
+        "seed": 63,
+        "value": 4.462287
+       },
+       {
+        "seed": 64,
+        "value": 6.130952
+       },
+       {
+        "seed": 65,
+        "value": 4.44181
+       },
+       {
+        "seed": 66,
+        "value": 6.122093
+       },
+       {
+        "seed": 67,
+        "value": 3.367021
+       },
+       {
+        "seed": 68,
+        "value": 4.168651
+       },
+       {
+        "seed": 69,
+        "value": 2.508242
+       },
+       {
+        "seed": 70,
+        "value": 6.35241
+       },
+       {
+        "seed": 71,
+        "value": 3.86692
+       },
+       {
+        "seed": 72,
+        "value": 8.830769
+       },
+       {
+        "seed": 73,
+        "value": 2.677419
+       },
+       {
+        "seed": 74,
+        "value": 4.914798
+       },
+       {
+        "seed": 75,
+        "value": 5.525
+       },
+       {
+        "seed": 76,
+        "value": 7.634868
+       },
+       {
+        "seed": 77,
+        "value": 3.483553
+       },
+       {
+        "seed": 78,
+        "value": 5.502262
+       },
+       {
+        "seed": 79,
+        "value": 4.806527
+       },
+       {
+        "seed": 80,
+        "value": 5.074257
+       },
+       {
+        "seed": 81,
+        "value": 5.079082
+       },
+       {
+        "seed": 82,
+        "value": 3.312704
+       },
+       {
+        "seed": 83,
+        "value": 6.163522
+       },
+       {
+        "seed": 84,
+        "value": 3.32
+       },
+       {
+        "seed": 85,
+        "value": 6.906475
+       },
+       {
+        "seed": 86,
+        "value": 4.901408
+       },
+       {
+        "seed": 87,
+        "value": 4.06681
+       },
+       {
+        "seed": 88,
+        "value": 6.445122
+       },
+       {
+        "seed": 89,
+        "value": 4.525862
+       },
+       {
+        "seed": 90,
+        "value": 5.872159
+       },
+       {
+        "seed": 91,
+        "value": 7.125
+       },
+       {
+        "seed": 92,
+        "value": 4.809896
+       },
+       {
+        "seed": 93,
+        "value": 6.243169
+       },
+       {
+        "seed": 94,
+        "value": 3.669759
+       },
+       {
+        "seed": 95,
+        "value": 5.358974
+       },
+       {
+        "seed": 96,
+        "value": 5.048077
+       },
+       {
+        "seed": 97,
+        "value": 4.381048
+       },
+       {
+        "seed": 98,
+        "value": 5.382212
+       },
+       {
+        "seed": 99,
+        "value": 4.872236
+       },
+       {
+        "seed": 100,
+        "value": 7.325521
+       }
+      ],
+      "rescueTicks": {
+       "mean": 459.34,
+       "median": 437,
+       "p5": 272,
+       "p95": 729.2,
+       "min": 233,
+       "max": 850,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.39,
+      "ghostHunt": {
+       "pickups": 39,
+       "catchesPerPickup": {
+        "mean": 0.820513,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 39
+       },
+       "zeroCatchFraction": 0.282051
+      },
+      "bombs": {
+       "collected": 135,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 25.38,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.468246
+      }
+     },
+     "humanSkilled": {
+      "ratio": {
+       "mean": 4.26858,
+       "median": 4.238003,
+       "p5": 2.533496,
+       "p95": 6.27503,
+       "min": 1.690741,
+       "max": 7.23676,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 6.405594
+       },
+       {
+        "seed": 2,
+        "value": 3.864372
+       },
+       {
+        "seed": 3,
+        "value": 4.334646
+       },
+       {
+        "seed": 4,
+        "value": 6.267045
+       },
+       {
+        "seed": 5,
+        "value": 4.875
+       },
+       {
+        "seed": 6,
+        "value": 5.471354
+       },
+       {
+        "seed": 7,
+        "value": 3.497093
+       },
+       {
+        "seed": 8,
+        "value": 5.294118
+       },
+       {
+        "seed": 9,
+        "value": 3.626812
+       },
+       {
+        "seed": 10,
+        "value": 1.784615
+       },
+       {
+        "seed": 11,
+        "value": 4.223278
+       },
+       {
+        "seed": 12,
+        "value": 3.090909
+       },
+       {
+        "seed": 13,
+        "value": 4.762821
+       },
+       {
+        "seed": 14,
+        "value": 3.883673
+       },
+       {
+        "seed": 15,
+        "value": 5.333333
+       },
+       {
+        "seed": 16,
+        "value": 3.47
+       },
+       {
+        "seed": 17,
+        "value": 5.566751
+       },
+       {
+        "seed": 18,
+        "value": 4.141561
+       },
+       {
+        "seed": 19,
+        "value": 4.575238
+       },
+       {
+        "seed": 20,
+        "value": 5.795455
+       },
+       {
+        "seed": 21,
+        "value": 5.107317
+       },
+       {
+        "seed": 22,
+        "value": 4.255639
+       },
+       {
+        "seed": 23,
+        "value": 4.271698
+       },
+       {
+        "seed": 24,
+        "value": 3.105118
+       },
+       {
+        "seed": 25,
+        "value": 5.851429
+       },
+       {
+        "seed": 26,
+        "value": 2.860395
+       },
+       {
+        "seed": 27,
+        "value": 4.452206
+       },
+       {
+        "seed": 28,
+        "value": 3.351724
+       },
+       {
+        "seed": 29,
+        "value": 7.23676
+       },
+       {
+        "seed": 30,
+        "value": 2.69761
+       },
+       {
+        "seed": 31,
+        "value": 4.069959
+       },
+       {
+        "seed": 32,
+        "value": 4.360489
+       },
+       {
+        "seed": 33,
+        "value": 6.314103
+       },
+       {
+        "seed": 34,
+        "value": 5.605
+       },
+       {
+        "seed": 35,
+        "value": 5.134571
+       },
+       {
+        "seed": 36,
+        "value": 5.498818
+       },
+       {
+        "seed": 37,
+        "value": 2.555556
+       },
+       {
+        "seed": 38,
+        "value": 4.429185
+       },
+       {
+        "seed": 39,
+        "value": 3.325623
+       },
+       {
+        "seed": 40,
+        "value": 4.229339
+       },
+       {
+        "seed": 41,
+        "value": 4.479821
+       },
+       {
+        "seed": 42,
+        "value": 4.513359
+       },
+       {
+        "seed": 43,
+        "value": 4.133721
+       },
+       {
+        "seed": 44,
+        "value": 4.496487
+       },
+       {
+        "seed": 45,
+        "value": 3.798535
+       },
+       {
+        "seed": 46,
+        "value": 4.916667
+       },
+       {
+        "seed": 47,
+        "value": 2.464684
+       },
+       {
+        "seed": 48,
+        "value": 2.998361
+       },
+       {
+        "seed": 49,
+        "value": 5.753582
+       },
+       {
+        "seed": 50,
+        "value": 3.95977
+       },
+       {
+        "seed": 51,
+        "value": 3.58
+       },
+       {
+        "seed": 52,
+        "value": 3.103916
+       },
+       {
+        "seed": 53,
+        "value": 3.041056
+       },
+       {
+        "seed": 54,
+        "value": 3.150685
+       },
+       {
+        "seed": 55,
+        "value": 6.702065
+       },
+       {
+        "seed": 56,
+        "value": 2.078351
+       },
+       {
+        "seed": 57,
+        "value": 3.995066
+       },
+       {
+        "seed": 58,
+        "value": 3.691126
+       },
+       {
+        "seed": 59,
+        "value": 3.542808
+       },
+       {
+        "seed": 60,
+        "value": 4.246667
+       },
+       {
+        "seed": 61,
+        "value": 4.515528
+       },
+       {
+        "seed": 62,
+        "value": 3.607143
+       },
+       {
+        "seed": 63,
+        "value": 3.927195
+       },
+       {
+        "seed": 64,
+        "value": 4.221311
+       },
+       {
+        "seed": 65,
+        "value": 4.600446
+       },
+       {
+        "seed": 66,
+        "value": 5.484375
+       },
+       {
+        "seed": 67,
+        "value": 3.19697
+       },
+       {
+        "seed": 68,
+        "value": 3.399676
+       },
+       {
+        "seed": 69,
+        "value": 1.690741
+       },
+       {
+        "seed": 70,
+        "value": 5.793956
+       },
+       {
+        "seed": 71,
+        "value": 3.356436
+       },
+       {
+        "seed": 72,
+        "value": 6.833333
+       },
+       {
+        "seed": 73,
+        "value": 2.537118
+       },
+       {
+        "seed": 74,
+        "value": 2.093601
+       },
+       {
+        "seed": 75,
+        "value": 3.441176
+       },
+       {
+        "seed": 76,
+        "value": 6.272973
+       },
+       {
+        "seed": 77,
+        "value": 3.319749
+       },
+       {
+        "seed": 78,
+        "value": 5.196581
+       },
+       {
+        "seed": 79,
+        "value": 4.472885
+       },
+       {
+        "seed": 80,
+        "value": 4.288703
+       },
+       {
+        "seed": 81,
+        "value": 3.770833
+       },
+       {
+        "seed": 82,
+        "value": 2.956395
+       },
+       {
+        "seed": 83,
+        "value": 4.474886
+       },
+       {
+        "seed": 84,
+        "value": 3.166932
+       },
+       {
+        "seed": 85,
+        "value": 5.106383
+       },
+       {
+        "seed": 86,
+        "value": 4.702703
+       },
+       {
+        "seed": 87,
+        "value": 3.981013
+       },
+       {
+        "seed": 88,
+        "value": 4.536481
+       },
+       {
+        "seed": 89,
+        "value": 4.022989
+       },
+       {
+        "seed": 90,
+        "value": 5.1675
+       },
+       {
+        "seed": 91,
+        "value": 6.204082
+       },
+       {
+        "seed": 92,
+        "value": 3.333935
+       },
+       {
+        "seed": 93,
+        "value": 5.492788
+       },
+       {
+        "seed": 94,
+        "value": 3.154705
+       },
+       {
+        "seed": 95,
+        "value": 4.210623
+       },
+       {
+        "seed": 96,
+        "value": 4.605263
+       },
+       {
+        "seed": 97,
+        "value": 3.965328
+       },
+       {
+        "seed": 98,
+        "value": 4.888646
+       },
+       {
+        "seed": 99,
+        "value": 4.848411
+       },
+       {
+        "seed": 100,
+        "value": 4.395313
+       }
+      ],
+      "rescueTicks": {
+       "mean": 535.62,
+       "median": 492.5,
+       "p5": 338.85,
+       "p95": 815.15,
+       "min": 286,
+       "max": 1300,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.34,
+      "ghostHunt": {
+       "pickups": 85,
+       "catchesPerPickup": {
+        "mean": 1.023529,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 85
+       },
+       "zeroCatchFraction": 0.2
+      },
+      "bombs": {
+       "collected": 135,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.16,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.472224
+      }
+     },
+     "humanCasual": {
+      "ratio": {
+       "mean": 4.121336,
+       "median": 4.138533,
+       "p5": 2.410539,
+       "p95": 6.014437,
+       "min": 1.672161,
+       "max": 6.975976,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 6.273973
+       },
+       {
+        "seed": 2,
+        "value": 3.787698
+       },
+       {
+        "seed": 3,
+        "value": 3.946237
+       },
+       {
+        "seed": 4,
+        "value": 5.930108
+       },
+       {
+        "seed": 5,
+        "value": 4.369295
+       },
+       {
+        "seed": 6,
+        "value": 5.387179
+       },
+       {
+        "seed": 7,
+        "value": 3.407932
+       },
+       {
+        "seed": 8,
+        "value": 5.159236
+       },
+       {
+        "seed": 9,
+        "value": 2.98806
+       },
+       {
+        "seed": 10,
+        "value": 1.809672
+       },
+       {
+        "seed": 11,
+        "value": 4.163934
+       },
+       {
+        "seed": 12,
+        "value": 3.049531
+       },
+       {
+        "seed": 13,
+        "value": 4.64375
+       },
+       {
+        "seed": 14,
+        "value": 3.46
+       },
+       {
+        "seed": 15,
+        "value": 5.333333
+       },
+       {
+        "seed": 16,
+        "value": 3.481605
+       },
+       {
+        "seed": 17,
+        "value": 5.274463
+       },
+       {
+        "seed": 18,
+        "value": 4.096948
+       },
+       {
+        "seed": 19,
+        "value": 4.52354
+       },
+       {
+        "seed": 20,
+        "value": 5.412736
+       },
+       {
+        "seed": 21,
+        "value": 4.962085
+       },
+       {
+        "seed": 22,
+        "value": 4.014184
+       },
+       {
+        "seed": 23,
+        "value": 4.223881
+       },
+       {
+        "seed": 24,
+        "value": 2.965654
+       },
+       {
+        "seed": 25,
+        "value": 5.752809
+       },
+       {
+        "seed": 26,
+        "value": 2.85174
+       },
+       {
+        "seed": 27,
+        "value": 4.371841
+       },
+       {
+        "seed": 28,
+        "value": 3.250836
+       },
+       {
+        "seed": 29,
+        "value": 6.975976
+       },
+       {
+        "seed": 30,
+        "value": 3.469267
+       },
+       {
+        "seed": 31,
+        "value": 1.87666
+       },
+       {
+        "seed": 32,
+        "value": 4.173489
+       },
+       {
+        "seed": 33,
+        "value": 6.006098
+       },
+       {
+        "seed": 34,
+        "value": 5.312796
+       },
+       {
+        "seed": 35,
+        "value": 5.207059
+       },
+       {
+        "seed": 36,
+        "value": 5.347126
+       },
+       {
+        "seed": 37,
+        "value": 2.513342
+       },
+       {
+        "seed": 38,
+        "value": 4.526316
+       },
+       {
+        "seed": 39,
+        "value": 3.094371
+       },
+       {
+        "seed": 40,
+        "value": 3.959381
+       },
+       {
+        "seed": 41,
+        "value": 4.128099
+       },
+       {
+        "seed": 42,
+        "value": 4.513359
+       },
+       {
+        "seed": 43,
+        "value": 4.009398
+       },
+       {
+        "seed": 44,
+        "value": 4.496487
+       },
+       {
+        "seed": 45,
+        "value": 3.703571
+       },
+       {
+        "seed": 46,
+        "value": 4.75
+       },
+       {
+        "seed": 47,
+        "value": 2.428571
+       },
+       {
+        "seed": 48,
+        "value": 2.969156
+       },
+       {
+        "seed": 49,
+        "value": 5.656338
+       },
+       {
+        "seed": 50,
+        "value": 3.758182
+       },
+       {
+        "seed": 51,
+        "value": 3.442308
+       },
+       {
+        "seed": 52,
+        "value": 3.151376
+       },
+       {
+        "seed": 53,
+        "value": 2.795148
+       },
+       {
+        "seed": 54,
+        "value": 3.297491
+       },
+       {
+        "seed": 55,
+        "value": 6.585507
+       },
+       {
+        "seed": 56,
+        "value": 2.032258
+       },
+       {
+        "seed": 57,
+        "value": 3.956026
+       },
+       {
+        "seed": 58,
+        "value": 3.557566
+       },
+       {
+        "seed": 59,
+        "value": 3.45409
+       },
+       {
+        "seed": 60,
+        "value": 4.048729
+       },
+       {
+        "seed": 61,
+        "value": 4.423935
+       },
+       {
+        "seed": 62,
+        "value": 4.173554
+       },
+       {
+        "seed": 63,
+        "value": 3.82881
+       },
+       {
+        "seed": 64,
+        "value": 4.364407
+       },
+       {
+        "seed": 65,
+        "value": 4.366525
+       },
+       {
+        "seed": 66,
+        "value": 4.3875
+       },
+       {
+        "seed": 67,
+        "value": 3.039616
+       },
+       {
+        "seed": 68,
+        "value": 3.334921
+       },
+       {
+        "seed": 69,
+        "value": 1.672161
+       },
+       {
+        "seed": 70,
+        "value": 5.594164
+       },
+       {
+        "seed": 71,
+        "value": 3.238854
+       },
+       {
+        "seed": 72,
+        "value": 6.597701
+       },
+       {
+        "seed": 73,
+        "value": 2.544526
+       },
+       {
+        "seed": 74,
+        "value": 2.067925
+       },
+       {
+        "seed": 75,
+        "value": 3.394198
+       },
+       {
+        "seed": 76,
+        "value": 6.172872
+       },
+       {
+        "seed": 77,
+        "value": 3.189759
+       },
+       {
+        "seed": 78,
+        "value": 4.873747
+       },
+       {
+        "seed": 79,
+        "value": 4.415418
+       },
+       {
+        "seed": 80,
+        "value": 4.183673
+       },
+       {
+        "seed": 81,
+        "value": 3.814176
+       },
+       {
+        "seed": 82,
+        "value": 2.905714
+       },
+       {
+        "seed": 83,
+        "value": 4.495413
+       },
+       {
+        "seed": 84,
+        "value": 3.059908
+       },
+       {
+        "seed": 85,
+        "value": 4.485981
+       },
+       {
+        "seed": 86,
+        "value": 4.64
+       },
+       {
+        "seed": 87,
+        "value": 3.93125
+       },
+       {
+        "seed": 88,
+        "value": 4.279352
+       },
+       {
+        "seed": 89,
+        "value": 3.932584
+       },
+       {
+        "seed": 90,
+        "value": 4.762673
+       },
+       {
+        "seed": 91,
+        "value": 5.960784
+       },
+       {
+        "seed": 92,
+        "value": 3.263251
+       },
+       {
+        "seed": 93,
+        "value": 5.414692
+       },
+       {
+        "seed": 94,
+        "value": 3.095462
+       },
+       {
+        "seed": 95,
+        "value": 3.592188
+       },
+       {
+        "seed": 96,
+        "value": 4.605263
+       },
+       {
+        "seed": 97,
+        "value": 4.407708
+       },
+       {
+        "seed": 98,
+        "value": 4.76383
+       },
+       {
+        "seed": 99,
+        "value": 4.622378
+       },
+       {
+        "seed": 100,
+        "value": 4.148968
+       }
+      ],
+      "rescueTicks": {
+       "mean": 554.38,
+       "median": 515,
+       "p5": 347.85,
+       "p95": 853.3,
+       "min": 292,
+       "max": 1282,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.36,
+      "ghostHunt": {
+       "pickups": 86,
+       "catchesPerPickup": {
+        "mean": 1.081395,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 86
+       },
+       "zeroCatchFraction": 0.174419
+      },
+      "bombs": {
+       "collected": 138,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.34,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.470223
+      }
+     },
+     "humanNovice": {
+      "ratio": {
+       "mean": 3.870883,
+       "median": 3.819027,
+       "p5": 2.225842,
+       "p95": 5.630233,
+       "min": 1.623111,
+       "max": 6.346369,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 5.619632
+       },
+       {
+        "seed": 2,
+        "value": 3.588346
+       },
+       {
+        "seed": 3,
+        "value": 3.694631
+       },
+       {
+        "seed": 4,
+        "value": 5.227488
+       },
+       {
+        "seed": 5,
+        "value": 4.324435
+       },
+       {
+        "seed": 6,
+        "value": 4.210421
+       },
+       {
+        "seed": 7,
+        "value": 3.300412
+       },
+       {
+        "seed": 8,
+        "value": 4.831014
+       },
+       {
+        "seed": 9,
+        "value": 2.98806
+       },
+       {
+        "seed": 10,
+        "value": 1.783244
+       },
+       {
+        "seed": 11,
+        "value": 3.959911
+       },
+       {
+        "seed": 12,
+        "value": 3.854484
+       },
+       {
+        "seed": 13,
+        "value": 4.530488
+       },
+       {
+        "seed": 14,
+        "value": 3.491743
+       },
+       {
+        "seed": 15,
+        "value": 5.16129
+       },
+       {
+        "seed": 16,
+        "value": 3.3312
+       },
+       {
+        "seed": 17,
+        "value": 4.988713
+       },
+       {
+        "seed": 18,
+        "value": 3.816054
+       },
+       {
+        "seed": 19,
+        "value": 4.296959
+       },
+       {
+        "seed": 20,
+        "value": 5.077434
+       },
+       {
+        "seed": 21,
+        "value": 6.288288
+       },
+       {
+        "seed": 22,
+        "value": 3.687296
+       },
+       {
+        "seed": 23,
+        "value": 3.944251
+       },
+       {
+        "seed": 24,
+        "value": 2.827456
+       },
+       {
+        "seed": 25,
+        "value": 5.475936
+       },
+       {
+        "seed": 26,
+        "value": 2.821856
+       },
+       {
+        "seed": 27,
+        "value": 4.063758
+       },
+       {
+        "seed": 28,
+        "value": 2.958904
+       },
+       {
+        "seed": 29,
+        "value": 5.895939
+       },
+       {
+        "seed": 30,
+        "value": 2.233638
+       },
+       {
+        "seed": 31,
+        "value": 1.866038
+       },
+       {
+        "seed": 32,
+        "value": 4.189824
+       },
+       {
+        "seed": 33,
+        "value": 5.549296
+       },
+       {
+        "seed": 34,
+        "value": 5.154023
+       },
+       {
+        "seed": 35,
+        "value": 5.018141
+       },
+       {
+        "seed": 36,
+        "value": 4.69899
+       },
+       {
+        "seed": 37,
+        "value": 2.451053
+       },
+       {
+        "seed": 38,
+        "value": 4.35443
+       },
+       {
+        "seed": 39,
+        "value": 3.18942
+       },
+       {
+        "seed": 40,
+        "value": 3.694946
+       },
+       {
+        "seed": 41,
+        "value": 3.857143
+       },
+       {
+        "seed": 42,
+        "value": 4.445489
+       },
+       {
+        "seed": 43,
+        "value": 3.664948
+       },
+       {
+        "seed": 44,
+        "value": 4.314607
+       },
+       {
+        "seed": 45,
+        "value": 3.677305
+       },
+       {
+        "seed": 46,
+        "value": 4.538462
+       },
+       {
+        "seed": 47,
+        "value": 2.464684
+       },
+       {
+        "seed": 48,
+        "value": 3.313406
+       },
+       {
+        "seed": 49,
+        "value": 4.909535
+       },
+       {
+        "seed": 50,
+        "value": 3.089686
+       },
+       {
+        "seed": 51,
+        "value": 3.27439
+       },
+       {
+        "seed": 52,
+        "value": 3.008759
+       },
+       {
+        "seed": 53,
+        "value": 2.754316
+       },
+       {
+        "seed": 54,
+        "value": 3.233743
+       },
+       {
+        "seed": 55,
+        "value": 6.346369
+       },
+       {
+        "seed": 56,
+        "value": 2.07621
+       },
+       {
+        "seed": 57,
+        "value": 3.874003
+       },
+       {
+        "seed": 58,
+        "value": 3.292237
+       },
+       {
+        "seed": 59,
+        "value": 3.305112
+       },
+       {
+        "seed": 60,
+        "value": 3.822
+       },
+       {
+        "seed": 61,
+        "value": 3.728205
+       },
+       {
+        "seed": 62,
+        "value": 3.899614
+       },
+       {
+        "seed": 63,
+        "value": 3.280859
+       },
+       {
+        "seed": 64,
+        "value": 3.87218
+       },
+       {
+        "seed": 65,
+        "value": 3.066964
+       },
+       {
+        "seed": 66,
+        "value": 5.291457
+       },
+       {
+        "seed": 67,
+        "value": 3.12979
+       },
+       {
+        "seed": 68,
+        "value": 2.901934
+       },
+       {
+        "seed": 69,
+        "value": 1.623111
+       },
+       {
+        "seed": 70,
+        "value": 5.285714
+       },
+       {
+        "seed": 71,
+        "value": 3.173167
+       },
+       {
+        "seed": 72,
+        "value": 6.205405
+       },
+       {
+        "seed": 73,
+        "value": 2.4242
+       },
+       {
+        "seed": 74,
+        "value": 2.077725
+       },
+       {
+        "seed": 75,
+        "value": 3.435233
+       },
+       {
+        "seed": 76,
+        "value": 5.831658
+       },
+       {
+        "seed": 77,
+        "value": 2.970547
+       },
+       {
+        "seed": 78,
+        "value": 4.903226
+       },
+       {
+        "seed": 79,
+        "value": 4.286902
+       },
+       {
+        "seed": 80,
+        "value": 3.965184
+       },
+       {
+        "seed": 81,
+        "value": 3.386054
+       },
+       {
+        "seed": 82,
+        "value": 2.679842
+       },
+       {
+        "seed": 83,
+        "value": 4.091858
+       },
+       {
+        "seed": 84,
+        "value": 3.018182
+       },
+       {
+        "seed": 85,
+        "value": 4.016736
+       },
+       {
+        "seed": 86,
+        "value": 2.497608
+       },
+       {
+        "seed": 87,
+        "value": 3.7
+       },
+       {
+        "seed": 88,
+        "value": 4.186139
+       },
+       {
+        "seed": 89,
+        "value": 3.639515
+       },
+       {
+        "seed": 90,
+        "value": 4.388535
+       },
+       {
+        "seed": 91,
+        "value": 5.286957
+       },
+       {
+        "seed": 92,
+        "value": 2.9552
+       },
+       {
+        "seed": 93,
+        "value": 5.146396
+       },
+       {
+        "seed": 94,
+        "value": 2.813656
+       },
+       {
+        "seed": 95,
+        "value": 3.441617
+       },
+       {
+        "seed": 96,
+        "value": 4.375
+       },
+       {
+        "seed": 97,
+        "value": 3.568144
+       },
+       {
+        "seed": 98,
+        "value": 4.314066
+       },
+       {
+        "seed": 99,
+        "value": 4.537757
+       },
+       {
+        "seed": 100,
+        "value": 3.990071
+       }
+      ],
+      "rescueTicks": {
+       "mean": 589.51,
+       "median": 559,
+       "p5": 369.4,
+       "p95": 975.2,
+       "min": 326,
+       "max": 1314,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 0.99,
+      "winRateHunter": 0.01,
+      "winRatePlayerCI": [
+       0.945512,
+       0.998233
+      ],
+      "livesLostMean": 0.4,
+      "ghostHunt": {
+       "pickups": 84,
+       "catchesPerPickup": {
+        "mean": 1.202381,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 84
+       },
+       "zeroCatchFraction": 0.119048
+      },
+      "bombs": {
+       "collected": 147,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.65,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.47377
+      }
+     }
+    },
+    "5": {
+     "threeKey": {
+      "ratio": {
+       "mean": 4.973626,
+       "median": 4.793514,
+       "p5": 3.11293,
+       "p95": 7.773527,
+       "min": 1.874104,
+       "max": 9.504098,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 3.848485
+       },
+       {
+        "seed": 2,
+        "value": 7.55814
+       },
+       {
+        "seed": 3,
+        "value": 3.982301
+       },
+       {
+        "seed": 4,
+        "value": 5.341317
+       },
+       {
+        "seed": 5,
+        "value": 4.8875
+       },
+       {
+        "seed": 6,
+        "value": 3.381462
+       },
+       {
+        "seed": 7,
+        "value": 7.211679
+       },
+       {
+        "seed": 8,
+        "value": 3.436333
+       },
+       {
+        "seed": 9,
+        "value": 5.344913
+       },
+       {
+        "seed": 10,
+        "value": 5.964413
+       },
+       {
+        "seed": 11,
+        "value": 4.241706
+       },
+       {
+        "seed": 12,
+        "value": 4.180212
+       },
+       {
+        "seed": 13,
+        "value": 6.920266
+       },
+       {
+        "seed": 14,
+        "value": 4.39851
+       },
+       {
+        "seed": 15,
+        "value": 6.415698
+       },
+       {
+        "seed": 16,
+        "value": 3.608779
+       },
+       {
+        "seed": 17,
+        "value": 5.22082
+       },
+       {
+        "seed": 18,
+        "value": 5.144703
+       },
+       {
+        "seed": 19,
+        "value": 8.204545
+       },
+       {
+        "seed": 20,
+        "value": 3.725773
+       },
+       {
+        "seed": 21,
+        "value": 3.905983
+       },
+       {
+        "seed": 22,
+        "value": 3.348457
+       },
+       {
+        "seed": 23,
+        "value": 4.086242
+       },
+       {
+        "seed": 24,
+        "value": 4.973837
+       },
+       {
+        "seed": 25,
+        "value": 5.589674
+       },
+       {
+        "seed": 26,
+        "value": 5.443686
+       },
+       {
+        "seed": 27,
+        "value": 5.994475
+       },
+       {
+        "seed": 28,
+        "value": 4.946588
+       },
+       {
+        "seed": 29,
+        "value": 4.722222
+       },
+       {
+        "seed": 30,
+        "value": 3.389764
+       },
+       {
+        "seed": 31,
+        "value": 3.523979
+       },
+       {
+        "seed": 32,
+        "value": 4.617073
+       },
+       {
+        "seed": 33,
+        "value": 3.826464
+       },
+       {
+        "seed": 34,
+        "value": 4.533937
+       },
+       {
+        "seed": 35,
+        "value": 5.547401
+       },
+       {
+        "seed": 36,
+        "value": 3.987775
+       },
+       {
+        "seed": 37,
+        "value": 7.460674
+       },
+       {
+        "seed": 38,
+        "value": 5.154494
+       },
+       {
+        "seed": 39,
+        "value": 5.507538
+       },
+       {
+        "seed": 40,
+        "value": 4.084507
+       },
+       {
+        "seed": 41,
+        "value": 4.460759
+       },
+       {
+        "seed": 42,
+        "value": 5.665706
+       },
+       {
+        "seed": 43,
+        "value": 6.402985
+       },
+       {
+        "seed": 44,
+        "value": 8.911111
+       },
+       {
+        "seed": 45,
+        "value": 5.152439
+       },
+       {
+        "seed": 46,
+        "value": 9.504098
+       },
+       {
+        "seed": 47,
+        "value": 4.14313
+       },
+       {
+        "seed": 48,
+        "value": 4.455814
+       },
+       {
+        "seed": 49,
+        "value": 5.427397
+       },
+       {
+        "seed": 50,
+        "value": 4.237687
+       },
+       {
+        "seed": 51,
+        "value": 5.560976
+       },
+       {
+        "seed": 52,
+        "value": 5.353846
+       },
+       {
+        "seed": 53,
+        "value": 7.178988
+       },
+       {
+        "seed": 54,
+        "value": 6.177994
+       },
+       {
+        "seed": 55,
+        "value": 5.153639
+       },
+       {
+        "seed": 56,
+        "value": 4.070218
+       },
+       {
+        "seed": 57,
+        "value": 3.256959
+       },
+       {
+        "seed": 58,
+        "value": 3.683746
+       },
+       {
+        "seed": 59,
+        "value": 4.238532
+       },
+       {
+        "seed": 60,
+        "value": 5.107612
+       },
+       {
+        "seed": 61,
+        "value": 3.457407
+       },
+       {
+        "seed": 62,
+        "value": 3.723926
+       },
+       {
+        "seed": 63,
+        "value": 4.187638
+       },
+       {
+        "seed": 64,
+        "value": 4.440204
+       },
+       {
+        "seed": 65,
+        "value": 3.715935
+       },
+       {
+        "seed": 66,
+        "value": 4.285366
+       },
+       {
+        "seed": 67,
+        "value": 6.827839
+       },
+       {
+        "seed": 68,
+        "value": 1.874104
+       },
+       {
+        "seed": 69,
+        "value": 4.811518
+       },
+       {
+        "seed": 70,
+        "value": 5.681818
+       },
+       {
+        "seed": 71,
+        "value": 4.738035
+       },
+       {
+        "seed": 72,
+        "value": 8.262948
+       },
+       {
+        "seed": 73,
+        "value": 6.375415
+       },
+       {
+        "seed": 74,
+        "value": 4.77551
+       },
+       {
+        "seed": 75,
+        "value": 2.035454
+       },
+       {
+        "seed": 76,
+        "value": 3.831349
+       },
+       {
+        "seed": 77,
+        "value": 7.55814
+       },
+       {
+        "seed": 78,
+        "value": 5.132883
+       },
+       {
+        "seed": 79,
+        "value": 4.127098
+       },
+       {
+        "seed": 80,
+        "value": 4.172566
+       },
+       {
+        "seed": 81,
+        "value": 4.2529
+       },
+       {
+        "seed": 82,
+        "value": 4.128019
+       },
+       {
+        "seed": 83,
+        "value": 3.11746
+       },
+       {
+        "seed": 84,
+        "value": 5.451613
+       },
+       {
+        "seed": 85,
+        "value": 5.223404
+       },
+       {
+        "seed": 86,
+        "value": 7.750842
+       },
+       {
+        "seed": 87,
+        "value": 5.16129
+       },
+       {
+        "seed": 88,
+        "value": 3.026866
+       },
+       {
+        "seed": 89,
+        "value": 2.919048
+       },
+       {
+        "seed": 90,
+        "value": 5.502778
+       },
+       {
+        "seed": 91,
+        "value": 4.864023
+       },
+       {
+        "seed": 92,
+        "value": 3.022869
+       },
+       {
+        "seed": 93,
+        "value": 3.5386
+       },
+       {
+        "seed": 94,
+        "value": 4.902235
+       },
+       {
+        "seed": 95,
+        "value": 5.953216
+       },
+       {
+        "seed": 96,
+        "value": 8.744681
+       },
+       {
+        "seed": 97,
+        "value": 3.623722
+       },
+       {
+        "seed": 98,
+        "value": 6.44186
+       },
+       {
+        "seed": 99,
+        "value": 6.405316
+       },
+       {
+        "seed": 100,
+        "value": 3.510714
+       }
+      ],
+      "rescueTicks": {
+       "mean": 415.82,
+       "median": 397.5,
+       "p5": 256.7,
+       "p95": 595.8,
+       "min": 180,
+       "max": 977,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.41,
+      "ghostHunt": {
+       "pickups": 31,
+       "catchesPerPickup": {
+        "mean": 0.709677,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 31
+       },
+       "zeroCatchFraction": 0.387097
+      },
+      "bombs": {
+       "collected": 130,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 24.59,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.461042
+      }
+     },
+     "humanSkilled": {
+      "ratio": {
+       "mean": 4.302807,
+       "median": 4.132867,
+       "p5": 2.751313,
+       "p95": 7.190299,
+       "min": 1.544304,
+       "max": 8.341727,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 4.482353
+       },
+       {
+        "seed": 2,
+        "value": 5.701754
+       },
+       {
+        "seed": 3,
+        "value": 3.964758
+       },
+       {
+        "seed": 4,
+        "value": 4.158508
+       },
+       {
+        "seed": 5,
+        "value": 4.17735
+       },
+       {
+        "seed": 6,
+        "value": 4.370968
+       },
+       {
+        "seed": 7,
+        "value": 6.136646
+       },
+       {
+        "seed": 8,
+        "value": 3.513889
+       },
+       {
+        "seed": 9,
+        "value": 4.174419
+       },
+       {
+        "seed": 10,
+        "value": 4.734463
+       },
+       {
+        "seed": 11,
+        "value": 3.028765
+       },
+       {
+        "seed": 12,
+        "value": 3.679627
+       },
+       {
+        "seed": 13,
+        "value": 3.354267
+       },
+       {
+        "seed": 14,
+        "value": 4.065404
+       },
+       {
+        "seed": 15,
+        "value": 5.777487
+       },
+       {
+        "seed": 16,
+        "value": 3.425725
+       },
+       {
+        "seed": 17,
+        "value": 4.635854
+       },
+       {
+        "seed": 18,
+        "value": 4.535308
+       },
+       {
+        "seed": 19,
+        "value": 6.423488
+       },
+       {
+        "seed": 20,
+        "value": 2.296061
+       },
+       {
+        "seed": 21,
+        "value": 3.347985
+       },
+       {
+        "seed": 22,
+        "value": 3.727273
+       },
+       {
+        "seed": 23,
+        "value": 3.864078
+       },
+       {
+        "seed": 24,
+        "value": 4.455729
+       },
+       {
+        "seed": 25,
+        "value": 5.116915
+       },
+       {
+        "seed": 26,
+        "value": 3.752941
+       },
+       {
+        "seed": 27,
+        "value": 4.865471
+       },
+       {
+        "seed": 28,
+        "value": 4.567123
+       },
+       {
+        "seed": 29,
+        "value": 2.944277
+       },
+       {
+        "seed": 30,
+        "value": 2.974093
+       },
+       {
+        "seed": 31,
+        "value": 2.961194
+       },
+       {
+        "seed": 32,
+        "value": 4.002114
+       },
+       {
+        "seed": 33,
+        "value": 2.75625
+       },
+       {
+        "seed": 34,
+        "value": 4.533937
+       },
+       {
+        "seed": 35,
+        "value": 3.455238
+       },
+       {
+        "seed": 36,
+        "value": 2.634895
+       },
+       {
+        "seed": 37,
+        "value": 7.405204
+       },
+       {
+        "seed": 38,
+        "value": 4.610553
+       },
+       {
+        "seed": 39,
+        "value": 5.320388
+       },
+       {
+        "seed": 40,
+        "value": 2.942029
+       },
+       {
+        "seed": 41,
+        "value": 4.107226
+       },
+       {
+        "seed": 42,
+        "value": 5.270777
+       },
+       {
+        "seed": 43,
+        "value": 4.777283
+       },
+       {
+        "seed": 44,
+        "value": 7.566038
+       },
+       {
+        "seed": 45,
+        "value": 4.101942
+       },
+       {
+        "seed": 46,
+        "value": 8.341727
+       },
+       {
+        "seed": 47,
+        "value": 3.961679
+       },
+       {
+        "seed": 48,
+        "value": 3.84739
+       },
+       {
+        "seed": 49,
+        "value": 3.149444
+       },
+       {
+        "seed": 50,
+        "value": 3.611314
+       },
+       {
+        "seed": 51,
+        "value": 5.094972
+       },
+       {
+        "seed": 52,
+        "value": 4.423729
+       },
+       {
+        "seed": 53,
+        "value": 7.178988
+       },
+       {
+        "seed": 54,
+        "value": 5.664688
+       },
+       {
+        "seed": 55,
+        "value": 4.840506
+       },
+       {
+        "seed": 56,
+        "value": 3.546414
+       },
+       {
+        "seed": 57,
+        "value": 3.042
+       },
+       {
+        "seed": 58,
+        "value": 4.048544
+       },
+       {
+        "seed": 59,
+        "value": 4.088496
+       },
+       {
+        "seed": 60,
+        "value": 4.276923
+       },
+       {
+        "seed": 61,
+        "value": 3.388385
+       },
+       {
+        "seed": 62,
+        "value": 3.563601
+       },
+       {
+        "seed": 63,
+        "value": 4.169231
+       },
+       {
+        "seed": 64,
+        "value": 3.612836
+       },
+       {
+        "seed": 65,
+        "value": 3.257085
+       },
+       {
+        "seed": 66,
+        "value": 4.163507
+       },
+       {
+        "seed": 67,
+        "value": 4.983957
+       },
+       {
+        "seed": 68,
+        "value": 2.79542
+       },
+       {
+        "seed": 69,
+        "value": 3.51434
+       },
+       {
+        "seed": 70,
+        "value": 5.249344
+       },
+       {
+        "seed": 71,
+        "value": 4.364269
+       },
+       {
+        "seed": 72,
+        "value": 7.856061
+       },
+       {
+        "seed": 73,
+        "value": 4.785536
+       },
+       {
+        "seed": 74,
+        "value": 4.415094
+       },
+       {
+        "seed": 75,
+        "value": 1.544304
+       },
+       {
+        "seed": 76,
+        "value": 3.650284
+       },
+       {
+        "seed": 77,
+        "value": 6.914894
+       },
+       {
+        "seed": 78,
+        "value": 4.965142
+       },
+       {
+        "seed": 79,
+        "value": 3.526639
+       },
+       {
+        "seed": 80,
+        "value": 2.823353
+       },
+       {
+        "seed": 81,
+        "value": 3.695565
+       },
+       {
+        "seed": 82,
+        "value": 3.530992
+       },
+       {
+        "seed": 83,
+        "value": 2.931343
+       },
+       {
+        "seed": 84,
+        "value": 4.771765
+       },
+       {
+        "seed": 85,
+        "value": 4.778589
+       },
+       {
+        "seed": 86,
+        "value": 5.902564
+       },
+       {
+        "seed": 87,
+        "value": 4.266667
+       },
+       {
+        "seed": 88,
+        "value": 2.856338
+       },
+       {
+        "seed": 89,
+        "value": 2.657514
+       },
+       {
+        "seed": 90,
+        "value": 5.268617
+       },
+       {
+        "seed": 91,
+        "value": 4.70411
+       },
+       {
+        "seed": 92,
+        "value": 2.568905
+       },
+       {
+        "seed": 93,
+        "value": 3.357751
+       },
+       {
+        "seed": 94,
+        "value": 3.441176
+       },
+       {
+        "seed": 95,
+        "value": 5.167513
+       },
+       {
+        "seed": 96,
+        "value": 7.965116
+       },
+       {
+        "seed": 97,
+        "value": 3.018739
+       },
+       {
+        "seed": 98,
+        "value": 6.242254
+       },
+       {
+        "seed": 99,
+        "value": 4.94359
+       },
+       {
+        "seed": 100,
+        "value": 2.853411
+       }
+      ],
+      "rescueTicks": {
+       "mean": 479.25,
+       "median": 457,
+       "p5": 277.55,
+       "p95": 689.05,
+       "min": 212,
+       "max": 1264,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.15,
+      "ghostHunt": {
+       "pickups": 86,
+       "catchesPerPickup": {
+        "mean": 1.046512,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 86
+       },
+       "zeroCatchFraction": 0.209302
+      },
+      "bombs": {
+       "collected": 140,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 25.65,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.471181
+      }
+     },
+     "humanCasual": {
+      "ratio": {
+       "mean": 4.153164,
+       "median": 3.913646,
+       "p5": 2.692604,
+       "p95": 6.763707,
+       "min": 2.133333,
+       "max": 8.341727,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 4.404624
+       },
+       {
+        "seed": 2,
+        "value": 4.004107
+       },
+       {
+        "seed": 3,
+        "value": 3.781513
+       },
+       {
+        "seed": 4,
+        "value": 4.054545
+       },
+       {
+        "seed": 5,
+        "value": 4.91206
+       },
+       {
+        "seed": 6,
+        "value": 3.741617
+       },
+       {
+        "seed": 7,
+        "value": 6.136646
+       },
+       {
+        "seed": 8,
+        "value": 3.18239
+       },
+       {
+        "seed": 9,
+        "value": 4.134357
+       },
+       {
+        "seed": 10,
+        "value": 4.655556
+       },
+       {
+        "seed": 11,
+        "value": 2.998325
+       },
+       {
+        "seed": 12,
+        "value": 3.557895
+       },
+       {
+        "seed": 13,
+        "value": 3.322169
+       },
+       {
+        "seed": 14,
+        "value": 4.02385
+       },
+       {
+        "seed": 15,
+        "value": 5.601523
+       },
+       {
+        "seed": 16,
+        "value": 3.282986
+       },
+       {
+        "seed": 17,
+        "value": 4.559229
+       },
+       {
+        "seed": 18,
+        "value": 4.290948
+       },
+       {
+        "seed": 19,
+        "value": 6.077441
+       },
+       {
+        "seed": 20,
+        "value": 2.377632
+       },
+       {
+        "seed": 21,
+        "value": 3.130137
+       },
+       {
+        "seed": 22,
+        "value": 3.143101
+       },
+       {
+        "seed": 23,
+        "value": 3.819578
+       },
+       {
+        "seed": 24,
+        "value": 4.320707
+       },
+       {
+        "seed": 25,
+        "value": 5.041667
+       },
+       {
+        "seed": 26,
+        "value": 3.625
+       },
+       {
+        "seed": 27,
+        "value": 4.69697
+       },
+       {
+        "seed": 28,
+        "value": 4.567123
+       },
+       {
+        "seed": 29,
+        "value": 2.971125
+       },
+       {
+        "seed": 30,
+        "value": 2.827586
+       },
+       {
+        "seed": 31,
+        "value": 3.273927
+       },
+       {
+        "seed": 32,
+        "value": 3.711765
+       },
+       {
+        "seed": 33,
+        "value": 3.334594
+       },
+       {
+        "seed": 34,
+        "value": 4.414097
+       },
+       {
+        "seed": 35,
+        "value": 3.280289
+       },
+       {
+        "seed": 36,
+        "value": 2.617978
+       },
+       {
+        "seed": 37,
+        "value": 6.61794
+       },
+       {
+        "seed": 38,
+        "value": 4.47561
+       },
+       {
+        "seed": 39,
+        "value": 5.294686
+       },
+       {
+        "seed": 40,
+        "value": 2.920863
+       },
+       {
+        "seed": 41,
+        "value": 4.107226
+       },
+       {
+        "seed": 42,
+        "value": 5.242667
+       },
+       {
+        "seed": 43,
+        "value": 4.404517
+       },
+       {
+        "seed": 44,
+        "value": 7.566038
+       },
+       {
+        "seed": 45,
+        "value": 3.912037
+       },
+       {
+        "seed": 46,
+        "value": 8.341727
+       },
+       {
+        "seed": 47,
+        "value": 3.802102
+       },
+       {
+        "seed": 48,
+        "value": 3.756863
+       },
+       {
+        "seed": 49,
+        "value": 3.057099
+       },
+       {
+        "seed": 50,
+        "value": 3.552962
+       },
+       {
+        "seed": 51,
+        "value": 5.010989
+       },
+       {
+        "seed": 52,
+        "value": 4.167665
+       },
+       {
+        "seed": 53,
+        "value": 6.758242
+       },
+       {
+        "seed": 54,
+        "value": 5.565598
+       },
+       {
+        "seed": 55,
+        "value": 4.697789
+       },
+       {
+        "seed": 56,
+        "value": 3.389113
+       },
+       {
+        "seed": 57,
+        "value": 2.897143
+       },
+       {
+        "seed": 58,
+        "value": 3.412439
+       },
+       {
+        "seed": 59,
+        "value": 3.915254
+       },
+       {
+        "seed": 60,
+        "value": 3.637383
+       },
+       {
+        "seed": 61,
+        "value": 3.339893
+       },
+       {
+        "seed": 62,
+        "value": 3.522244
+       },
+       {
+        "seed": 63,
+        "value": 3.91134
+       },
+       {
+        "seed": 64,
+        "value": 3.483034
+       },
+       {
+        "seed": 65,
+        "value": 3.179842
+       },
+       {
+        "seed": 66,
+        "value": 3.957207
+       },
+       {
+        "seed": 67,
+        "value": 4.905263
+       },
+       {
+        "seed": 68,
+        "value": 2.736921
+       },
+       {
+        "seed": 69,
+        "value": 3.435514
+       },
+       {
+        "seed": 70,
+        "value": 4.694836
+       },
+       {
+        "seed": 71,
+        "value": 4.364269
+       },
+       {
+        "seed": 72,
+        "value": 6.86755
+       },
+       {
+        "seed": 73,
+        "value": 4.761787
+       },
+       {
+        "seed": 74,
+        "value": 4.344828
+       },
+       {
+        "seed": 75,
+        "value": 2.133333
+       },
+       {
+        "seed": 76,
+        "value": 3.466786
+       },
+       {
+        "seed": 77,
+        "value": 6.543624
+       },
+       {
+        "seed": 78,
+        "value": 4.567134
+       },
+       {
+        "seed": 79,
+        "value": 3.37451
+       },
+       {
+        "seed": 80,
+        "value": 2.993651
+       },
+       {
+        "seed": 81,
+        "value": 3.369485
+       },
+       {
+        "seed": 82,
+        "value": 3.249049
+       },
+       {
+        "seed": 83,
+        "value": 2.879765
+       },
+       {
+        "seed": 84,
+        "value": 4.640732
+       },
+       {
+        "seed": 85,
+        "value": 4.709832
+       },
+       {
+        "seed": 86,
+        "value": 6.954683
+       },
+       {
+        "seed": 87,
+        "value": 4.030227
+       },
+       {
+        "seed": 88,
+        "value": 2.693227
+       },
+       {
+        "seed": 89,
+        "value": 2.680758
+       },
+       {
+        "seed": 90,
+        "value": 4.855392
+       },
+       {
+        "seed": 91,
+        "value": 4.436693
+       },
+       {
+        "seed": 92,
+        "value": 2.472789
+       },
+       {
+        "seed": 93,
+        "value": 3.247117
+       },
+       {
+        "seed": 94,
+        "value": 3.238007
+       },
+       {
+        "seed": 95,
+        "value": 5.167513
+       },
+       {
+        "seed": 96,
+        "value": 7.5
+       },
+       {
+        "seed": 97,
+        "value": 2.928926
+       },
+       {
+        "seed": 98,
+        "value": 5.862434
+       },
+       {
+        "seed": 99,
+        "value": 4.61244
+       },
+       {
+        "seed": 100,
+        "value": 2.824713
+       }
+      ],
+      "rescueTicks": {
+       "mean": 491.61,
+       "median": 497.5,
+       "p5": 297.95,
+       "p95": 686.45,
+       "min": 212,
+       "max": 915,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.18,
+      "ghostHunt": {
+       "pickups": 84,
+       "catchesPerPickup": {
+        "mean": 1.119048,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 84
+       },
+       "zeroCatchFraction": 0.202381
+      },
+      "bombs": {
+       "collected": 141,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 25.67,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.469443
+      }
+     },
+     "humanNovice": {
+      "ratio": {
+       "mean": 3.864189,
+       "median": 3.695807,
+       "p5": 2.542143,
+       "p95": 6.573794,
+       "min": 2.156906,
+       "max": 7.5,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 3.96875
+       },
+       {
+        "seed": 2,
+        "value": 3.939394
+       },
+       {
+        "seed": 3,
+        "value": 3.26087
+       },
+       {
+        "seed": 4,
+        "value": 3.693582
+       },
+       {
+        "seed": 5,
+        "value": 3.803502
+       },
+       {
+        "seed": 6,
+        "value": 3.22619
+       },
+       {
+        "seed": 7,
+        "value": 5.340541
+       },
+       {
+        "seed": 8,
+        "value": 3.328947
+       },
+       {
+        "seed": 9,
+        "value": 3.996289
+       },
+       {
+        "seed": 10,
+        "value": 4.179551
+       },
+       {
+        "seed": 11,
+        "value": 2.998325
+       },
+       {
+        "seed": 12,
+        "value": 3.510386
+       },
+       {
+        "seed": 13,
+        "value": 3.275157
+       },
+       {
+        "seed": 14,
+        "value": 3.761146
+       },
+       {
+        "seed": 15,
+        "value": 5.356796
+       },
+       {
+        "seed": 16,
+        "value": 3.146423
+       },
+       {
+        "seed": 17,
+        "value": 4.026764
+       },
+       {
+        "seed": 18,
+        "value": 3.063077
+       },
+       {
+        "seed": 19,
+        "value": 5.766773
+       },
+       {
+        "seed": 20,
+        "value": 2.409333
+       },
+       {
+        "seed": 21,
+        "value": 3.082631
+       },
+       {
+        "seed": 22,
+        "value": 3.10084
+       },
+       {
+        "seed": 23,
+        "value": 3.262295
+       },
+       {
+        "seed": 24,
+        "value": 3.97907
+       },
+       {
+        "seed": 25,
+        "value": 4.581292
+       },
+       {
+        "seed": 26,
+        "value": 2.764298
+       },
+       {
+        "seed": 27,
+        "value": 4.410569
+       },
+       {
+        "seed": 28,
+        "value": 4.046117
+       },
+       {
+        "seed": 29,
+        "value": 2.931034
+       },
+       {
+        "seed": 30,
+        "value": 2.653313
+       },
+       {
+        "seed": 31,
+        "value": 2.28046
+       },
+       {
+        "seed": 32,
+        "value": 3.605714
+       },
+       {
+        "seed": 33,
+        "value": 2.549133
+       },
+       {
+        "seed": 34,
+        "value": 3.216693
+       },
+       {
+        "seed": 35,
+        "value": 3.106164
+       },
+       {
+        "seed": 36,
+        "value": 2.353535
+       },
+       {
+        "seed": 37,
+        "value": 6.574257
+       },
+       {
+        "seed": 38,
+        "value": 4.11435
+       },
+       {
+        "seed": 39,
+        "value": 4.703863
+       },
+       {
+        "seed": 40,
+        "value": 3.263666
+       },
+       {
+        "seed": 41,
+        "value": 3.822126
+       },
+       {
+        "seed": 42,
+        "value": 4.878412
+       },
+       {
+        "seed": 43,
+        "value": 4.324597
+       },
+       {
+        "seed": 44,
+        "value": 6.57377
+       },
+       {
+        "seed": 45,
+        "value": 3.698031
+       },
+       {
+        "seed": 46,
+        "value": 7.432692
+       },
+       {
+        "seed": 47,
+        "value": 3.815466
+       },
+       {
+        "seed": 48,
+        "value": 3.433692
+       },
+       {
+        "seed": 49,
+        "value": 2.983434
+       },
+       {
+        "seed": 50,
+        "value": 3.186795
+       },
+       {
+        "seed": 51,
+        "value": 4.664962
+       },
+       {
+        "seed": 52,
+        "value": 4.023121
+       },
+       {
+        "seed": 53,
+        "value": 6.758242
+       },
+       {
+        "seed": 54,
+        "value": 5.1875
+       },
+       {
+        "seed": 55,
+        "value": 4.488263
+       },
+       {
+        "seed": 56,
+        "value": 3.124535
+       },
+       {
+        "seed": 57,
+        "value": 2.659091
+       },
+       {
+        "seed": 58,
+        "value": 3.716578
+       },
+       {
+        "seed": 59,
+        "value": 3.841996
+       },
+       {
+        "seed": 60,
+        "value": 3.853465
+       },
+       {
+        "seed": 61,
+        "value": 2.77003
+       },
+       {
+        "seed": 62,
+        "value": 3.347426
+       },
+       {
+        "seed": 63,
+        "value": 3.586011
+       },
+       {
+        "seed": 64,
+        "value": 3.273921
+       },
+       {
+        "seed": 65,
+        "value": 3.100193
+       },
+       {
+        "seed": 66,
+        "value": 3.878587
+       },
+       {
+        "seed": 67,
+        "value": 3.420183
+       },
+       {
+        "seed": 68,
+        "value": 2.611983
+       },
+       {
+        "seed": 69,
+        "value": 3.230228
+       },
+       {
+        "seed": 70,
+        "value": 4.651163
+       },
+       {
+        "seed": 71,
+        "value": 3.777108
+       },
+       {
+        "seed": 72,
+        "value": 7.407143
+       },
+       {
+        "seed": 73,
+        "value": 4.703431
+       },
+       {
+        "seed": 74,
+        "value": 4.074627
+       },
+       {
+        "seed": 75,
+        "value": 2.156906
+       },
+       {
+        "seed": 76,
+        "value": 3.358261
+       },
+       {
+        "seed": 77,
+        "value": 6.210191
+       },
+       {
+        "seed": 78,
+        "value": 4.521825
+       },
+       {
+        "seed": 79,
+        "value": 3.315992
+       },
+       {
+        "seed": 80,
+        "value": 2.888208
+       },
+       {
+        "seed": 81,
+        "value": 3.232804
+       },
+       {
+        "seed": 82,
+        "value": 3.194393
+       },
+       {
+        "seed": 83,
+        "value": 2.762307
+       },
+       {
+        "seed": 84,
+        "value": 4.457143
+       },
+       {
+        "seed": 85,
+        "value": 4.484018
+       },
+       {
+        "seed": 86,
+        "value": 5.208145
+       },
+       {
+        "seed": 87,
+        "value": 3.791469
+       },
+       {
+        "seed": 88,
+        "value": 2.576874
+       },
+       {
+        "seed": 89,
+        "value": 2.561281
+       },
+       {
+        "seed": 90,
+        "value": 4.67217
+       },
+       {
+        "seed": 91,
+        "value": 4.335859
+       },
+       {
+        "seed": 92,
+        "value": 2.371941
+       },
+       {
+        "seed": 93,
+        "value": 2.986364
+       },
+       {
+        "seed": 94,
+        "value": 3.117229
+       },
+       {
+        "seed": 95,
+        "value": 4.565022
+       },
+       {
+        "seed": 96,
+        "value": 7.5
+       },
+       {
+        "seed": 97,
+        "value": 2.602056
+       },
+       {
+        "seed": 98,
+        "value": 5.59596
+       },
+       {
+        "seed": 99,
+        "value": 4.422018
+       },
+       {
+        "seed": 100,
+        "value": 2.600529
+       }
+      ],
+      "rescueTicks": {
+       "mean": 527.9,
+       "median": 531,
+       "p5": 311.55,
+       "p95": 719.6,
+       "min": 244,
+       "max": 905,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.31,
+      "ghostHunt": {
+       "pickups": 86,
+       "catchesPerPickup": {
+        "mean": 1.267442,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 86
+       },
+       "zeroCatchFraction": 0.116279
+      },
+      "bombs": {
+       "collected": 141,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.71,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.476609
+      }
+     }
+    },
+    "10": {
+     "threeKey": {
+      "ratio": {
+       "mean": 4.736038,
+       "median": 4.529855,
+       "p5": 2.768534,
+       "p95": 7.11149,
+       "min": 2.664903,
+       "max": 8.862745,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 6.236559
+       },
+       {
+        "seed": 2,
+        "value": 4.698361
+       },
+       {
+        "seed": 3,
+        "value": 4.8125
+       },
+       {
+        "seed": 4,
+        "value": 6.308642
+       },
+       {
+        "seed": 5,
+        "value": 3.088176
+       },
+       {
+        "seed": 6,
+        "value": 4.240838
+       },
+       {
+        "seed": 7,
+        "value": 7.396476
+       },
+       {
+        "seed": 8,
+        "value": 4.745455
+       },
+       {
+        "seed": 9,
+        "value": 7.560345
+       },
+       {
+        "seed": 10,
+        "value": 4.491379
+       },
+       {
+        "seed": 11,
+        "value": 7.861386
+       },
+       {
+        "seed": 12,
+        "value": 4.843305
+       },
+       {
+        "seed": 13,
+        "value": 4.187082
+       },
+       {
+        "seed": 14,
+        "value": 2.749596
+       },
+       {
+        "seed": 15,
+        "value": 4.679641
+       },
+       {
+        "seed": 16,
+        "value": 5.11745
+       },
+       {
+        "seed": 17,
+        "value": 6.630522
+       },
+       {
+        "seed": 18,
+        "value": 3.488998
+       },
+       {
+        "seed": 19,
+        "value": 4.09633
+       },
+       {
+        "seed": 20,
+        "value": 4.631579
+       },
+       {
+        "seed": 21,
+        "value": 5.205387
+       },
+       {
+        "seed": 22,
+        "value": 3.657658
+       },
+       {
+        "seed": 23,
+        "value": 5.32491
+       },
+       {
+        "seed": 24,
+        "value": 4.585014
+       },
+       {
+        "seed": 25,
+        "value": 5.374233
+       },
+       {
+        "seed": 26,
+        "value": 4.820433
+       },
+       {
+        "seed": 27,
+        "value": 4.406977
+       },
+       {
+        "seed": 28,
+        "value": 4.285377
+       },
+       {
+        "seed": 29,
+        "value": 5.116049
+       },
+       {
+        "seed": 30,
+        "value": 4.546269
+       },
+       {
+        "seed": 31,
+        "value": 4.858434
+       },
+       {
+        "seed": 32,
+        "value": 6.234657
+       },
+       {
+        "seed": 33,
+        "value": 4.025
+       },
+       {
+        "seed": 34,
+        "value": 4.491379
+       },
+       {
+        "seed": 35,
+        "value": 4.160194
+       },
+       {
+        "seed": 36,
+        "value": 2.729819
+       },
+       {
+        "seed": 37,
+        "value": 6.476563
+       },
+       {
+        "seed": 38,
+        "value": 3.485106
+       },
+       {
+        "seed": 39,
+        "value": 7.822034
+       },
+       {
+        "seed": 40,
+        "value": 8.862745
+       },
+       {
+        "seed": 41,
+        "value": 4.243017
+       },
+       {
+        "seed": 42,
+        "value": 5.808383
+       },
+       {
+        "seed": 43,
+        "value": 3.729017
+       },
+       {
+        "seed": 44,
+        "value": 3.85
+       },
+       {
+        "seed": 45,
+        "value": 3.997908
+       },
+       {
+        "seed": 46,
+        "value": 5.608563
+       },
+       {
+        "seed": 47,
+        "value": 6.661654
+       },
+       {
+        "seed": 48,
+        "value": 4.947883
+       },
+       {
+        "seed": 49,
+        "value": 3.584052
+       },
+       {
+        "seed": 50,
+        "value": 2.902269
+       },
+       {
+        "seed": 51,
+        "value": 6.75463
+       },
+       {
+        "seed": 52,
+        "value": 4.302395
+       },
+       {
+        "seed": 53,
+        "value": 4.009569
+       },
+       {
+        "seed": 54,
+        "value": 4.997135
+       },
+       {
+        "seed": 55,
+        "value": 4.412429
+       },
+       {
+        "seed": 56,
+        "value": 3.16408
+       },
+       {
+        "seed": 57,
+        "value": 4.695418
+       },
+       {
+        "seed": 58,
+        "value": 5.15942
+       },
+       {
+        "seed": 59,
+        "value": 6.465306
+       },
+       {
+        "seed": 60,
+        "value": 5.147887
+       },
+       {
+        "seed": 61,
+        "value": 2.96248
+       },
+       {
+        "seed": 62,
+        "value": 5.546256
+       },
+       {
+        "seed": 63,
+        "value": 3.816229
+       },
+       {
+        "seed": 64,
+        "value": 3.506297
+       },
+       {
+        "seed": 65,
+        "value": 2.664903
+       },
+       {
+        "seed": 66,
+        "value": 5.574468
+       },
+       {
+        "seed": 67,
+        "value": 2.769531
+       },
+       {
+        "seed": 68,
+        "value": 2.734807
+       },
+       {
+        "seed": 69,
+        "value": 4.703518
+       },
+       {
+        "seed": 70,
+        "value": 5.235821
+       },
+       {
+        "seed": 71,
+        "value": 4.236715
+       },
+       {
+        "seed": 72,
+        "value": 3.984211
+       },
+       {
+        "seed": 73,
+        "value": 4.513441
+       },
+       {
+        "seed": 74,
+        "value": 4.418803
+       },
+       {
+        "seed": 75,
+        "value": 7.096491
+       },
+       {
+        "seed": 76,
+        "value": 4.548673
+       },
+       {
+        "seed": 77,
+        "value": 3.863747
+       },
+       {
+        "seed": 78,
+        "value": 5.327327
+       },
+       {
+        "seed": 79,
+        "value": 4.643533
+       },
+       {
+        "seed": 80,
+        "value": 5.905775
+       },
+       {
+        "seed": 81,
+        "value": 4.024331
+       },
+       {
+        "seed": 82,
+        "value": 4.041995
+       },
+       {
+        "seed": 83,
+        "value": 4.054455
+       },
+       {
+        "seed": 84,
+        "value": 2.952632
+       },
+       {
+        "seed": 85,
+        "value": 4.410072
+       },
+       {
+        "seed": 86,
+        "value": 6.952174
+       },
+       {
+        "seed": 87,
+        "value": 7.01626
+       },
+       {
+        "seed": 88,
+        "value": 5.019231
+       },
+       {
+        "seed": 89,
+        "value": 4.658596
+       },
+       {
+        "seed": 90,
+        "value": 4.115727
+       },
+       {
+        "seed": 91,
+        "value": 4.1247
+       },
+       {
+        "seed": 92,
+        "value": 4.355685
+       },
+       {
+        "seed": 93,
+        "value": 4.420749
+       },
+       {
+        "seed": 94,
+        "value": 4.149425
+       },
+       {
+        "seed": 95,
+        "value": 2.74031
+       },
+       {
+        "seed": 96,
+        "value": 5.664577
+       },
+       {
+        "seed": 97,
+        "value": 3.466357
+       },
+       {
+        "seed": 98,
+        "value": 4.163551
+       },
+       {
+        "seed": 99,
+        "value": 4.754522
+       },
+       {
+        "seed": 100,
+        "value": 3.691542
+       }
+      ],
+      "rescueTicks": {
+       "mean": 370.18,
+       "median": 352.5,
+       "p5": 227.95,
+       "p95": 567.15,
+       "min": 202,
+       "max": 619,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.56,
+      "ghostHunt": {
+       "pickups": 49,
+       "catchesPerPickup": {
+        "mean": 0.77551,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 49
+       },
+       "zeroCatchFraction": 0.367347
+      },
+      "bombs": {
+       "collected": 126,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.85,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.482892
+      }
+     },
+     "humanSkilled": {
+      "ratio": {
+       "mean": 4.158112,
+       "median": 3.998657,
+       "p5": 2.753418,
+       "p95": 6.202029,
+       "min": 1.766537,
+       "max": 7.793103,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 5.321101
+       },
+       {
+        "seed": 2,
+        "value": 3.332558
+       },
+       {
+        "seed": 3,
+        "value": 3.956522
+       },
+       {
+        "seed": 4,
+        "value": 4.925301
+       },
+       {
+        "seed": 5,
+        "value": 2.94084
+       },
+       {
+        "seed": 6,
+        "value": 3.732719
+       },
+       {
+        "seed": 7,
+        "value": 6.533074
+       },
+       {
+        "seed": 8,
+        "value": 4.290411
+       },
+       {
+        "seed": 9,
+        "value": 6.111498
+       },
+       {
+        "seed": 10,
+        "value": 3.766265
+       },
+       {
+        "seed": 11,
+        "value": 6.904348
+       },
+       {
+        "seed": 12,
+        "value": 4.136253
+       },
+       {
+        "seed": 13,
+        "value": 3.89234
+       },
+       {
+        "seed": 14,
+        "value": 2.626543
+       },
+       {
+        "seed": 15,
+        "value": 3.383117
+       },
+       {
+        "seed": 16,
+        "value": 4.013158
+       },
+       {
+        "seed": 17,
+        "value": 5.111455
+       },
+       {
+        "seed": 18,
+        "value": 3.235828
+       },
+       {
+        "seed": 19,
+        "value": 3.572
+       },
+       {
+        "seed": 20,
+        "value": 4.262108
+       },
+       {
+        "seed": 21,
+        "value": 4.801242
+       },
+       {
+        "seed": 22,
+        "value": 3.440678
+       },
+       {
+        "seed": 23,
+        "value": 4.80456
+       },
+       {
+        "seed": 24,
+        "value": 4.220159
+       },
+       {
+        "seed": 25,
+        "value": 4.684492
+       },
+       {
+        "seed": 26,
+        "value": 3.37013
+       },
+       {
+        "seed": 27,
+        "value": 4.297052
+       },
+       {
+        "seed": 28,
+        "value": 3.754132
+       },
+       {
+        "seed": 29,
+        "value": 4.399151
+       },
+       {
+        "seed": 30,
+        "value": 4.314448
+       },
+       {
+        "seed": 31,
+        "value": 4.012438
+       },
+       {
+        "seed": 32,
+        "value": 4.439589
+       },
+       {
+        "seed": 33,
+        "value": 3.538462
+       },
+       {
+        "seed": 34,
+        "value": 4.293956
+       },
+       {
+        "seed": 35,
+        "value": 4.939481
+       },
+       {
+        "seed": 36,
+        "value": 2.953654
+       },
+       {
+        "seed": 37,
+        "value": 6.328244
+       },
+       {
+        "seed": 38,
+        "value": 3.384298
+       },
+       {
+        "seed": 39,
+        "value": 5.697531
+       },
+       {
+        "seed": 40,
+        "value": 7.793103
+       },
+       {
+        "seed": 41,
+        "value": 3.582547
+       },
+       {
+        "seed": 42,
+        "value": 5.808383
+       },
+       {
+        "seed": 43,
+        "value": 3.574713
+       },
+       {
+        "seed": 44,
+        "value": 3.515982
+       },
+       {
+        "seed": 45,
+        "value": 3.989562
+       },
+       {
+        "seed": 46,
+        "value": 5.346939
+       },
+       {
+        "seed": 47,
+        "value": 6.195804
+       },
+       {
+        "seed": 48,
+        "value": 4.480826
+       },
+       {
+        "seed": 49,
+        "value": 3.299603
+       },
+       {
+        "seed": 50,
+        "value": 2.927817
+       },
+       {
+        "seed": 51,
+        "value": 6.028926
+       },
+       {
+        "seed": 52,
+        "value": 3.647208
+       },
+       {
+        "seed": 53,
+        "value": 3.080882
+       },
+       {
+        "seed": 54,
+        "value": 4.885154
+       },
+       {
+        "seed": 55,
+        "value": 3.736842
+       },
+       {
+        "seed": 56,
+        "value": 2.820158
+       },
+       {
+        "seed": 57,
+        "value": 3.93228
+       },
+       {
+        "seed": 58,
+        "value": 4.876712
+       },
+       {
+        "seed": 59,
+        "value": 5.932584
+       },
+       {
+        "seed": 60,
+        "value": 4.656051
+       },
+       {
+        "seed": 61,
+        "value": 1.766537
+       },
+       {
+        "seed": 62,
+        "value": 4.937255
+       },
+       {
+        "seed": 63,
+        "value": 3.593258
+       },
+       {
+        "seed": 64,
+        "value": 3.506297
+       },
+       {
+        "seed": 65,
+        "value": 3.141372
+       },
+       {
+        "seed": 66,
+        "value": 4.465909
+       },
+       {
+        "seed": 67,
+        "value": 2.145234
+       },
+       {
+        "seed": 68,
+        "value": 2.647059
+       },
+       {
+        "seed": 69,
+        "value": 4.691729
+       },
+       {
+        "seed": 70,
+        "value": 4.278049
+       },
+       {
+        "seed": 71,
+        "value": 3.616495
+       },
+       {
+        "seed": 72,
+        "value": 3.40991
+       },
+       {
+        "seed": 73,
+        "value": 4.32732
+       },
+       {
+        "seed": 74,
+        "value": 4.007752
+       },
+       {
+        "seed": 75,
+        "value": 6.320313
+       },
+       {
+        "seed": 76,
+        "value": 3.943734
+       },
+       {
+        "seed": 77,
+        "value": 3.633867
+       },
+       {
+        "seed": 78,
+        "value": 5.083095
+       },
+       {
+        "seed": 79,
+        "value": 4.181818
+       },
+       {
+        "seed": 80,
+        "value": 4.107822
+       },
+       {
+        "seed": 81,
+        "value": 3.438669
+       },
+       {
+        "seed": 82,
+        "value": 3.297645
+       },
+       {
+        "seed": 83,
+        "value": 3.836066
+       },
+       {
+        "seed": 84,
+        "value": 2.759016
+       },
+       {
+        "seed": 85,
+        "value": 4.327059
+       },
+       {
+        "seed": 86,
+        "value": 5.922222
+       },
+       {
+        "seed": 87,
+        "value": 4.179177
+       },
+       {
+        "seed": 88,
+        "value": 4.096413
+       },
+       {
+        "seed": 89,
+        "value": 3.926531
+       },
+       {
+        "seed": 90,
+        "value": 3.698667
+       },
+       {
+        "seed": 91,
+        "value": 3.590814
+       },
+       {
+        "seed": 92,
+        "value": 3.466357
+       },
+       {
+        "seed": 93,
+        "value": 4.079787
+       },
+       {
+        "seed": 94,
+        "value": 2.954173
+       },
+       {
+        "seed": 95,
+        "value": 2.321839
+       },
+       {
+        "seed": 96,
+        "value": 5.17765
+       },
+       {
+        "seed": 97,
+        "value": 3.357303
+       },
+       {
+        "seed": 98,
+        "value": 3.728033
+       },
+       {
+        "seed": 99,
+        "value": 4.658228
+       },
+       {
+        "seed": 100,
+        "value": 3.357466
+       }
+      ],
+      "rescueTicks": {
+       "mean": 420.42,
+       "median": 416.5,
+       "p5": 256.95,
+       "p95": 609.05,
+       "min": 230,
+       "max": 1028,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.34,
+      "ghostHunt": {
+       "pickups": 86,
+       "catchesPerPickup": {
+        "mean": 1.011628,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 86
+       },
+       "zeroCatchFraction": 0.174419
+      },
+      "bombs": {
+       "collected": 130,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.17,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.483901
+      }
+     },
+     "humanCasual": {
+      "ratio": {
+       "mean": 3.983963,
+       "median": 3.837784,
+       "p5": 2.550794,
+       "p95": 5.997649,
+       "min": 1.801587,
+       "max": 7.471074,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 4.985673
+       },
+       {
+        "seed": 2,
+        "value": 3.213004
+       },
+       {
+        "seed": 3,
+        "value": 3.835249
+       },
+       {
+        "seed": 4,
+        "value": 4.832151
+       },
+       {
+        "seed": 5,
+        "value": 2.848429
+       },
+       {
+        "seed": 6,
+        "value": 3.681818
+       },
+       {
+        "seed": 7,
+        "value": 6.482625
+       },
+       {
+        "seed": 8,
+        "value": 4.302198
+       },
+       {
+        "seed": 9,
+        "value": 5.75082
+       },
+       {
+        "seed": 10,
+        "value": 3.576659
+       },
+       {
+        "seed": 11,
+        "value": 6.786325
+       },
+       {
+        "seed": 12,
+        "value": 4.066986
+       },
+       {
+        "seed": 13,
+        "value": 3.782696
+       },
+       {
+        "seed": 14,
+        "value": 2.536513
+       },
+       {
+        "seed": 15,
+        "value": 3.297468
+       },
+       {
+        "seed": 16,
+        "value": 3.822055
+       },
+       {
+        "seed": 17,
+        "value": 4.841642
+       },
+       {
+        "seed": 18,
+        "value": 3.235828
+       },
+       {
+        "seed": 19,
+        "value": 3.46124
+       },
+       {
+        "seed": 20,
+        "value": 4.032345
+       },
+       {
+        "seed": 21,
+        "value": 4.628743
+       },
+       {
+        "seed": 22,
+        "value": 3.39749
+       },
+       {
+        "seed": 23,
+        "value": 4.773463
+       },
+       {
+        "seed": 24,
+        "value": 4.027848
+       },
+       {
+        "seed": 25,
+        "value": 4.634921
+       },
+       {
+        "seed": 26,
+        "value": 3.326923
+       },
+       {
+        "seed": 27,
+        "value": 4.110629
+       },
+       {
+        "seed": 28,
+        "value": 3.663306
+       },
+       {
+        "seed": 29,
+        "value": 4.169014
+       },
+       {
+        "seed": 30,
+        "value": 4.149864
+       },
+       {
+        "seed": 31,
+        "value": 3.858852
+       },
+       {
+        "seed": 32,
+        "value": 4.141487
+       },
+       {
+        "seed": 33,
+        "value": 3.319588
+       },
+       {
+        "seed": 34,
+        "value": 3.536199
+       },
+       {
+        "seed": 35,
+        "value": 4.883191
+       },
+       {
+        "seed": 36,
+        "value": 2.891798
+       },
+       {
+        "seed": 37,
+        "value": 6.209738
+       },
+       {
+        "seed": 38,
+        "value": 3.441176
+       },
+       {
+        "seed": 39,
+        "value": 5.33526
+       },
+       {
+        "seed": 40,
+        "value": 7.471074
+       },
+       {
+        "seed": 41,
+        "value": 3.428894
+       },
+       {
+        "seed": 42,
+        "value": 3.96728
+       },
+       {
+        "seed": 43,
+        "value": 3.478747
+       },
+       {
+        "seed": 44,
+        "value": 3.476298
+       },
+       {
+        "seed": 45,
+        "value": 3.799205
+       },
+       {
+        "seed": 46,
+        "value": 5.108635
+       },
+       {
+        "seed": 47,
+        "value": 5.986486
+       },
+       {
+        "seed": 48,
+        "value": 4.494083
+       },
+       {
+        "seed": 49,
+        "value": 3.235409
+       },
+       {
+        "seed": 50,
+        "value": 2.771667
+       },
+       {
+        "seed": 51,
+        "value": 5.44403
+       },
+       {
+        "seed": 52,
+        "value": 3.5925
+       },
+       {
+        "seed": 53,
+        "value": 2.305365
+       },
+       {
+        "seed": 54,
+        "value": 4.625995
+       },
+       {
+        "seed": 55,
+        "value": 3.380952
+       },
+       {
+        "seed": 56,
+        "value": 2.702652
+       },
+       {
+        "seed": 57,
+        "value": 3.714286
+       },
+       {
+        "seed": 58,
+        "value": 4.746667
+       },
+       {
+        "seed": 59,
+        "value": 5.718412
+       },
+       {
+        "seed": 60,
+        "value": 4.430303
+       },
+       {
+        "seed": 61,
+        "value": 1.801587
+       },
+       {
+        "seed": 62,
+        "value": 4.768939
+       },
+       {
+        "seed": 63,
+        "value": 3.43871
+       },
+       {
+        "seed": 64,
+        "value": 2.840816
+       },
+       {
+        "seed": 65,
+        "value": 3.003976
+       },
+       {
+        "seed": 66,
+        "value": 4.225806
+       },
+       {
+        "seed": 67,
+        "value": 2.100741
+       },
+       {
+        "seed": 68,
+        "value": 2.551546
+       },
+       {
+        "seed": 69,
+        "value": 4.554745
+       },
+       {
+        "seed": 70,
+        "value": 3.677149
+       },
+       {
+        "seed": 71,
+        "value": 3.459566
+       },
+       {
+        "seed": 72,
+        "value": 3.207627
+       },
+       {
+        "seed": 73,
+        "value": 4.155941
+       },
+       {
+        "seed": 74,
+        "value": 3.906801
+       },
+       {
+        "seed": 75,
+        "value": 6.223077
+       },
+       {
+        "seed": 76,
+        "value": 3.984496
+       },
+       {
+        "seed": 77,
+        "value": 3.49011
+       },
+       {
+        "seed": 78,
+        "value": 4.860274
+       },
+       {
+        "seed": 79,
+        "value": 4.217765
+       },
+       {
+        "seed": 80,
+        "value": 4.022774
+       },
+       {
+        "seed": 81,
+        "value": 3.249509
+       },
+       {
+        "seed": 82,
+        "value": 3.255814
+       },
+       {
+        "seed": 83,
+        "value": 3.765517
+       },
+       {
+        "seed": 84,
+        "value": 2.629688
+       },
+       {
+        "seed": 85,
+        "value": 4.170068
+       },
+       {
+        "seed": 86,
+        "value": 5.710714
+       },
+       {
+        "seed": 87,
+        "value": 4.099762
+       },
+       {
+        "seed": 88,
+        "value": 4.06
+       },
+       {
+        "seed": 89,
+        "value": 3.840319
+       },
+       {
+        "seed": 90,
+        "value": 3.565553
+       },
+       {
+        "seed": 91,
+        "value": 3.847875
+       },
+       {
+        "seed": 92,
+        "value": 3.349776
+       },
+       {
+        "seed": 93,
+        "value": 3.854271
+       },
+       {
+        "seed": 94,
+        "value": 2.963875
+       },
+       {
+        "seed": 95,
+        "value": 2.299187
+       },
+       {
+        "seed": 96,
+        "value": 5.148148
+       },
+       {
+        "seed": 97,
+        "value": 3.283516
+       },
+       {
+        "seed": 98,
+        "value": 3.521739
+       },
+       {
+        "seed": 99,
+        "value": 4.433735
+       },
+       {
+        "seed": 100,
+        "value": 3.104603
+       }
+      ],
+      "rescueTicks": {
+       "mean": 438.78,
+       "median": 441.5,
+       "p5": 266.85,
+       "p95": 616.25,
+       "min": 234,
+       "max": 1008,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.43,
+      "ghostHunt": {
+       "pickups": 85,
+       "catchesPerPickup": {
+        "mean": 1.035294,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 85
+       },
+       "zeroCatchFraction": 0.164706
+      },
+      "bombs": {
+       "collected": 129,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.96,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.480384
+      }
+     },
+     "humanNovice": {
+      "ratio": {
+       "mean": 3.693847,
+       "median": 3.590254,
+       "p5": 2.448798,
+       "p95": 5.335049,
+       "min": 1.799802,
+       "max": 6.155039,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 3.84106
+       },
+       {
+        "seed": 2,
+        "value": 3.004193
+       },
+       {
+        "seed": 3,
+        "value": 3.620253
+       },
+       {
+        "seed": 4,
+        "value": 4.443478
+       },
+       {
+        "seed": 5,
+        "value": 2.722615
+       },
+       {
+        "seed": 6,
+        "value": 3.576159
+       },
+       {
+        "seed": 7,
+        "value": 5.850174
+       },
+       {
+        "seed": 8,
+        "value": 4.448864
+       },
+       {
+        "seed": 9,
+        "value": 5.331307
+       },
+       {
+        "seed": 10,
+        "value": 3.24948
+       },
+       {
+        "seed": 11,
+        "value": 6.155039
+       },
+       {
+        "seed": 12,
+        "value": 3.72807
+       },
+       {
+        "seed": 13,
+        "value": 3.553875
+       },
+       {
+        "seed": 14,
+        "value": 2.448921
+       },
+       {
+        "seed": 15,
+        "value": 3.10119
+       },
+       {
+        "seed": 16,
+        "value": 3.596698
+       },
+       {
+        "seed": 17,
+        "value": 4.486413
+       },
+       {
+        "seed": 18,
+        "value": 3.016913
+       },
+       {
+        "seed": 19,
+        "value": 3.289134
+       },
+       {
+        "seed": 20,
+        "value": 2.791045
+       },
+       {
+        "seed": 21,
+        "value": 4.306407
+       },
+       {
+        "seed": 22,
+        "value": 3.228628
+       },
+       {
+        "seed": 23,
+        "value": 5.139373
+       },
+       {
+        "seed": 24,
+        "value": 3.7
+       },
+       {
+        "seed": 25,
+        "value": 4.358209
+       },
+       {
+        "seed": 26,
+        "value": 3.107784
+       },
+       {
+        "seed": 27,
+        "value": 3.836032
+       },
+       {
+        "seed": 28,
+        "value": 3.514507
+       },
+       {
+        "seed": 29,
+        "value": 4
+       },
+       {
+        "seed": 30,
+        "value": 3.976501
+       },
+       {
+        "seed": 31,
+        "value": 3.616592
+       },
+       {
+        "seed": 32,
+        "value": 3.988453
+       },
+       {
+        "seed": 33,
+        "value": 3.181818
+       },
+       {
+        "seed": 34,
+        "value": 3.504484
+       },
+       {
+        "seed": 35,
+        "value": 4.383632
+       },
+       {
+        "seed": 36,
+        "value": 2.881739
+       },
+       {
+        "seed": 37,
+        "value": 5.817544
+       },
+       {
+        "seed": 38,
+        "value": 3.4125
+       },
+       {
+        "seed": 39,
+        "value": 4.794805
+       },
+       {
+        "seed": 40,
+        "value": 5.24058
+       },
+       {
+        "seed": 41,
+        "value": 3.131959
+       },
+       {
+        "seed": 42,
+        "value": 3.745174
+       },
+       {
+        "seed": 43,
+        "value": 3.344086
+       },
+       {
+        "seed": 44,
+        "value": 3.362445
+       },
+       {
+        "seed": 45,
+        "value": 3.646947
+       },
+       {
+        "seed": 46,
+        "value": 4.851852
+       },
+       {
+        "seed": 47,
+        "value": 5.572327
+       },
+       {
+        "seed": 48,
+        "value": 4.303116
+       },
+       {
+        "seed": 49,
+        "value": 3.040219
+       },
+       {
+        "seed": 50,
+        "value": 2.847603
+       },
+       {
+        "seed": 51,
+        "value": 5.083624
+       },
+       {
+        "seed": 52,
+        "value": 3.381176
+       },
+       {
+        "seed": 53,
+        "value": 2.324549
+       },
+       {
+        "seed": 54,
+        "value": 3.901566
+       },
+       {
+        "seed": 55,
+        "value": 3.240664
+       },
+       {
+        "seed": 56,
+        "value": 2.585145
+       },
+       {
+        "seed": 57,
+        "value": 3.577002
+       },
+       {
+        "seed": 58,
+        "value": 4.483627
+       },
+       {
+        "seed": 59,
+        "value": 5.406143
+       },
+       {
+        "seed": 60,
+        "value": 4.274854
+       },
+       {
+        "seed": 61,
+        "value": 1.799802
+       },
+       {
+        "seed": 62,
+        "value": 4.448763
+       },
+       {
+        "seed": 63,
+        "value": 3.276639
+       },
+       {
+        "seed": 64,
+        "value": 2.789579
+       },
+       {
+        "seed": 65,
+        "value": 2.742287
+       },
+       {
+        "seed": 66,
+        "value": 3.949749
+       },
+       {
+        "seed": 67,
+        "value": 2.028612
+       },
+       {
+        "seed": 68,
+        "value": 2.446458
+       },
+       {
+        "seed": 69,
+        "value": 4.197309
+       },
+       {
+        "seed": 70,
+        "value": 3.829694
+       },
+       {
+        "seed": 71,
+        "value": 3.303202
+       },
+       {
+        "seed": 72,
+        "value": 2.601375
+       },
+       {
+        "seed": 73,
+        "value": 4.00716
+       },
+       {
+        "seed": 74,
+        "value": 3.640845
+       },
+       {
+        "seed": 75,
+        "value": 5.322368
+       },
+       {
+        "seed": 76,
+        "value": 3.680191
+       },
+       {
+        "seed": 77,
+        "value": 3.182365
+       },
+       {
+        "seed": 78,
+        "value": 4.572165
+       },
+       {
+        "seed": 79,
+        "value": 3.853403
+       },
+       {
+        "seed": 80,
+        "value": 4.014463
+       },
+       {
+        "seed": 81,
+        "value": 3.13852
+       },
+       {
+        "seed": 82,
+        "value": 3.283582
+       },
+       {
+        "seed": 83,
+        "value": 3.584245
+       },
+       {
+        "seed": 84,
+        "value": 2.577335
+       },
+       {
+        "seed": 85,
+        "value": 4.02407
+       },
+       {
+        "seed": 86,
+        "value": 3.387712
+       },
+       {
+        "seed": 87,
+        "value": 3.904977
+       },
+       {
+        "seed": 88,
+        "value": 2.970732
+       },
+       {
+        "seed": 89,
+        "value": 3.596262
+       },
+       {
+        "seed": 90,
+        "value": 3.263529
+       },
+       {
+        "seed": 91,
+        "value": 3.613445
+       },
+       {
+        "seed": 92,
+        "value": 3.151899
+       },
+       {
+        "seed": 93,
+        "value": 3.470588
+       },
+       {
+        "seed": 94,
+        "value": 2.963875
+       },
+       {
+        "seed": 95,
+        "value": 1.926431
+       },
+       {
+        "seed": 96,
+        "value": 4.793103
+       },
+       {
+        "seed": 97,
+        "value": 3.158562
+       },
+       {
+        "seed": 98,
+        "value": 3.251825
+       },
+       {
+        "seed": 99,
+        "value": 4.309133
+       },
+       {
+        "seed": 100,
+        "value": 2.97992
+       }
+      ],
+      "rescueTicks": {
+       "mean": 469.28,
+       "median": 467,
+       "p5": 287,
+       "p95": 655.1,
+       "min": 258,
+       "max": 1009,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.46,
+      "ghostHunt": {
+       "pickups": 88,
+       "catchesPerPickup": {
+        "mean": 1.125,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 88
+       },
+       "zeroCatchFraction": 0.159091
+      },
+      "bombs": {
+       "collected": 138,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.75,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.486085
+      }
+     }
+    },
+    "20": {
+     "threeKey": {
+      "ratio": {
+       "mean": 4.91062,
+       "median": 4.648842,
+       "p5": 3.187304,
+       "p95": 7.32528,
+       "min": 2.39434,
+       "max": 8.920455,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.39434
+       },
+       {
+        "seed": 2,
+        "value": 5.395604
+       },
+       {
+        "seed": 3,
+        "value": 5.023346
+       },
+       {
+        "seed": 4,
+        "value": 4.202749
+       },
+       {
+        "seed": 5,
+        "value": 6.270492
+       },
+       {
+        "seed": 6,
+        "value": 4.571788
+       },
+       {
+        "seed": 7,
+        "value": 4.695502
+       },
+       {
+        "seed": 8,
+        "value": 5.365188
+       },
+       {
+        "seed": 9,
+        "value": 3.574879
+       },
+       {
+        "seed": 10,
+        "value": 5.118081
+       },
+       {
+        "seed": 11,
+        "value": 4.05625
+       },
+       {
+        "seed": 12,
+        "value": 4.532915
+       },
+       {
+        "seed": 13,
+        "value": 4.754032
+       },
+       {
+        "seed": 14,
+        "value": 2.9875
+       },
+       {
+        "seed": 15,
+        "value": 4.213889
+       },
+       {
+        "seed": 16,
+        "value": 5.110714
+       },
+       {
+        "seed": 17,
+        "value": 5.634855
+       },
+       {
+        "seed": 18,
+        "value": 6.062745
+       },
+       {
+        "seed": 19,
+        "value": 5.082192
+       },
+       {
+        "seed": 20,
+        "value": 5.814961
+       },
+       {
+        "seed": 21,
+        "value": 4.81155
+       },
+       {
+        "seed": 22,
+        "value": 3.40113
+       },
+       {
+        "seed": 23,
+        "value": 4.135531
+       },
+       {
+        "seed": 24,
+        "value": 4.246291
+       },
+       {
+        "seed": 25,
+        "value": 7.298429
+       },
+       {
+        "seed": 26,
+        "value": 8.836478
+       },
+       {
+        "seed": 27,
+        "value": 7.964286
+       },
+       {
+        "seed": 28,
+        "value": 4.970339
+       },
+       {
+        "seed": 29,
+        "value": 4.520124
+       },
+       {
+        "seed": 30,
+        "value": 4.865471
+       },
+       {
+        "seed": 31,
+        "value": 5.402299
+       },
+       {
+        "seed": 32,
+        "value": 5.29572
+       },
+       {
+        "seed": 33,
+        "value": 3.480106
+       },
+       {
+        "seed": 34,
+        "value": 3.27933
+       },
+       {
+        "seed": 35,
+        "value": 3.189448
+       },
+       {
+        "seed": 36,
+        "value": 3.292857
+       },
+       {
+        "seed": 37,
+        "value": 4.825279
+       },
+       {
+        "seed": 38,
+        "value": 5.252632
+       },
+       {
+        "seed": 39,
+        "value": 3.990854
+       },
+       {
+        "seed": 40,
+        "value": 3.250674
+       },
+       {
+        "seed": 41,
+        "value": 7.117409
+       },
+       {
+        "seed": 42,
+        "value": 4.06962
+       },
+       {
+        "seed": 43,
+        "value": 4.60424
+       },
+       {
+        "seed": 44,
+        "value": 8.920455
+       },
+       {
+        "seed": 45,
+        "value": 4.314189
+       },
+       {
+        "seed": 46,
+        "value": 6.131579
+       },
+       {
+        "seed": 47,
+        "value": 6.167347
+       },
+       {
+        "seed": 48,
+        "value": 7.10101
+       },
+       {
+        "seed": 49,
+        "value": 4.318471
+       },
+       {
+        "seed": 50,
+        "value": 4.322581
+       },
+       {
+        "seed": 51,
+        "value": 3.325183
+       },
+       {
+        "seed": 52,
+        "value": 5.797521
+       },
+       {
+        "seed": 53,
+        "value": 4.198675
+       },
+       {
+        "seed": 54,
+        "value": 7.118012
+       },
+       {
+        "seed": 55,
+        "value": 4.114035
+       },
+       {
+        "seed": 56,
+        "value": 3.639073
+       },
+       {
+        "seed": 57,
+        "value": 2.997579
+       },
+       {
+        "seed": 58,
+        "value": 4.631016
+       },
+       {
+        "seed": 59,
+        "value": 2.794055
+       },
+       {
+        "seed": 60,
+        "value": 5.724907
+       },
+       {
+        "seed": 61,
+        "value": 3.78534
+       },
+       {
+        "seed": 62,
+        "value": 3.558758
+       },
+       {
+        "seed": 63,
+        "value": 3.97929
+       },
+       {
+        "seed": 64,
+        "value": 4.412844
+       },
+       {
+        "seed": 65,
+        "value": 5.871795
+       },
+       {
+        "seed": 66,
+        "value": 6.477366
+       },
+       {
+        "seed": 67,
+        "value": 4.170968
+       },
+       {
+        "seed": 68,
+        "value": 6.488479
+       },
+       {
+        "seed": 69,
+        "value": 3.436747
+       },
+       {
+        "seed": 70,
+        "value": 5.691275
+       },
+       {
+        "seed": 71,
+        "value": 3.913747
+       },
+       {
+        "seed": 72,
+        "value": 4.211268
+       },
+       {
+        "seed": 73,
+        "value": 3.672269
+       },
+       {
+        "seed": 74,
+        "value": 6.269841
+       },
+       {
+        "seed": 75,
+        "value": 4.414439
+       },
+       {
+        "seed": 76,
+        "value": 6.59276
+       },
+       {
+        "seed": 77,
+        "value": 4.666667
+       },
+       {
+        "seed": 78,
+        "value": 4.477419
+       },
+       {
+        "seed": 79,
+        "value": 5.543165
+       },
+       {
+        "seed": 80,
+        "value": 5.344948
+       },
+       {
+        "seed": 81,
+        "value": 5.590106
+       },
+       {
+        "seed": 82,
+        "value": 7.835443
+       },
+       {
+        "seed": 83,
+        "value": 5.530612
+       },
+       {
+        "seed": 84,
+        "value": 4.84252
+       },
+       {
+        "seed": 85,
+        "value": 7.944751
+       },
+       {
+        "seed": 86,
+        "value": 5.953668
+       },
+       {
+        "seed": 87,
+        "value": 4.157343
+       },
+       {
+        "seed": 88,
+        "value": 5.60066
+       },
+       {
+        "seed": 89,
+        "value": 4.070796
+       },
+       {
+        "seed": 90,
+        "value": 6.21466
+       },
+       {
+        "seed": 91,
+        "value": 3.146572
+       },
+       {
+        "seed": 92,
+        "value": 7.182353
+       },
+       {
+        "seed": 93,
+        "value": 4.321875
+       },
+       {
+        "seed": 94,
+        "value": 3.682493
+       },
+       {
+        "seed": 95,
+        "value": 5.363248
+       },
+       {
+        "seed": 96,
+        "value": 3.282258
+       },
+       {
+        "seed": 97,
+        "value": 5.746324
+       },
+       {
+        "seed": 98,
+        "value": 4.091241
+       },
+       {
+        "seed": 99,
+        "value": 3.689474
+       },
+       {
+        "seed": 100,
+        "value": 3.258373
+       }
+      ],
+      "rescueTicks": {
+       "mean": 300.62,
+       "median": 288,
+       "p5": 190.5,
+       "p95": 418.1,
+       "min": 159,
+       "max": 530,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.47,
+      "ghostHunt": {
+       "pickups": 40,
+       "catchesPerPickup": {
+        "mean": 0.625,
+        "median": 1,
+        "p5": 0,
+        "p95": 1,
+        "min": 0,
+        "max": 2,
+        "count": 40
+       },
+       "zeroCatchFraction": 0.4
+      },
+      "bombs": {
+       "collected": 115,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.4,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.482504
+      }
+     },
+     "humanSkilled": {
+      "ratio": {
+       "mean": 4.113505,
+       "median": 3.958633,
+       "p5": 2.580209,
+       "p95": 6.299296,
+       "min": 1.870091,
+       "max": 7.677596,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.341328
+       },
+       {
+        "seed": 2,
+        "value": 3.786632
+       },
+       {
+        "seed": 3,
+        "value": 4.594306
+       },
+       {
+        "seed": 4,
+        "value": 3.740061
+       },
+       {
+        "seed": 5,
+        "value": 5.151515
+       },
+       {
+        "seed": 6,
+        "value": 4.191686
+       },
+       {
+        "seed": 7,
+        "value": 4.175385
+       },
+       {
+        "seed": 8,
+        "value": 4.958991
+       },
+       {
+        "seed": 9,
+        "value": 3.967828
+       },
+       {
+        "seed": 10,
+        "value": 4.701695
+       },
+       {
+        "seed": 11,
+        "value": 3.165854
+       },
+       {
+        "seed": 12,
+        "value": 3.815303
+       },
+       {
+        "seed": 13,
+        "value": 3.803226
+       },
+       {
+        "seed": 14,
+        "value": 2.580994
+       },
+       {
+        "seed": 15,
+        "value": 4.583082
+       },
+       {
+        "seed": 16,
+        "value": 4.571885
+       },
+       {
+        "seed": 17,
+        "value": 4.557047
+       },
+       {
+        "seed": 18,
+        "value": 5.170569
+       },
+       {
+        "seed": 19,
+        "value": 4.580247
+       },
+       {
+        "seed": 20,
+        "value": 5.02381
+       },
+       {
+        "seed": 21,
+        "value": 4.434174
+       },
+       {
+        "seed": 22,
+        "value": 3.5
+       },
+       {
+        "seed": 23,
+        "value": 2.694511
+       },
+       {
+        "seed": 24,
+        "value": 4.389571
+       },
+       {
+        "seed": 25,
+        "value": 6.034632
+       },
+       {
+        "seed": 26,
+        "value": 7.677596
+       },
+       {
+        "seed": 27,
+        "value": 7.363208
+       },
+       {
+        "seed": 28,
+        "value": 4.3125
+       },
+       {
+        "seed": 29,
+        "value": 4.147727
+       },
+       {
+        "seed": 30,
+        "value": 2.908847
+       },
+       {
+        "seed": 31,
+        "value": 4.134897
+       },
+       {
+        "seed": 32,
+        "value": 4.613559
+       },
+       {
+        "seed": 33,
+        "value": 3.207824
+       },
+       {
+        "seed": 34,
+        "value": 2.979695
+       },
+       {
+        "seed": 35,
+        "value": 2.949002
+       },
+       {
+        "seed": 36,
+        "value": 3.026258
+       },
+       {
+        "seed": 37,
+        "value": 4.554386
+       },
+       {
+        "seed": 38,
+        "value": 3.780303
+       },
+       {
+        "seed": 39,
+        "value": 3.4
+       },
+       {
+        "seed": 40,
+        "value": 2.441296
+       },
+       {
+        "seed": 41,
+        "value": 4.428212
+       },
+       {
+        "seed": 42,
+        "value": 3.280612
+       },
+       {
+        "seed": 43,
+        "value": 2.941309
+       },
+       {
+        "seed": 44,
+        "value": 5.567376
+       },
+       {
+        "seed": 45,
+        "value": 2.915525
+       },
+       {
+        "seed": 46,
+        "value": 3.690045
+       },
+       {
+        "seed": 47,
+        "value": 5.6171
+       },
+       {
+        "seed": 48,
+        "value": 3.949438
+       },
+       {
+        "seed": 49,
+        "value": 3.725275
+       },
+       {
+        "seed": 50,
+        "value": 3.980198
+       },
+       {
+        "seed": 51,
+        "value": 2.709163
+       },
+       {
+        "seed": 52,
+        "value": 5.274436
+       },
+       {
+        "seed": 53,
+        "value": 3.889571
+       },
+       {
+        "seed": 54,
+        "value": 6.474576
+       },
+       {
+        "seed": 55,
+        "value": 3.854795
+       },
+       {
+        "seed": 56,
+        "value": 2.648193
+       },
+       {
+        "seed": 57,
+        "value": 1.870091
+       },
+       {
+        "seed": 58,
+        "value": 3.195572
+       },
+       {
+        "seed": 59,
+        "value": 2.565302
+       },
+       {
+        "seed": 60,
+        "value": 5.255973
+       },
+       {
+        "seed": 61,
+        "value": 3.316514
+       },
+       {
+        "seed": 62,
+        "value": 3.255578
+       },
+       {
+        "seed": 63,
+        "value": 3.502604
+       },
+       {
+        "seed": 64,
+        "value": 3.807388
+       },
+       {
+        "seed": 65,
+        "value": 4.595318
+       },
+       {
+        "seed": 66,
+        "value": 5.895131
+       },
+       {
+        "seed": 67,
+        "value": 3.736994
+       },
+       {
+        "seed": 68,
+        "value": 3.734748
+       },
+       {
+        "seed": 69,
+        "value": 3.5
+       },
+       {
+        "seed": 70,
+        "value": 5.234568
+       },
+       {
+        "seed": 71,
+        "value": 3.507246
+       },
+       {
+        "seed": 72,
+        "value": 3.476744
+       },
+       {
+        "seed": 73,
+        "value": 3.335878
+       },
+       {
+        "seed": 74,
+        "value": 5.448276
+       },
+       {
+        "seed": 75,
+        "value": 3.987923
+       },
+       {
+        "seed": 76,
+        "value": 5.946939
+       },
+       {
+        "seed": 77,
+        "value": 4.281787
+       },
+       {
+        "seed": 78,
+        "value": 4.257669
+       },
+       {
+        "seed": 79,
+        "value": 4.131367
+       },
+       {
+        "seed": 80,
+        "value": 4.047493
+       },
+       {
+        "seed": 81,
+        "value": 4.44382
+       },
+       {
+        "seed": 82,
+        "value": 6.403448
+       },
+       {
+        "seed": 83,
+        "value": 3.702186
+       },
+       {
+        "seed": 84,
+        "value": 4.280742
+       },
+       {
+        "seed": 85,
+        "value": 7.014634
+       },
+       {
+        "seed": 86,
+        "value": 4.343662
+       },
+       {
+        "seed": 87,
+        "value": 2.987437
+       },
+       {
+        "seed": 88,
+        "value": 4.2425
+       },
+       {
+        "seed": 89,
+        "value": 3.801653
+       },
+       {
+        "seed": 90,
+        "value": 5.52093
+       },
+       {
+        "seed": 91,
+        "value": 3.493438
+       },
+       {
+        "seed": 92,
+        "value": 6.293814
+       },
+       {
+        "seed": 93,
+        "value": 3.884831
+       },
+       {
+        "seed": 94,
+        "value": 3.223377
+       },
+       {
+        "seed": 95,
+        "value": 4.254237
+       },
+       {
+        "seed": 96,
+        "value": 2.921053
+       },
+       {
+        "seed": 97,
+        "value": 3.584862
+       },
+       {
+        "seed": 98,
+        "value": 4.198502
+       },
+       {
+        "seed": 99,
+        "value": 3.478908
+       },
+       {
+        "seed": 100,
+        "value": 2.432143
+       }
+      ],
+      "rescueTicks": {
+       "mean": 358.16,
+       "median": 356.5,
+       "p5": 214.85,
+       "p95": 502.55,
+       "min": 177,
+       "max": 662,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.43,
+      "ghostHunt": {
+       "pickups": 82,
+       "catchesPerPickup": {
+        "mean": 1.109756,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 3,
+        "count": 82
+       },
+       "zeroCatchFraction": 0.121951
+      },
+      "bombs": {
+       "collected": 135,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.33,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.485974
+      }
+     },
+     "humanCasual": {
+      "ratio": {
+       "mean": 3.958229,
+       "median": 3.793866,
+       "p5": 2.484338,
+       "p95": 5.771382,
+       "min": 1.870091,
+       "max": 6.846491,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.19171
+       },
+       {
+        "seed": 2,
+        "value": 3.566586
+       },
+       {
+        "seed": 3,
+        "value": 4.317726
+       },
+       {
+        "seed": 4,
+        "value": 3.597059
+       },
+       {
+        "seed": 5,
+        "value": 4.841772
+       },
+       {
+        "seed": 6,
+        "value": 4.042316
+       },
+       {
+        "seed": 7,
+        "value": 3.844193
+       },
+       {
+        "seed": 8,
+        "value": 4.866873
+       },
+       {
+        "seed": 9,
+        "value": 3.824289
+       },
+       {
+        "seed": 10,
+        "value": 4.517915
+       },
+       {
+        "seed": 11,
+        "value": 3.158151
+       },
+       {
+        "seed": 12,
+        "value": 3.736434
+       },
+       {
+        "seed": 13,
+        "value": 3.731013
+       },
+       {
+        "seed": 14,
+        "value": 2.484407
+       },
+       {
+        "seed": 15,
+        "value": 4.371758
+       },
+       {
+        "seed": 16,
+        "value": 4.271642
+       },
+       {
+        "seed": 17,
+        "value": 4.394822
+       },
+       {
+        "seed": 18,
+        "value": 4.876972
+       },
+       {
+        "seed": 19,
+        "value": 4.46988
+       },
+       {
+        "seed": 20,
+        "value": 4.795455
+       },
+       {
+        "seed": 21,
+        "value": 4.176781
+       },
+       {
+        "seed": 22,
+        "value": 3.382022
+       },
+       {
+        "seed": 23,
+        "value": 3.726073
+       },
+       {
+        "seed": 24,
+        "value": 4.159884
+       },
+       {
+        "seed": 25,
+        "value": 5.881857
+       },
+       {
+        "seed": 26,
+        "value": 5.531496
+       },
+       {
+        "seed": 27,
+        "value": 6.846491
+       },
+       {
+        "seed": 28,
+        "value": 3.962838
+       },
+       {
+        "seed": 29,
+        "value": 4.022039
+       },
+       {
+        "seed": 30,
+        "value": 3.604651
+       },
+       {
+        "seed": 31,
+        "value": 4.684385
+       },
+       {
+        "seed": 32,
+        "value": 4.491749
+       },
+       {
+        "seed": 33,
+        "value": 3.146283
+       },
+       {
+        "seed": 34,
+        "value": 2.730233
+       },
+       {
+        "seed": 35,
+        "value": 2.835821
+       },
+       {
+        "seed": 36,
+        "value": 2.961456
+       },
+       {
+        "seed": 37,
+        "value": 4.4
+       },
+       {
+        "seed": 38,
+        "value": 3.615942
+       },
+       {
+        "seed": 39,
+        "value": 3.200489
+       },
+       {
+        "seed": 40,
+        "value": 2.40239
+       },
+       {
+        "seed": 41,
+        "value": 4.195704
+       },
+       {
+        "seed": 42,
+        "value": 3.121359
+       },
+       {
+        "seed": 43,
+        "value": 2.79015
+       },
+       {
+        "seed": 44,
+        "value": 5.451389
+       },
+       {
+        "seed": 45,
+        "value": 2.850446
+       },
+       {
+        "seed": 46,
+        "value": 3.723744
+       },
+       {
+        "seed": 47,
+        "value": 5.264808
+       },
+       {
+        "seed": 48,
+        "value": 4.339506
+       },
+       {
+        "seed": 49,
+        "value": 3.53125
+       },
+       {
+        "seed": 50,
+        "value": 3.980198
+       },
+       {
+        "seed": 51,
+        "value": 2.693069
+       },
+       {
+        "seed": 52,
+        "value": 4.940141
+       },
+       {
+        "seed": 53,
+        "value": 3.686047
+       },
+       {
+        "seed": 54,
+        "value": 5.758794
+       },
+       {
+        "seed": 55,
+        "value": 3.692913
+       },
+       {
+        "seed": 56,
+        "value": 2.549884
+       },
+       {
+        "seed": 57,
+        "value": 1.870091
+       },
+       {
+        "seed": 58,
+        "value": 3.143376
+       },
+       {
+        "seed": 59,
+        "value": 2.483019
+       },
+       {
+        "seed": 60,
+        "value": 5.04918
+       },
+       {
+        "seed": 61,
+        "value": 3.605985
+       },
+       {
+        "seed": 62,
+        "value": 3.116505
+       },
+       {
+        "seed": 63,
+        "value": 3.3625
+       },
+       {
+        "seed": 64,
+        "value": 3.690537
+       },
+       {
+        "seed": 65,
+        "value": 4.418006
+       },
+       {
+        "seed": 66,
+        "value": 5.765568
+       },
+       {
+        "seed": 67,
+        "value": 3.552198
+       },
+       {
+        "seed": 68,
+        "value": 3.774799
+       },
+       {
+        "seed": 69,
+        "value": 2.933162
+       },
+       {
+        "seed": 70,
+        "value": 4.845714
+       },
+       {
+        "seed": 71,
+        "value": 3.457143
+       },
+       {
+        "seed": 72,
+        "value": 3.359551
+       },
+       {
+        "seed": 73,
+        "value": 3.237037
+       },
+       {
+        "seed": 74,
+        "value": 5.197368
+       },
+       {
+        "seed": 75,
+        "value": 3.812933
+       },
+       {
+        "seed": 76,
+        "value": 5.669261
+       },
+       {
+        "seed": 77,
+        "value": 4.112211
+       },
+       {
+        "seed": 78,
+        "value": 4.05848
+       },
+       {
+        "seed": 79,
+        "value": 4.065963
+       },
+       {
+        "seed": 80,
+        "value": 3.963824
+       },
+       {
+        "seed": 81,
+        "value": 4.298913
+       },
+       {
+        "seed": 82,
+        "value": 6.403448
+       },
+       {
+        "seed": 83,
+        "value": 3.362283
+       },
+       {
+        "seed": 84,
+        "value": 4.109131
+       },
+       {
+        "seed": 85,
+        "value": 6.225108
+       },
+       {
+        "seed": 86,
+        "value": 4.122995
+       },
+       {
+        "seed": 87,
+        "value": 2.497899
+       },
+       {
+        "seed": 88,
+        "value": 4.030879
+       },
+       {
+        "seed": 89,
+        "value": 3.68
+       },
+       {
+        "seed": 90,
+        "value": 5.229075
+       },
+       {
+        "seed": 91,
+        "value": 3.457143
+       },
+       {
+        "seed": 92,
+        "value": 6.708791
+       },
+       {
+        "seed": 93,
+        "value": 3.758152
+       },
+       {
+        "seed": 94,
+        "value": 3.094763
+       },
+       {
+        "seed": 95,
+        "value": 4.087948
+       },
+       {
+        "seed": 96,
+        "value": 3.18799
+       },
+       {
+        "seed": 97,
+        "value": 3.634884
+       },
+       {
+        "seed": 98,
+        "value": 3.239884
+       },
+       {
+        "seed": 99,
+        "value": 3.513784
+       },
+       {
+        "seed": 100,
+        "value": 2.402116
+       }
+      ],
+      "rescueTicks": {
+       "mean": 369.91,
+       "median": 370.5,
+       "p5": 236.7,
+       "p95": 515.75,
+       "min": 182,
+       "max": 662,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.45,
+      "ghostHunt": {
+       "pickups": 83,
+       "catchesPerPickup": {
+        "mean": 1.060241,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 83
+       },
+       "zeroCatchFraction": 0.144578
+      },
+      "bombs": {
+       "collected": 132,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.19,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.485221
+      }
+     },
+     "humanNovice": {
+      "ratio": {
+       "mean": 3.712841,
+       "median": 3.633908,
+       "p5": 2.408135,
+       "p95": 5.362866,
+       "min": 1.747676,
+       "max": 6.504167,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.122074
+       },
+       {
+        "seed": 2,
+        "value": 3.48227
+       },
+       {
+        "seed": 3,
+        "value": 4.072555
+       },
+       {
+        "seed": 4,
+        "value": 3.209974
+       },
+       {
+        "seed": 5,
+        "value": 4.5
+       },
+       {
+        "seed": 6,
+        "value": 3.821053
+       },
+       {
+        "seed": 7,
+        "value": 3.628342
+       },
+       {
+        "seed": 8,
+        "value": 4.609971
+       },
+       {
+        "seed": 9,
+        "value": 3.557692
+       },
+       {
+        "seed": 10,
+        "value": 4.347962
+       },
+       {
+        "seed": 11,
+        "value": 2.923423
+       },
+       {
+        "seed": 12,
+        "value": 3.492754
+       },
+       {
+        "seed": 13,
+        "value": 3.52994
+       },
+       {
+        "seed": 14,
+        "value": 2.371032
+       },
+       {
+        "seed": 15,
+        "value": 2.917308
+       },
+       {
+        "seed": 16,
+        "value": 3.953039
+       },
+       {
+        "seed": 17,
+        "value": 3.857955
+       },
+       {
+        "seed": 18,
+        "value": 4.455331
+       },
+       {
+        "seed": 19,
+        "value": 4.168539
+       },
+       {
+        "seed": 20,
+        "value": 4.422156
+       },
+       {
+        "seed": 21,
+        "value": 3.967419
+       },
+       {
+        "seed": 22,
+        "value": 3.143603
+       },
+       {
+        "seed": 23,
+        "value": 3.550314
+       },
+       {
+        "seed": 24,
+        "value": 3.857143
+       },
+       {
+        "seed": 25,
+        "value": 5.162963
+       },
+       {
+        "seed": 26,
+        "value": 4.89547
+       },
+       {
+        "seed": 27,
+        "value": 6.504167
+       },
+       {
+        "seed": 28,
+        "value": 3.712025
+       },
+       {
+        "seed": 29,
+        "value": 3.802083
+       },
+       {
+        "seed": 30,
+        "value": 2.782051
+       },
+       {
+        "seed": 31,
+        "value": 4.490446
+       },
+       {
+        "seed": 32,
+        "value": 4.050595
+       },
+       {
+        "seed": 33,
+        "value": 3.079812
+       },
+       {
+        "seed": 34,
+        "value": 2.692661
+       },
+       {
+        "seed": 35,
+        "value": 2.670683
+       },
+       {
+        "seed": 36,
+        "value": 2.777108
+       },
+       {
+        "seed": 37,
+        "value": 4.312292
+       },
+       {
+        "seed": 38,
+        "value": 3.364045
+       },
+       {
+        "seed": 39,
+        "value": 3.07277
+       },
+       {
+        "seed": 40,
+        "value": 2.07931
+       },
+       {
+        "seed": 41,
+        "value": 3.915367
+       },
+       {
+        "seed": 42,
+        "value": 2.942792
+       },
+       {
+        "seed": 43,
+        "value": 2.692149
+       },
+       {
+        "seed": 44,
+        "value": 4.845679
+       },
+       {
+        "seed": 45,
+        "value": 2.671548
+       },
+       {
+        "seed": 46,
+        "value": 3.706818
+       },
+       {
+        "seed": 47,
+        "value": 4.954098
+       },
+       {
+        "seed": 48,
+        "value": 3.642487
+       },
+       {
+        "seed": 49,
+        "value": 3.339901
+       },
+       {
+        "seed": 50,
+        "value": 3.688073
+       },
+       {
+        "seed": 51,
+        "value": 2.513863
+       },
+       {
+        "seed": 52,
+        "value": 4.755932
+       },
+       {
+        "seed": 53,
+        "value": 3.571831
+       },
+       {
+        "seed": 54,
+        "value": 5.536232
+       },
+       {
+        "seed": 55,
+        "value": 3.580153
+       },
+       {
+        "seed": 56,
+        "value": 2.410088
+       },
+       {
+        "seed": 57,
+        "value": 2.852535
+       },
+       {
+        "seed": 58,
+        "value": 2.99654
+       },
+       {
+        "seed": 59,
+        "value": 1.747676
+       },
+       {
+        "seed": 60,
+        "value": 4.767802
+       },
+       {
+        "seed": 61,
+        "value": 3.037815
+       },
+       {
+        "seed": 62,
+        "value": 2.955801
+       },
+       {
+        "seed": 63,
+        "value": 3.17217
+       },
+       {
+        "seed": 64,
+        "value": 3.460432
+       },
+       {
+        "seed": 65,
+        "value": 4.214724
+       },
+       {
+        "seed": 66,
+        "value": 5.353741
+       },
+       {
+        "seed": 67,
+        "value": 3.341085
+       },
+       {
+        "seed": 68,
+        "value": 3.868132
+       },
+       {
+        "seed": 69,
+        "value": 3.108992
+       },
+       {
+        "seed": 70,
+        "value": 4.596206
+       },
+       {
+        "seed": 71,
+        "value": 3.307517
+       },
+       {
+        "seed": 72,
+        "value": 3.114583
+       },
+       {
+        "seed": 73,
+        "value": 3.269327
+       },
+       {
+        "seed": 74,
+        "value": 4.773414
+       },
+       {
+        "seed": 75,
+        "value": 3.786697
+       },
+       {
+        "seed": 76,
+        "value": 5.298182
+       },
+       {
+        "seed": 77,
+        "value": 3.88162
+       },
+       {
+        "seed": 78,
+        "value": 3.513924
+       },
+       {
+        "seed": 79,
+        "value": 3.992228
+       },
+       {
+        "seed": 80,
+        "value": 3.778325
+       },
+       {
+        "seed": 81,
+        "value": 4.130548
+       },
+       {
+        "seed": 82,
+        "value": 5.696319
+       },
+       {
+        "seed": 83,
+        "value": 3.180751
+       },
+       {
+        "seed": 84,
+        "value": 3.859833
+       },
+       {
+        "seed": 85,
+        "value": 6.225108
+       },
+       {
+        "seed": 86,
+        "value": 3.874372
+       },
+       {
+        "seed": 87,
+        "value": 2.451546
+       },
+       {
+        "seed": 88,
+        "value": 3.892202
+       },
+       {
+        "seed": 89,
+        "value": 4.246154
+       },
+       {
+        "seed": 90,
+        "value": 4.844898
+       },
+       {
+        "seed": 91,
+        "value": 3.502632
+       },
+       {
+        "seed": 92,
+        "value": 5.55
+       },
+       {
+        "seed": 93,
+        "value": 3.639474
+       },
+       {
+        "seed": 94,
+        "value": 2.866051
+       },
+       {
+        "seed": 95,
+        "value": 3.81459
+       },
+       {
+        "seed": 96,
+        "value": 3.10687
+       },
+       {
+        "seed": 97,
+        "value": 3.496644
+       },
+       {
+        "seed": 98,
+        "value": 2.934555
+       },
+       {
+        "seed": 99,
+        "value": 3.386473
+       },
+       {
+        "seed": 100,
+        "value": 2.218241
+       }
+      ],
+      "rescueTicks": {
+       "mean": 393.17,
+       "median": 386,
+       "p5": 265.9,
+       "p95": 544.75,
+       "min": 207,
+       "max": 753,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.34,
+      "ghostHunt": {
+       "pickups": 81,
+       "catchesPerPickup": {
+        "mean": 1.222222,
+        "median": 1,
+        "p5": 1,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 81
+       },
+       "zeroCatchFraction": 0.037037
+      },
+      "bombs": {
+       "collected": 139,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.04,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.483129
+      }
+     }
+    },
+    "40": {
+     "threeKey": {
+      "ratio": {
+       "mean": 5.077691,
+       "median": 4.872813,
+       "p5": 3.218091,
+       "p95": 7.643436,
+       "min": 2.732283,
+       "max": 8.378698,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 3.325581
+       },
+       {
+        "seed": 2,
+        "value": 8.226804
+       },
+       {
+        "seed": 3,
+        "value": 4.821429
+       },
+       {
+        "seed": 4,
+        "value": 6.657534
+       },
+       {
+        "seed": 5,
+        "value": 6.345455
+       },
+       {
+        "seed": 6,
+        "value": 4.483333
+       },
+       {
+        "seed": 7,
+        "value": 7.315789
+       },
+       {
+        "seed": 8,
+        "value": 4.631034
+       },
+       {
+        "seed": 9,
+        "value": 4.988
+       },
+       {
+        "seed": 10,
+        "value": 3.810526
+       },
+       {
+        "seed": 11,
+        "value": 3.940054
+       },
+       {
+        "seed": 12,
+        "value": 3.163158
+       },
+       {
+        "seed": 13,
+        "value": 8.378698
+       },
+       {
+        "seed": 14,
+        "value": 5.301538
+       },
+       {
+        "seed": 15,
+        "value": 4.985714
+       },
+       {
+        "seed": 16,
+        "value": 7.033816
+       },
+       {
+        "seed": 17,
+        "value": 3.785366
+       },
+       {
+        "seed": 18,
+        "value": 3.771117
+       },
+       {
+        "seed": 19,
+        "value": 3.105405
+       },
+       {
+        "seed": 20,
+        "value": 4.772414
+       },
+       {
+        "seed": 21,
+        "value": 5.08
+       },
+       {
+        "seed": 22,
+        "value": 7.647619
+       },
+       {
+        "seed": 23,
+        "value": 4.470968
+       },
+       {
+        "seed": 24,
+        "value": 6.113636
+       },
+       {
+        "seed": 25,
+        "value": 7.447005
+       },
+       {
+        "seed": 26,
+        "value": 4.491573
+       },
+       {
+        "seed": 27,
+        "value": 5.994845
+       },
+       {
+        "seed": 28,
+        "value": 3.925
+       },
+       {
+        "seed": 29,
+        "value": 4.103679
+       },
+       {
+        "seed": 30,
+        "value": 3.002801
+       },
+       {
+        "seed": 31,
+        "value": 4.416667
+       },
+       {
+        "seed": 32,
+        "value": 4.026471
+       },
+       {
+        "seed": 33,
+        "value": 5.1
+       },
+       {
+        "seed": 34,
+        "value": 5.082031
+       },
+       {
+        "seed": 35,
+        "value": 4.688356
+       },
+       {
+        "seed": 36,
+        "value": 5.333333
+       },
+       {
+        "seed": 37,
+        "value": 5.899582
+       },
+       {
+        "seed": 38,
+        "value": 3.318878
+       },
+       {
+        "seed": 39,
+        "value": 3.364706
+       },
+       {
+        "seed": 40,
+        "value": 4.712803
+       },
+       {
+        "seed": 41,
+        "value": 4.866197
+       },
+       {
+        "seed": 42,
+        "value": 6.3125
+       },
+       {
+        "seed": 43,
+        "value": 5.104603
+       },
+       {
+        "seed": 44,
+        "value": 5.437247
+       },
+       {
+        "seed": 45,
+        "value": 4.092063
+       },
+       {
+        "seed": 46,
+        "value": 5.600746
+       },
+       {
+        "seed": 47,
+        "value": 6.516667
+       },
+       {
+        "seed": 48,
+        "value": 5.352273
+       },
+       {
+        "seed": 49,
+        "value": 4.938462
+       },
+       {
+        "seed": 50,
+        "value": 3.381188
+       },
+       {
+        "seed": 51,
+        "value": 4.873077
+       },
+       {
+        "seed": 52,
+        "value": 7.505556
+       },
+       {
+        "seed": 53,
+        "value": 6.603306
+       },
+       {
+        "seed": 54,
+        "value": 2.732283
+       },
+       {
+        "seed": 55,
+        "value": 5.546816
+       },
+       {
+        "seed": 56,
+        "value": 4.134454
+       },
+       {
+        "seed": 57,
+        "value": 5.790795
+       },
+       {
+        "seed": 58,
+        "value": 4.872549
+       },
+       {
+        "seed": 59,
+        "value": 7.643216
+       },
+       {
+        "seed": 60,
+        "value": 6.464912
+       },
+       {
+        "seed": 61,
+        "value": 5.132
+       },
+       {
+        "seed": 62,
+        "value": 5.904564
+       },
+       {
+        "seed": 63,
+        "value": 4.464164
+       },
+       {
+        "seed": 64,
+        "value": 3.220982
+       },
+       {
+        "seed": 65,
+        "value": 3.245714
+       },
+       {
+        "seed": 66,
+        "value": 4.483871
+       },
+       {
+        "seed": 67,
+        "value": 6.804124
+       },
+       {
+        "seed": 68,
+        "value": 4.2
+       },
+       {
+        "seed": 69,
+        "value": 4.211073
+       },
+       {
+        "seed": 70,
+        "value": 4.691257
+       },
+       {
+        "seed": 71,
+        "value": 4.639073
+       },
+       {
+        "seed": 72,
+        "value": 4.154545
+       },
+       {
+        "seed": 73,
+        "value": 8.314465
+       },
+       {
+        "seed": 74,
+        "value": 7.263736
+       },
+       {
+        "seed": 75,
+        "value": 5.296296
+       },
+       {
+        "seed": 76,
+        "value": 3.524862
+       },
+       {
+        "seed": 77,
+        "value": 3.270983
+       },
+       {
+        "seed": 78,
+        "value": 3.745455
+       },
+       {
+        "seed": 79,
+        "value": 4.454545
+       },
+       {
+        "seed": 80,
+        "value": 7.942675
+       },
+       {
+        "seed": 81,
+        "value": 3.096257
+       },
+       {
+        "seed": 82,
+        "value": 4.987097
+       },
+       {
+        "seed": 83,
+        "value": 6.661111
+       },
+       {
+        "seed": 84,
+        "value": 6.0837
+       },
+       {
+        "seed": 85,
+        "value": 5.290909
+       },
+       {
+        "seed": 86,
+        "value": 5.045082
+       },
+       {
+        "seed": 87,
+        "value": 5.840467
+       },
+       {
+        "seed": 88,
+        "value": 4.846386
+       },
+       {
+        "seed": 89,
+        "value": 5.640625
+       },
+       {
+        "seed": 90,
+        "value": 5.297659
+       },
+       {
+        "seed": 91,
+        "value": 5.665306
+       },
+       {
+        "seed": 92,
+        "value": 4.755932
+       },
+       {
+        "seed": 93,
+        "value": 3.678571
+       },
+       {
+        "seed": 94,
+        "value": 7.466667
+       },
+       {
+        "seed": 95,
+        "value": 4.617857
+       },
+       {
+        "seed": 96,
+        "value": 4.310105
+       },
+       {
+        "seed": 97,
+        "value": 4.15
+       },
+       {
+        "seed": 98,
+        "value": 5.127753
+       },
+       {
+        "seed": 99,
+        "value": 4.172107
+       },
+       {
+        "seed": 100,
+        "value": 3.239474
+       }
+      ],
+      "rescueTicks": {
+       "mean": 286.52,
+       "median": 286,
+       "p5": 181.9,
+       "p95": 392.6,
+       "min": 157,
+       "max": 508,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.53,
+      "ghostHunt": {
+       "pickups": 40,
+       "catchesPerPickup": {
+        "mean": 0.475,
+        "median": 0,
+        "p5": 0,
+        "p95": 1,
+        "min": 0,
+        "max": 2,
+        "count": 40
+       },
+       "zeroCatchFraction": 0.55
+      },
+      "bombs": {
+       "collected": 108,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.36,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.481538
+      }
+     },
+     "humanSkilled": {
+      "ratio": {
+       "mean": 4.303326,
+       "median": 4.207074,
+       "p5": 2.901551,
+       "p95": 6.143156,
+       "min": 2.126079,
+       "max": 7.208531,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.867168
+       },
+       {
+        "seed": 2,
+        "value": 4.925926
+       },
+       {
+        "seed": 3,
+        "value": 3.571429
+       },
+       {
+        "seed": 4,
+        "value": 6
+       },
+       {
+        "seed": 5,
+        "value": 5.208955
+       },
+       {
+        "seed": 6,
+        "value": 4.177019
+       },
+       {
+        "seed": 7,
+        "value": 5.940171
+       },
+       {
+        "seed": 8,
+        "value": 3.772472
+       },
+       {
+        "seed": 9,
+        "value": 3.646199
+       },
+       {
+        "seed": 10,
+        "value": 3.375291
+       },
+       {
+        "seed": 11,
+        "value": 3.41844
+       },
+       {
+        "seed": 12,
+        "value": 2.579399
+       },
+       {
+        "seed": 13,
+        "value": 6.907317
+       },
+       {
+        "seed": 14,
+        "value": 4.936963
+       },
+       {
+        "seed": 15,
+        "value": 4.069971
+       },
+       {
+        "seed": 16,
+        "value": 6.30303
+       },
+       {
+        "seed": 17,
+        "value": 3.403509
+       },
+       {
+        "seed": 18,
+        "value": 3.539642
+       },
+       {
+        "seed": 19,
+        "value": 3.097035
+       },
+       {
+        "seed": 20,
+        "value": 4.106825
+       },
+       {
+        "seed": 21,
+        "value": 4.150327
+       },
+       {
+        "seed": 22,
+        "value": 5.65493
+       },
+       {
+        "seed": 23,
+        "value": 4.00578
+       },
+       {
+        "seed": 24,
+        "value": 5.253906
+       },
+       {
+        "seed": 25,
+        "value": 4.539326
+       },
+       {
+        "seed": 26,
+        "value": 3.667431
+       },
+       {
+        "seed": 27,
+        "value": 5.334862
+       },
+       {
+        "seed": 28,
+        "value": 2.962264
+       },
+       {
+        "seed": 29,
+        "value": 3.82243
+       },
+       {
+        "seed": 30,
+        "value": 2.403587
+       },
+       {
+        "seed": 31,
+        "value": 3.808383
+       },
+       {
+        "seed": 32,
+        "value": 3.546632
+       },
+       {
+        "seed": 33,
+        "value": 4.459016
+       },
+       {
+        "seed": 34,
+        "value": 4.322259
+       },
+       {
+        "seed": 35,
+        "value": 4.332278
+       },
+       {
+        "seed": 36,
+        "value": 4.659649
+       },
+       {
+        "seed": 37,
+        "value": 4.533762
+       },
+       {
+        "seed": 38,
+        "value": 2.904018
+       },
+       {
+        "seed": 39,
+        "value": 3.002625
+       },
+       {
+        "seed": 40,
+        "value": 4.351438
+       },
+       {
+        "seed": 41,
+        "value": 2.903361
+       },
+       {
+        "seed": 42,
+        "value": 5.695489
+       },
+       {
+        "seed": 43,
+        "value": 4.638783
+       },
+       {
+        "seed": 44,
+        "value": 4.745583
+       },
+       {
+        "seed": 45,
+        "value": 3.758017
+       },
+       {
+        "seed": 46,
+        "value": 4.376093
+       },
+       {
+        "seed": 47,
+        "value": 4.82716
+       },
+       {
+        "seed": 48,
+        "value": 4.528846
+       },
+       {
+        "seed": 49,
+        "value": 3.014085
+       },
+       {
+        "seed": 50,
+        "value": 3.104545
+       },
+       {
+        "seed": 51,
+        "value": 4.461268
+       },
+       {
+        "seed": 52,
+        "value": 5.724576
+       },
+       {
+        "seed": 53,
+        "value": 5.748201
+       },
+       {
+        "seed": 54,
+        "value": 2.469751
+       },
+       {
+        "seed": 55,
+        "value": 4.887789
+       },
+       {
+        "seed": 56,
+        "value": 4.541538
+       },
+       {
+        "seed": 57,
+        "value": 5.302682
+       },
+       {
+        "seed": 58,
+        "value": 4.718354
+       },
+       {
+        "seed": 59,
+        "value": 7.208531
+       },
+       {
+        "seed": 60,
+        "value": 4.5919
+       },
+       {
+        "seed": 61,
+        "value": 4.085987
+       },
+       {
+        "seed": 62,
+        "value": 5.692
+       },
+       {
+        "seed": 63,
+        "value": 3.975684
+       },
+       {
+        "seed": 64,
+        "value": 3.757813
+       },
+       {
+        "seed": 65,
+        "value": 3.037433
+       },
+       {
+        "seed": 66,
+        "value": 4.711864
+       },
+       {
+        "seed": 67,
+        "value": 6.055046
+       },
+       {
+        "seed": 68,
+        "value": 3.899023
+       },
+       {
+        "seed": 69,
+        "value": 4.40942
+       },
+       {
+        "seed": 70,
+        "value": 4.691257
+       },
+       {
+        "seed": 71,
+        "value": 4.002857
+       },
+       {
+        "seed": 72,
+        "value": 3.745902
+       },
+       {
+        "seed": 73,
+        "value": 6.148837
+       },
+       {
+        "seed": 74,
+        "value": 5.373984
+       },
+       {
+        "seed": 75,
+        "value": 3.445783
+       },
+       {
+        "seed": 76,
+        "value": 3.331593
+       },
+       {
+        "seed": 77,
+        "value": 3.343137
+       },
+       {
+        "seed": 78,
+        "value": 3.491525
+       },
+       {
+        "seed": 79,
+        "value": 4.062176
+       },
+       {
+        "seed": 80,
+        "value": 6.142857
+       },
+       {
+        "seed": 81,
+        "value": 2.969231
+       },
+       {
+        "seed": 82,
+        "value": 4.224044
+       },
+       {
+        "seed": 83,
+        "value": 5.5
+       },
+       {
+        "seed": 84,
+        "value": 5.250951
+       },
+       {
+        "seed": 85,
+        "value": 4.06993
+       },
+       {
+        "seed": 86,
+        "value": 4.444043
+       },
+       {
+        "seed": 87,
+        "value": 3.715347
+       },
+       {
+        "seed": 88,
+        "value": 4.190104
+       },
+       {
+        "seed": 89,
+        "value": 5.09887
+       },
+       {
+        "seed": 90,
+        "value": 4.010127
+       },
+       {
+        "seed": 91,
+        "value": 4.297214
+       },
+       {
+        "seed": 92,
+        "value": 4.398119
+       },
+       {
+        "seed": 93,
+        "value": 3.599462
+       },
+       {
+        "seed": 94,
+        "value": 6.700855
+       },
+       {
+        "seed": 95,
+        "value": 4.520979
+       },
+       {
+        "seed": 96,
+        "value": 3.977492
+       },
+       {
+        "seed": 97,
+        "value": 3.082857
+       },
+       {
+        "seed": 98,
+        "value": 4.674699
+       },
+       {
+        "seed": 99,
+        "value": 3.269767
+       },
+       {
+        "seed": 100,
+        "value": 2.126079
+       }
+      ],
+      "rescueTicks": {
+       "mean": 335.03,
+       "median": 327,
+       "p5": 218,
+       "p95": 448.4,
+       "min": 203,
+       "max": 579,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.3,
+      "ghostHunt": {
+       "pickups": 86,
+       "catchesPerPickup": {
+        "mean": 0.94186,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 86
+       },
+       "zeroCatchFraction": 0.186047
+      },
+      "bombs": {
+       "collected": 111,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.32,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.478122
+      }
+     },
+     "humanCasual": {
+      "ratio": {
+       "mean": 4.0535,
+       "median": 3.985428,
+       "p5": 2.701138,
+       "p95": 5.735885,
+       "min": 2.310345,
+       "max": 7.009217,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.743405
+       },
+       {
+        "seed": 2,
+        "value": 4.836364
+       },
+       {
+        "seed": 3,
+        "value": 3.229665
+       },
+       {
+        "seed": 4,
+        "value": 5.717647
+       },
+       {
+        "seed": 5,
+        "value": 4.592105
+       },
+       {
+        "seed": 6,
+        "value": 4.026946
+       },
+       {
+        "seed": 7,
+        "value": 5.429688
+       },
+       {
+        "seed": 8,
+        "value": 3.408629
+       },
+       {
+        "seed": 9,
+        "value": 3.583333
+       },
+       {
+        "seed": 10,
+        "value": 3.283447
+       },
+       {
+        "seed": 11,
+        "value": 3.278912
+       },
+       {
+        "seed": 12,
+        "value": 2.483471
+       },
+       {
+        "seed": 13,
+        "value": 6.077253
+       },
+       {
+        "seed": 14,
+        "value": 4.52231
+       },
+       {
+        "seed": 15,
+        "value": 3.867036
+       },
+       {
+        "seed": 16,
+        "value": 5.99177
+       },
+       {
+        "seed": 17,
+        "value": 3.274262
+       },
+       {
+        "seed": 18,
+        "value": 3.35109
+       },
+       {
+        "seed": 19,
+        "value": 3.031662
+       },
+       {
+        "seed": 20,
+        "value": 4.046784
+       },
+       {
+        "seed": 21,
+        "value": 3.919753
+       },
+       {
+        "seed": 22,
+        "value": 5.735714
+       },
+       {
+        "seed": 23,
+        "value": 3.807692
+       },
+       {
+        "seed": 24,
+        "value": 4.908759
+       },
+       {
+        "seed": 25,
+        "value": 4.67052
+       },
+       {
+        "seed": 26,
+        "value": 3.446121
+       },
+       {
+        "seed": 27,
+        "value": 5.056522
+       },
+       {
+        "seed": 28,
+        "value": 2.76652
+       },
+       {
+        "seed": 29,
+        "value": 3.729483
+       },
+       {
+        "seed": 30,
+        "value": 2.310345
+       },
+       {
+        "seed": 31,
+        "value": 3.494505
+       },
+       {
+        "seed": 32,
+        "value": 2.612595
+       },
+       {
+        "seed": 33,
+        "value": 4.039604
+       },
+       {
+        "seed": 34,
+        "value": 4.07837
+       },
+       {
+        "seed": 35,
+        "value": 4.050296
+       },
+       {
+        "seed": 36,
+        "value": 4.382838
+       },
+       {
+        "seed": 37,
+        "value": 4.365325
+       },
+       {
+        "seed": 38,
+        "value": 2.791845
+       },
+       {
+        "seed": 39,
+        "value": 2.704492
+       },
+       {
+        "seed": 40,
+        "value": 4.190769
+       },
+       {
+        "seed": 41,
+        "value": 2.637405
+       },
+       {
+        "seed": 42,
+        "value": 5.334507
+       },
+       {
+        "seed": 43,
+        "value": 4.280702
+       },
+       {
+        "seed": 44,
+        "value": 4.290735
+       },
+       {
+        "seed": 45,
+        "value": 3.69341
+       },
+       {
+        "seed": 46,
+        "value": 4.276353
+       },
+       {
+        "seed": 47,
+        "value": 4.739394
+       },
+       {
+        "seed": 48,
+        "value": 4.155882
+       },
+       {
+        "seed": 49,
+        "value": 2.891892
+       },
+       {
+        "seed": 50,
+        "value": 2.918803
+       },
+       {
+        "seed": 51,
+        "value": 4.009494
+       },
+       {
+        "seed": 52,
+        "value": 5.318898
+       },
+       {
+        "seed": 53,
+        "value": 5.056962
+       },
+       {
+        "seed": 54,
+        "value": 2.560886
+       },
+       {
+        "seed": 55,
+        "value": 4.613707
+       },
+       {
+        "seed": 56,
+        "value": 4.328446
+       },
+       {
+        "seed": 57,
+        "value": 5.069597
+       },
+       {
+        "seed": 58,
+        "value": 4.211864
+       },
+       {
+        "seed": 59,
+        "value": 7.009217
+       },
+       {
+        "seed": 60,
+        "value": 4.413174
+       },
+       {
+        "seed": 61,
+        "value": 3.935583
+       },
+       {
+        "seed": 62,
+        "value": 5.309701
+       },
+       {
+        "seed": 63,
+        "value": 3.813411
+       },
+       {
+        "seed": 64,
+        "value": 3.662437
+       },
+       {
+        "seed": 65,
+        "value": 2.79803
+       },
+       {
+        "seed": 66,
+        "value": 4.440895
+       },
+       {
+        "seed": 67,
+        "value": 5.73913
+       },
+       {
+        "seed": 68,
+        "value": 3.717391
+       },
+       {
+        "seed": 69,
+        "value": 4.029801
+       },
+       {
+        "seed": 70,
+        "value": 4.471354
+       },
+       {
+        "seed": 71,
+        "value": 3.980114
+       },
+       {
+        "seed": 72,
+        "value": 3.745902
+       },
+       {
+        "seed": 73,
+        "value": 5.67382
+       },
+       {
+        "seed": 74,
+        "value": 5.124031
+       },
+       {
+        "seed": 75,
+        "value": 3.30254
+       },
+       {
+        "seed": 76,
+        "value": 3.420912
+       },
+       {
+        "seed": 77,
+        "value": 3.121281
+       },
+       {
+        "seed": 78,
+        "value": 3.377049
+       },
+       {
+        "seed": 79,
+        "value": 3.979695
+       },
+       {
+        "seed": 80,
+        "value": 5.642534
+       },
+       {
+        "seed": 81,
+        "value": 3.146739
+       },
+       {
+        "seed": 82,
+        "value": 4.178378
+       },
+       {
+        "seed": 83,
+        "value": 3.611446
+       },
+       {
+        "seed": 84,
+        "value": 4.914591
+       },
+       {
+        "seed": 85,
+        "value": 3.803922
+       },
+       {
+        "seed": 86,
+        "value": 4.117057
+       },
+       {
+        "seed": 87,
+        "value": 3.442661
+       },
+       {
+        "seed": 88,
+        "value": 3.867788
+       },
+       {
+        "seed": 89,
+        "value": 5.070225
+       },
+       {
+        "seed": 90,
+        "value": 3.930521
+       },
+       {
+        "seed": 91,
+        "value": 3.478697
+       },
+       {
+        "seed": 92,
+        "value": 4.11437
+       },
+       {
+        "seed": 93,
+        "value": 3.451031
+       },
+       {
+        "seed": 94,
+        "value": 6.373984
+       },
+       {
+        "seed": 95,
+        "value": 3.990741
+       },
+       {
+        "seed": 96,
+        "value": 3.829721
+       },
+       {
+        "seed": 97,
+        "value": 2.900538
+       },
+       {
+        "seed": 98,
+        "value": 4.45977
+       },
+       {
+        "seed": 99,
+        "value": 2.863544
+       },
+       {
+        "seed": 100,
+        "value": 2.869464
+       }
+      ],
+      "rescueTicks": {
+       "mean": 353.84,
+       "median": 344.5,
+       "p5": 233,
+       "p95": 474.5,
+       "min": 217,
+       "max": 542,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.33,
+      "ghostHunt": {
+       "pickups": 84,
+       "catchesPerPickup": {
+        "mean": 1.035714,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 84
+       },
+       "zeroCatchFraction": 0.130952
+      },
+      "bombs": {
+       "collected": 111,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 26.36,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.477446
+      }
+     },
+     "humanNovice": {
+      "ratio": {
+       "mean": 3.726908,
+       "median": 3.58265,
+       "p5": 2.554717,
+       "p95": 5.325832,
+       "min": 2.097847,
+       "max": 6.364017,
+       "count": 100
+      },
+      "ratioSamples": [
+       {
+        "seed": 1,
+        "value": 2.383333
+       },
+       {
+        "seed": 2,
+        "value": 4.547009
+       },
+       {
+        "seed": 3,
+        "value": 3.169014
+       },
+       {
+        "seed": 4,
+        "value": 4.976109
+       },
+       {
+        "seed": 5,
+        "value": 4.142433
+       },
+       {
+        "seed": 6,
+        "value": 3.654891
+       },
+       {
+        "seed": 7,
+        "value": 5.387597
+       },
+       {
+        "seed": 8,
+        "value": 3.190024
+       },
+       {
+        "seed": 9,
+        "value": 3.473538
+       },
+       {
+        "seed": 10,
+        "value": 3.472422
+       },
+       {
+        "seed": 11,
+        "value": 3.089744
+       },
+       {
+        "seed": 12,
+        "value": 2.671111
+       },
+       {
+        "seed": 13,
+        "value": 5.425287
+       },
+       {
+        "seed": 14,
+        "value": 4.463731
+       },
+       {
+        "seed": 15,
+        "value": 3.396594
+       },
+       {
+        "seed": 16,
+        "value": 5.453184
+       },
+       {
+        "seed": 17,
+        "value": 2.996139
+       },
+       {
+        "seed": 18,
+        "value": 3.008696
+       },
+       {
+        "seed": 19,
+        "value": 2.830049
+       },
+       {
+        "seed": 20,
+        "value": 3.909605
+       },
+       {
+        "seed": 21,
+        "value": 3.167082
+       },
+       {
+        "seed": 22,
+        "value": 5.265574
+       },
+       {
+        "seed": 23,
+        "value": 3.6
+       },
+       {
+        "seed": 24,
+        "value": 4.366883
+       },
+       {
+        "seed": 25,
+        "value": 4.752941
+       },
+       {
+        "seed": 26,
+        "value": 3.303719
+       },
+       {
+        "seed": 27,
+        "value": 3.390671
+       },
+       {
+        "seed": 28,
+        "value": 2.706897
+       },
+       {
+        "seed": 29,
+        "value": 3.546243
+       },
+       {
+        "seed": 30,
+        "value": 2.097847
+       },
+       {
+        "seed": 31,
+        "value": 3.244898
+       },
+       {
+        "seed": 32,
+        "value": 2.530499
+       },
+       {
+        "seed": 33,
+        "value": 3.586813
+       },
+       {
+        "seed": 34,
+        "value": 3.74928
+       },
+       {
+        "seed": 35,
+        "value": 3.845506
+       },
+       {
+        "seed": 36,
+        "value": 3.940653
+       },
+       {
+        "seed": 37,
+        "value": 4.110787
+       },
+       {
+        "seed": 38,
+        "value": 2.555992
+       },
+       {
+        "seed": 39,
+        "value": 2.570787
+       },
+       {
+        "seed": 40,
+        "value": 2.861345
+       },
+       {
+        "seed": 41,
+        "value": 3.213953
+       },
+       {
+        "seed": 42,
+        "value": 4.303977
+       },
+       {
+        "seed": 43,
+        "value": 3.973941
+       },
+       {
+        "seed": 44,
+        "value": 4.119632
+       },
+       {
+        "seed": 45,
+        "value": 3.136253
+       },
+       {
+        "seed": 46,
+        "value": 3.960422
+       },
+       {
+        "seed": 47,
+        "value": 4.739394
+       },
+       {
+        "seed": 48,
+        "value": 4.361111
+       },
+       {
+        "seed": 49,
+        "value": 2.74359
+       },
+       {
+        "seed": 50,
+        "value": 2.759596
+       },
+       {
+        "seed": 51,
+        "value": 4.035032
+       },
+       {
+        "seed": 52,
+        "value": 4.79078
+       },
+       {
+        "seed": 53,
+        "value": 4.813253
+       },
+       {
+        "seed": 54,
+        "value": 2.669231
+       },
+       {
+        "seed": 55,
+        "value": 3.991914
+       },
+       {
+        "seed": 56,
+        "value": 3.833766
+       },
+       {
+        "seed": 57,
+        "value": 4.707483
+       },
+       {
+        "seed": 58,
+        "value": 4.096154
+       },
+       {
+        "seed": 59,
+        "value": 6.364017
+       },
+       {
+        "seed": 60,
+        "value": 3.973046
+       },
+       {
+        "seed": 61,
+        "value": 3.563889
+       },
+       {
+        "seed": 62,
+        "value": 4.727575
+       },
+       {
+        "seed": 63,
+        "value": 3.237624
+       },
+       {
+        "seed": 64,
+        "value": 3.348028
+       },
+       {
+        "seed": 65,
+        "value": 2.401691
+       },
+       {
+        "seed": 66,
+        "value": 3.982808
+       },
+       {
+        "seed": 67,
+        "value": 5.322581
+       },
+       {
+        "seed": 68,
+        "value": 3.410256
+       },
+       {
+        "seed": 69,
+        "value": 3.803125
+       },
+       {
+        "seed": 70,
+        "value": 4.208333
+       },
+       {
+        "seed": 71,
+        "value": 3.417073
+       },
+       {
+        "seed": 72,
+        "value": 2.948387
+       },
+       {
+        "seed": 73,
+        "value": 4.896296
+       },
+       {
+        "seed": 74,
+        "value": 4.789855
+       },
+       {
+        "seed": 75,
+        "value": 2.888889
+       },
+       {
+        "seed": 76,
+        "value": 3.314286
+       },
+       {
+        "seed": 77,
+        "value": 3.004405
+       },
+       {
+        "seed": 78,
+        "value": 3.161125
+       },
+       {
+        "seed": 79,
+        "value": 3.85258
+       },
+       {
+        "seed": 80,
+        "value": 4.968127
+       },
+       {
+        "seed": 81,
+        "value": 3.023499
+       },
+       {
+        "seed": 82,
+        "value": 3.505669
+       },
+       {
+        "seed": 83,
+        "value": 3.415954
+       },
+       {
+        "seed": 84,
+        "value": 4.527869
+       },
+       {
+        "seed": 85,
+        "value": 3.54878
+       },
+       {
+        "seed": 86,
+        "value": 3.578488
+       },
+       {
+        "seed": 87,
+        "value": 3.284464
+       },
+       {
+        "seed": 88,
+        "value": 3.665148
+       },
+       {
+        "seed": 89,
+        "value": 4.652062
+       },
+       {
+        "seed": 90,
+        "value": 3.624714
+       },
+       {
+        "seed": 91,
+        "value": 3.2891
+       },
+       {
+        "seed": 92,
+        "value": 3.952113
+       },
+       {
+        "seed": 93,
+        "value": 3.424552
+       },
+       {
+        "seed": 94,
+        "value": 5.850746
+       },
+       {
+        "seed": 95,
+        "value": 3.836795
+       },
+       {
+        "seed": 96,
+        "value": 3.659763
+       },
+       {
+        "seed": 97,
+        "value": 2.745547
+       },
+       {
+        "seed": 98,
+        "value": 3.570552
+       },
+       {
+        "seed": 99,
+        "value": 2.762279
+       },
+       {
+        "seed": 100,
+        "value": 2.104274
+       }
+      ],
+      "rescueTicks": {
+       "mean": 383.19,
+       "median": 381,
+       "p5": 266.7,
+       "p95": 509.1,
+       "min": 239,
+       "max": 585,
+       "count": 100
+      },
+      "timeouts": 0,
+      "winRatePlayer": 1,
+      "winRateHunter": 0,
+      "winRatePlayerCI": [
+       0.963005,
+       1
+      ],
+      "livesLostMean": 0.35,
+      "ghostHunt": {
+       "pickups": 87,
+       "catchesPerPickup": {
+        "mean": 1.126437,
+        "median": 1,
+        "p5": 0,
+        "p95": 2,
+        "min": 0,
+        "max": 2,
+        "count": 87
+       },
+       "zeroCatchFraction": 0.08046
+      },
+      "bombs": {
+       "collected": 120,
+       "detonated": 0,
+       "wallsPerBomb": 0
+      },
+      "wisps": {
+       "collectedMean": 27.12,
+       "maxComboMedian": 5,
+       "wispScoreShare": 0.482326
+      }
+     }
+    }
+   }
+  },
+  "pelletClear": {
+   "B1G1W1": {
+    "1": {
+     "mean": 2118.34,
+     "median": 2091,
+     "p5": 1831.85,
+     "p95": 2429.05,
+     "min": 1743,
+     "max": 2935,
+     "count": 100
+    },
+    "5": {
+     "mean": 1909.08,
+     "median": 1910.5,
+     "p5": 1608.75,
+     "p95": 2279.35,
+     "min": 1454,
+     "max": 2366,
+     "count": 100
+    },
+    "10": {
+     "mean": 1650.39,
+     "median": 1631,
+     "p5": 1426.55,
+     "p95": 1924.8,
+     "min": 1259,
+     "max": 2072,
+     "count": 100
+    },
+    "20": {
+     "mean": 1393.28,
+     "median": 1383,
+     "p5": 1140.4,
+     "p95": 1698.75,
+     "min": 1085,
+     "max": 1857,
+     "count": 100
+    },
+    "40": {
+     "mean": 1374.18,
+     "median": 1370,
+     "p5": 1148.75,
+     "p95": 1609.35,
+     "min": 1072,
+     "max": 1805,
+     "count": 100
+    }
+   }
+  },
+  "pelletClearTimeouts": {
+   "B1G1W1": {
+    "1": 0,
+    "5": 0,
+    "10": 0,
+    "20": 0,
+    "40": 0
+   }
+  },
+  "generation": {
+   "attemptsMean": 1.014,
+   "repairsMean": 0.408,
+   "fallbackCount": 0,
+   "units": 500
+  }
+ }
+}

@@ -1,0 +1,5 @@
+smoke: self-test 2130 ms per seed; scaling Seeds 40 -> 19
+smoke: note: config differs from the baseline config (2f2f11a8aec2760f)
+smoke: 190 units, 2 workers
+  smoke: 150/190 units, 16 s
+smoke: PASSED in 17993 ms (190 units)

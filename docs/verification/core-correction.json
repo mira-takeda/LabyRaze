@@ -1,0 +1,9 @@
+{
+  "file": "src/core/ghostHunt.ts",
+  "beforeSha256": "f0d4e334d9c55469707c7bdc7f610399929520c09a0ddee04486de3fa48629af",
+  "afterSha256": "1d6ea732b1913e4ad175c0c667eda0157d3c35040a40ea079128d99d0df2c7bd",
+  "failingSeed": -1398346137,
+  "reason": "Pre-existing rescue-after-expiry lifecycle bug: returning/inactive rescued allies retained cage-bound state. Reconcile rescued flags before movement/refresh to enforce the existing never-reimprison-rescued rule. No rescue flags, keys, score rules, speeds, AI, difficulties or tuning changed.",
+  "regressions": "Deterministic rescue at 40 and 700 ticks, plus the unchanged property suite. Historical baseline is preserved; no 500-seed remeasurement claimed.",
+  "propertyHarness": "The final drain observes the latest read-only Rescue flag at least once before stopping. Existing assertions and random scenario counts remain unchanged. Three deterministic regressions cover return in progress, completed return and final Rescue without another scripted tick."
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "balance-smoke-on-save",
+      "description": "Run the balance smoke check when maze generation or config changes.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\\\/])src[\\\\/]core[\\\\/](maze[\\\\/].*|config)\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm.cmd run balance:smoke"
+      },
+      "timeout": 120
+    }
+  ]
+}

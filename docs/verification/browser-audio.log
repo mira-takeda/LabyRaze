@@ -1,0 +1,16 @@
+Launching isolated audio browser profile
+START audio scenario buffer-opus
+{"scenario":"buffer-opus","state":{"status":"ready","progress":1,"method":"buffer"},"channels":2,"duration":171.15733333333333,"samples":8215552,"looping":true,"progressed":true,"codec":"opus","cleanup":false,"disconnected":0,"pass":true,"errors":[]}
+START audio scenario buffer-mp3
+{"scenario":"buffer-mp3","state":{"status":"ready","progress":1,"method":"buffer"},"channels":2,"duration":171.15733333333333,"samples":8215552,"looping":true,"progressed":true,"codec":"mp3","cleanup":false,"disconnected":0,"pass":true,"errors":[]}
+START audio scenario stream-opus
+{"scenario":"stream-opus","state":{"status":"streaming","progress":0,"method":"stream"},"channels":0,"duration":171.163833,"samples":0,"looping":true,"progressed":true,"codec":"opus","cleanup":false,"disconnected":0,"pass":true,"errors":[]}
+START audio scenario stream-mp3
+{"scenario":"stream-mp3","state":{"status":"streaming","progress":0,"method":"stream"},"channels":0,"duration":171.157333,"samples":0,"looping":true,"progressed":true,"codec":"mp3","cleanup":false,"disconnected":0,"pass":true,"errors":[]}
+START audio scenario auto-opus404
+{"scenario":"auto-opus404","state":{"status":"ready","progress":1,"method":"buffer"},"channels":2,"duration":171.15733333333333,"samples":8215552,"looping":true,"progressed":true,"codec":"mp3","cleanup":false,"disconnected":1,"pass":true,"errors":[]}
+START audio scenario buffer-all404
+{"scenario":"buffer-all404","state":{"status":"failed","progress":0,"method":"none"},"channels":0,"duration":0,"samples":0,"looping":false,"progressed":false,"codec":"","cleanup":true,"disconnected":0,"pass":true,"errors":[]}
+START audio scenario stream-timeout
+{"scenario":"stream-timeout","state":{"status":"failed","progress":0,"method":"none"},"channels":0,"duration":0,"samples":0,"looping":false,"progressed":false,"codec":"","cleanup":true,"disconnected":2,"pass":true,"errors":[]}
+PASS: real-browser audio decode, playback, loop crossing, fallback and timeout cleanup

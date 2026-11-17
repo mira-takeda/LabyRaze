@@ -1,0 +1,690 @@
+{
+ "ghostHunt": {
+  "name": "ghostHunt",
+  "seeds": 100,
+  "levels": [
+   1,
+   10
+  ],
+  "sweep": [
+   {
+    "ticks": 240,
+    "pickups": 173,
+    "catchesMean": 0.561,
+    "catchesP95": 1,
+    "zeroCatchFraction": 0.439,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 0.6279,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 300,
+    "pickups": 173,
+    "catchesMean": 0.6648,
+    "catchesP95": 1,
+    "zeroCatchFraction": 0.3525,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 0.7035,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 360,
+    "pickups": 173,
+    "catchesMean": 0.7804,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.3006,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 0.8256,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 420,
+    "pickups": 173,
+    "catchesMean": 0.8496,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.2833,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 0.9128,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 480,
+    "pickups": 173,
+    "catchesMean": 0.9014,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.2718,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 0.9709,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 540,
+    "pickups": 173,
+    "catchesMean": 0.9072,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 600,
+    "pickups": 173,
+    "catchesMean": 0.9129,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0291,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 660,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0407,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 720,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0407,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 780,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0465,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 840,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 900,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 960,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 1020,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 1080,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 1140,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   },
+   {
+    "ticks": 1200,
+    "pickups": 173,
+    "catchesMean": 0.9187,
+    "catchesP95": 2,
+    "zeroCatchFraction": 0.266,
+    "hunterWinRate": 0,
+    "playerWinRate": 1,
+    "rescueMedian": 419.75,
+    "humanPickups": 172,
+    "humanCatchesMean": 1.0523,
+    "humanHunterWinRate": 0,
+    "humanPlayerWinRate": 1,
+    "qualifies": false
+   }
+  ],
+  "chosen": null,
+  "runnerUp": null,
+  "kept": {
+   "ticks": 480
+  },
+  "justification": "No duration from 240 to 1200 satisfied the design rule; the provisional ghostHuntTicks = 480 is kept unchanged. The Squareman win-rate floor 0.15 was not met at any duration (max 0): the automated policy wins the contested race almost always, so this metric is saturated and cannot rank durations. Reference only, not used to choose: humanCasual Squareman win rate 0 to 0."
+ },
+ "bombRadius": {
+  "name": "bombRadius",
+  "seeds": 100,
+  "levels": [
+   1,
+   10
+  ],
+  "sweep": [
+   {
+    "radius": 1.5,
+    "wallsPerBomb": 4.9108,
+    "detonated": 152,
+    "ratioMedianAggressive": 4.4763,
+    "ratioMedianNone": 4.1376,
+    "ratioShift": 0.0819,
+    "qualifies": true
+   },
+   {
+    "radius": 2,
+    "wallsPerBomb": 5.1095,
+    "detonated": 159,
+    "ratioMedianAggressive": 4.5221,
+    "ratioMedianNone": 4.1376,
+    "ratioShift": 0.0929,
+    "qualifies": true
+   },
+   {
+    "radius": 2.5,
+    "wallsPerBomb": 7.4377,
+    "detonated": 160,
+    "ratioMedianAggressive": 4.5687,
+    "ratioMedianNone": 4.1376,
+    "ratioShift": 0.1042,
+    "qualifies": true
+   },
+   {
+    "radius": 3,
+    "wallsPerBomb": 8.2814,
+    "detonated": 199,
+    "ratioMedianAggressive": 4.5825,
+    "ratioMedianNone": 4.1376,
+    "ratioShift": 0.1075,
+    "qualifies": true
+   },
+   {
+    "radius": 3.5,
+    "wallsPerBomb": 12.6018,
+    "detonated": 191,
+    "ratioMedianAggressive": 4.5611,
+    "ratioMedianNone": 4.1376,
+    "ratioShift": 0.1024,
+    "qualifies": false
+   }
+  ],
+  "chosen": {
+   "radius": 3
+  },
+  "runnerUp": {
+   "radius": 2.5
+  },
+  "justification": "Largest radius (most useful to the Player) with mean walls per Bomb <= 10 (8.2814) and median ratio shift <= 0.15 (0.1075) versus bombNone."
+ },
+ "bombs": {
+  "name": "bombs",
+  "seeds": 100,
+  "levels": [
+   1,
+   10
+  ],
+  "sweep": [
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 0,
+    "winAggressive": 0.995,
+    "winNone": 1,
+    "ratioShift": 0.0337,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 1,
+    "winAggressive": 0.995,
+    "winNone": 1,
+    "ratioShift": 0.0337,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 2,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0706,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 3,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0706,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 4,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.0201,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 1,
+    "bombFairnessDelta": 5,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.0201,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 0,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0755,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 1,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0755,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 2,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0659,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 3,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0659,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 4,
+    "winAggressive": 1,
+    "winNone": 0.985,
+    "ratioShift": 0.0292,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 2,
+    "bombFairnessDelta": 5,
+    "winAggressive": 1,
+    "winNone": 0.985,
+    "ratioShift": 0.0292,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 0,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 1,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 2,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1042,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 3,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1042,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 4,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0755,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 3,
+    "bombFairnessDelta": 5,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.0755,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 0,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1517,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 1,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1517,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 2,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1308,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 3,
+    "winAggressive": 1,
+    "winNone": 0.995,
+    "ratioShift": 0.1308,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 4,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.1618,
+    "fallbacks": 0,
+    "qualifies": false
+   },
+   {
+    "bombsPerLevel": 4,
+    "bombFairnessDelta": 5,
+    "winAggressive": 1,
+    "winNone": 1,
+    "ratioShift": 0.1618,
+    "fallbacks": 0,
+    "qualifies": false
+   }
+  ],
+  "chosen": null,
+  "runnerUp": null,
+  "kept": {
+   "bombsPerLevel": 3,
+   "bombFairnessDelta": 3
+  },
+  "justification": "No combination satisfied the design rule; the provisional bombsPerLevel = 3 and bombFairnessDelta = 3 are kept unchanged. bombAggressive wins above the 0.9 ceiling at every point (min 0.995): the automated Player wins the contested race almost always, so the win-rate criterion is saturated and cannot rank the Bomb parameters."
+ },
+ "wisps": {
+  "name": "wisps",
+  "seeds": 100,
+  "levels": [
+   1,
+   10
+  ],
+  "sweep": [
+   {
+    "density": 0.2,
+    "pelletClearMedian": 2075,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 443.25,
+    "raceMargin": 4.1298,
+    "sweepSlowdown": 0.0958,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   },
+   {
+    "density": 0.3,
+    "pelletClearMedian": 2037.75,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 453.25,
+    "raceMargin": 4.0377,
+    "sweepSlowdown": 0.1205,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   },
+   {
+    "density": 0.4,
+    "pelletClearMedian": 1960.25,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 459.25,
+    "raceMargin": 3.8461,
+    "sweepSlowdown": 0.1354,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   },
+   {
+    "density": 0.5,
+    "pelletClearMedian": 1887,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 476.75,
+    "raceMargin": 3.665,
+    "sweepSlowdown": 0.1786,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   },
+   {
+    "density": 0.6,
+    "pelletClearMedian": 1861.25,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 480,
+    "raceMargin": 3.6014,
+    "sweepSlowdown": 0.1867,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   },
+   {
+    "density": 0.7,
+    "pelletClearMedian": 1739.5,
+    "rescueMedianThreeKey": 404.5,
+    "rescueMedianWispSweep": 509,
+    "raceMargin": 3.3004,
+    "sweepSlowdown": 0.2583,
+    "coverageOkFraction": 1,
+    "qualifies": true
+   }
+  ],
+  "chosen": {
+   "density": 0.2
+  },
+  "runnerUp": {
+   "density": 0.3
+  },
+  "justification": "Pellet-clear median exceeds the threeKey rescue median by >= 0.1 (4.1298) and coverage holds for >= 0.999 of Seeds (1); among qualifying densities the highest one with a wispSweep slowdown <= 0.1, else the smallest slowdown (0.0958)."
+ },
+ "combo": {
+  "name": "combo",
+  "seeds": 100,
+  "levels": [
+   1,
+   10
+  ],
+  "sweep": [
+   {
+    "comboWindowTicks": 60,
+    "maxComboMedian": 5,
+    "wispScoreShare": 0.4902,
+    "capReachedTypically": true
+   },
+   {
+    "comboWindowTicks": 90,
+    "maxComboMedian": 5,
+    "wispScoreShare": 0.503,
+    "capReachedTypically": true
+   },
+   {
+    "comboWindowTicks": 120,
+    "maxComboMedian": 5,
+    "wispScoreShare": 0.5084,
+    "capReachedTypically": true
+   },
+   {
+    "comboWindowTicks": 150,
+    "maxComboMedian": 5,
+    "wispScoreShare": 0.5107,
+    "capReachedTypically": true
+   },
+   {
+    "comboWindowTicks": 180,
+    "maxComboMedian": 5,
+    "wispScoreShare": 0.511,
+    "capReachedTypically": true
+   }
+  ],
+  "chosen": {
+   "comboWindowTicks": 120
+  },
+  "runnerUp": null,
+  "justification": "No window gives a median best Combo strictly between 1 and the cap; kept 120."
+ }
+}

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LABYRAZE — Halloween Maze</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 12 12%27%3E%3Crect width=%2712%27 height=%2712%27 rx=%272%27 fill=%27%231c1030%27/%3E%3Cpath d=%27M3 7a3 3 0 0 1 6 0v2l-1-1-1 1-1-1-1 1-1-1-1 1z%27 fill=%27%23cfe8ff%27/%3E%3Crect x=%274.5%27 y=%276%27 width=%271%27 height=%272%27 fill=%27%230b0614%27/%3E%3Crect x=%276.5%27 y=%276%27 width=%271%27 height=%272%27 fill=%27%230b0614%27/%3E%3Crect x=%272%27 y=%279%27 width=%272%27 height=%271%27 fill=%27%238a4bff%27/%3E%3C/svg%3E" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #0b0614;
+        color: #f2e9ff;
+        font-family: system-ui, sans-serif;
+      }
+      #app {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      #game {
+        image-rendering: pixelated;
+        box-shadow: 0 0 48px rgba(127, 70, 255, 0.25);
+      }
+      #audio-settings {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #130a24;
+        border: 2px solid #6a52a0;
+        padding: 16px 20px;
+        font-family: monospace;
+        min-width: 320px;
+      }
+      #audio-settings h2 {
+        margin: 0 0 12px;
+        font-size: 16px;
+        color: #ffd23f;
+      }
+      #audio-settings .row {
+        display: grid;
+        grid-template-columns: 120px 1fr auto auto;
+        gap: 8px;
+        align-items: center;
+        margin: 8px 0;
+      }
+      #audio-settings h3 {
+        margin: 14px 0 4px;
+        font-size: 13px;
+        color: #7fe8ff;
+      }
+      #audio-settings .row.check {
+        grid-template-columns: auto 1fr;
+      }
+      #audio-settings button {
+        margin-top: 8px;
+        background: #3b2a5c;
+        color: #f2e9ff;
+        border: 1px solid #6a52a0;
+        padding: 4px 14px;
+        font-family: monospace;
+      }
+      #workshop {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-height: 96vh;
+        overflow: auto;
+        background: linear-gradient(#170c2c, #0f0820);
+        border: 2px solid #7f46ff;
+        box-shadow: 0 0 40px rgba(127, 70, 255, 0.45);
+        padding: 14px 18px;
+        font: 12px monospace;
+        color: #f2e9ff;
+        z-index: 10;
+      }
+      #workshop h2 { margin: 0; font-size: 20px; color: #ffd23f; text-shadow: 2px 2px #3a1460; }
+      #workshop h3 { margin: 10px 0 4px; font-size: 12px; color: #7fe8ff; }
+      #workshop .ws-head { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+      #workshop .ws-note { margin: 0; color: #8a7fb0; flex-basis: 100%; }
+      #workshop .ws-body { display: grid; grid-template-columns: 130px auto 250px 280px; gap: 14px; margin-top: 10px; align-items: start; }
+      #workshop button { background: #2b1f45; color: #f2e9ff; border: 1px solid #6a52a0; padding: 4px 8px; font: 12px monospace; cursor: pointer; border-radius: 3px; }
+      #workshop button:hover:not(:disabled) { border-color: #7fe8ff; }
+      #workshop button:disabled { opacity: 0.4; cursor: default; }
+      #workshop button.on { background: #7f46ff; border-color: #c29bff; }
+      #workshop .ws-tabs button { font-size: 14px; padding: 6px 14px; }
+      #workshop .ws-tools { display: flex; flex-direction: column; gap: 5px; }
+      #workshop .ws-tools hr { width: 100%; border: 0; border-top: 1px solid #3b2a5c; margin: 4px 0; }
+      #ws-grid { image-rendering: pixelated; cursor: crosshair; border: 2px solid #3b2a5c; touch-action: none; display: block; }
+      #workshop .ws-check { margin: 6px 0 0; color: #7fe8ff; }
+      #workshop .ws-check.bad { color: #ff9f43; }
+      #workshop .ws-palette { display: grid; grid-template-columns: repeat(10, 22px); gap: 3px; }
+      #workshop .ws-palette button { width: 22px; height: 22px; padding: 0; border: 2px solid #0b0614; }
+      #workshop .ws-palette button.on { outline: 2px solid #ffffff; outline-offset: 1px; }
+      #ws-preview { image-rendering: pixelated; border: 1px solid #3b2a5c; display: block; }
+      #workshop .ws-name { display: flex; gap: 8px; align-items: center; margin-top: 10px; }
+      #workshop input[type=text] { flex: 1; background: #0b0614; color: #f2e9ff; border: 1px solid #6a52a0; padding: 4px; font: 13px monospace; }
+      #workshop .ws-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+      #workshop .ws-status { min-height: 30px; color: #ffd23f; margin: 6px 0 0; }
+      #workshop .ws-inuse { margin: 0 0 6px; color: #c9bfe6; }
+      #ws-list, #ws-builtins { list-style: none; margin: 0; padding: 0; max-height: 300px; overflow: auto; }
+      #ws-list li, #ws-builtins li { display: flex; align-items: center; gap: 6px; padding: 4px; border: 1px solid transparent; }
+      #ws-list li.editing, #ws-builtins li.editing { border-color: #6a52a0; }
+      #ws-list li.using, #ws-builtins li.using { background: #241a3c; }
+      #ws-list li .nm, #ws-builtins li .nm { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      #ws-list li.empty, #ws-builtins li.empty { color: #8a7fb0; }
+      #ws-list .thumb, #ws-builtins .thumb { image-rendering: pixelated; background: #140c22; }
+      #workshop .ws-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; color: #8a7fb0; }
+      #music-status {
+        position: fixed;
+        right: 12px;
+        bottom: 10px;
+        font: 12px monospace;
+        color: #7fe8ff;
+        opacity: 0.85;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="app" aria-label="LABYRAZE Halloween Maze">
+      <canvas id="game" role="img" aria-label="Game board"></canvas>
+    </main>
+    <script type="module" src="/src/shell/main.ts"></script>
+  </body>
+</html>

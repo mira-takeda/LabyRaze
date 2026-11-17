@@ -1,0 +1,13 @@
+﻿import { createHash } from 'node:crypto';
+import fs from 'node:fs';
+import { generateMaze } from './src/core/maze/generate';
+import { DEFAULT_CONFIG as cfg } from './src/core/config';
+const rows: string[] = [];
+for (let seed = 1; seed <= 500; seed++) for (const level of [1, 5, 10, 20, 40]) {
+  const m = generateMaze(seed, level, cfg);
+  const items = new Set([...m.wisps, ...m.ordinary].map((c) => c.y * m.width + c.x));
+  const h = createHash('sha256').update(JSON.stringify({ t: Array.from(m.tiles), d: m.doors, k: m.keys, p: m.power, s: m.speed, b: m.bombs, g: m.ghostHunt, ps: m.playerStart, hs: m.hunterStart, ice: m.ice ? Array.from(m.ice) : null, items: [...items].sort((a, b) => a - b), att: m.generation.attempts, fb: m.generation.fallback ?? false })).digest('hex').slice(0, 16);
+  rows.push(`${seed},${level},${h}`);
+}
+fs.writeFileSync(process.argv[2], rows.join('\n') + '\n');
+console.log('ok ' + rows.length);

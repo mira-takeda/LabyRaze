@@ -1,0 +1,2353 @@
+{
+  "pbtResults": {
+    "5.10 Write property test for maze structure and limits": {
+      "status": "passed",
+      "lastRunTimestamp": 1794619679818
+    }
+  },
+  "executionHistory": {
+    "1.1 Scaffold the Vite + TypeScript project and npm scripts": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507807183
+      },
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507868777
+      },
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507934203
+      },
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507987845
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528825189
+      }
+    ],
+    "1.2 Configure Vite to serve `public/` and handle the space in `Pixel Pulse.wav`": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507808390
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528834048
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529594235
+      }
+    ],
+    "1.3 Configure ESLint determinism and layering rules": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507808777
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528835285
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529594766
+      }
+    ],
+    "1.4 Implement the determinism lint script": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507809125
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528835940
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529595297
+      }
+    ],
+    "1.5 Implement read-only Soundtrack integrity tooling": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507809411
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528836807
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529596467
+      }
+    ],
+    "2.1 Write the invariant steering files": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507810158
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794528837593
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529597201
+      }
+    ],
+    "2.2 Write the remaining steering files": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507810571
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529611047
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529824932
+      }
+    ],
+    "2.3 Create the Kiro hook files": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507810777
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529836596
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530091843
+      }
+    ],
+    "2.4 Write smoke tests for steering and hook files": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507811207
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530106330
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530976981
+      }
+    ],
+    "3. Checkpoint - Scaffolding, steering and hooks in place": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507811414
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687493009
+      }
+    ],
+    "4.1 Define core types and events": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507811821
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529611686
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529822217
+      }
+    ],
+    "4.2 Implement the seeded PRNG": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507812057
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529612757
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529823013
+      }
+    ],
+    "4.3 Implement Game_Config and validation": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507812470
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529613197
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529824428
+      }
+    ],
+    "4.4 Implement the Open Design Questions registry": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507812739
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529837417
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530093123
+      }
+    ],
+    "4.5 Implement the grid module": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507813166
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529838827
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530094018
+      }
+    ],
+    "4.6 Create shared test helpers and arbitraries": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507813391
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529839176
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530094591
+      }
+    ],
+    "4.7 Write unit tests for PRNG, config and the registry": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507813619
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530107024
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530977861
+      }
+    ],
+    "5.1 Implement maze carving, cage, loops and wall hardness": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507813838
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530107730
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530978981
+      }
+    ],
+    "5.2 Implement door placement": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507814367
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532575772
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533122372
+      }
+    ],
+    "5.3 Implement start, key, power, speed, bomb and Ghost_Hunt placement": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507814625
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535349023
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536942468
+      }
+    ],
+    "5.4 Implement the wisp and pellet partition": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507814817
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537766451
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540000471
+      }
+    ],
+    "5.5 Implement maze validity checks": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507815029
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540311224
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794618125007
+      }
+    ],
+    "5.6 Implement maze repair passes": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507815490
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794618125730
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794618614802
+      }
+    ],
+    "5.7 Wire `generateMaze` with regenerate and fallback": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507815746
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794618615454
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619323655
+      }
+    ],
+    "5.8 Write property test for maze generation determinism": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507815978
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619332714
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619838521
+      }
+    ],
+    "5.9 Write property test for connectivity and reachability": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507816196
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619332966
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619838921
+      }
+    ],
+    "5.10 Write property test for maze structure and limits": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507816677
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619333828
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619839824
+      }
+    ],
+    "5.11 Write property test for wisp and pellet coverage": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507816906
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619334884
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619841519
+      }
+    ],
+    "6. Checkpoint - Maze generator complete": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507817079
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687493689
+      }
+    ],
+    "7.1 Implement pathfinding and version-keyed distance fields": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507817293
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530108995
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530979872
+      }
+    ],
+    "7.2 Implement door schedule, warnings and occupancy gate": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507817722
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531053334
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531862342
+      }
+    ],
+    "7.3 Implement the door reachability gate and connectivity tables": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507817888
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532576535
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533122753
+      }
+    ],
+    "7.4 Write property test for door schedule shape": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507818084
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535350901
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536943032
+      }
+    ],
+    "8.1 Implement movement and buffered turns": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507818421
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530109510
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530980658
+      }
+    ],
+    "8.2 Implement the pure interpolation function": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507818619
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531982254
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532530665
+      }
+    ],
+    "9.1 Implement power and speed rules": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507818787
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531053664
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531862646
+      }
+    ],
+    "9.2 Write property test and examples for power cancellation": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507818974
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533164841
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534836236
+      }
+    ],
+    "9.4 Write property test for the speed state": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507819344
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533165302
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534836742
+      }
+    ],
+    "10.1 Implement pickups, keys and rescue": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507819557
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532576777
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533123196
+      }
+    ],
+    "10.2 Write property test for rescue accounting": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507819731
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536944736
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537737583
+      }
+    ],
+    "10.3 Implement collisions, lives, respawn and dropped Keys": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507819918
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535349501
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536943302
+      }
+    ],
+    "10.4 Write property test for eating rules": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507820092
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537767045
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794539999680
+      }
+    ],
+    "10.5 Write property test for eaten Player consequences": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507820277
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537767381
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540000133
+      }
+    ],
+    "11.1 Implement Bomb inventory and detonation": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507820794
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531054183
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531863324
+      }
+    ],
+    "11.2 Implement the derived-data refresh and Bomb events": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507821015
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535349783
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536943572
+      }
+    ],
+    "11.3 Write property test for Bomb inventory accounting": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507821251
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533169147
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534837875
+      }
+    ],
+    "11.4 Write property test for the blast set": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507821453
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533169645
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534838327
+      }
+    ],
+    "11.5 Write property test for indestructible tiles": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507821659
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533170024
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534670965
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534838873
+      }
+    ],
+    "12.1 Implement the Ghost Hunt state machine": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507821892
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531054504
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531864367
+      }
+    ],
+    "12.2 Implement ally AI, movement and catches": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507822121
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532577367
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533123609
+      }
+    ],
+    "12.3 Write property test that Ghost Hunt preserves rescue state": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507822388
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536945590
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537738755
+      }
+    ],
+    "12.4 Write property test that allies respect the Maze": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507822823
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536946275
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537739419
+      }
+    ],
+    "13.1 Implement score weights, wisp scoring and Combo": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507823120
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531055518
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531865324
+      }
+    ],
+    "14.1 Implement mode selection and COLLECT utility": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507823425
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532577812
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794533123952
+      }
+    ],
+    "14.2 Implement FLEE, CHASE and respawn behaviour": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507823612
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535350370
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794539998774
+      }
+    ],
+    "14.3 Write property test for hunter route validity": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507823824
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537767944
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794539999161
+      }
+    ],
+    "14.5 Write example tests for hunter reroute and pellet collection": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507824053
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540015106
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540297146
+      }
+    ],
+    "15.1 Implement progression and endless levels": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507824288
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531982935
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532531491
+      }
+    ],
+    "15.2 Write property test for level speed progression": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507824659
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534860353
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535029921
+      }
+    ],
+    "16.1 Implement `createRun` and level setup": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507825071
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619335570
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619841797
+      }
+    ],
+    "16.2 Implement the core `step` function": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507825589
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619849953
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794630636200
+      }
+    ],
+    "16.3 Integrate Bombs, Ghost Hunt and Wisps into `step`": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507825967
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794630648163
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794631279338
+      }
+    ],
+    "16.4 Add development invariant assertions": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507826413
+      }
+    ],
+    "16.5 Implement the HUD view-model": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507826682
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534861320
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535074046
+      }
+    ],
+    "17.1 Write property test for simulation determinism": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507826888
+      }
+    ],
+    "17.2 Write property test for pellet accounting": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507827216
+      }
+    ],
+    "17.3 Write property test that Wisps never change pellet accounting": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507827527
+      }
+    ],
+    "17.4 Write property test and examples for the two victory conditions": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507827755
+      }
+    ],
+    "17.5 Write property test for the lives, respawn and dropped-Key lifecycle": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507827949
+      }
+    ],
+    "17.6 Write property test for Doors never trapping a character": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507828153
+      }
+    ],
+    "17.7 Write property test for door reachability and confinement": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507828349
+      }
+    ],
+    "17.8 Write door examples through `step`": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507828546
+      }
+    ],
+    "17.9 Write property test for connectivity after explosions": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507828991
+      }
+    ],
+    "17.10 Write property test for state validity after explosions": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507829246
+      }
+    ],
+    "17.11 Write property test for pathfinding refresh after explosions": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507829669
+      }
+    ],
+    "17.12 Write property test that Squareman cannot collect player-only items": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507829940
+      }
+    ],
+    "17.13 Write property test for Ghost Hunt activation and power neutrality": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507830217
+      }
+    ],
+    "17.14 Write property test that Ghost Hunt ends cleanly": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507830446
+      }
+    ],
+    "17.15 Write property test for fleeing and ally catches": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507830652
+      }
+    ],
+    "17.16 Write endless progression integration tests": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507831101
+      }
+    ],
+    "17.18 Write property test for buffered turns": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507831312
+      }
+    ],
+    "17.19 Write same-Tick power cancellation tests through `step`": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507831512
+      }
+    ],
+    "18.1 Implement automated Player policies": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507831723
+      }
+    ],
+    "18.2 Implement balance statistics": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507831956
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531984067
+      },
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532531688
+      }
+    ],
+    "18.3 Implement the simulator `measure` mode": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507832186
+      }
+    ],
+    "18.4 Implement the simulator `calibrate` and `check` modes": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507832385
+      }
+    ],
+    "18.5 Implement `worker_threads` execution": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507832618
+      }
+    ],
+    "18.6 Implement the balance CLI and baseline I/O": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507833044
+      }
+    ],
+    "18.7 Write policy tests": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507833283
+      }
+    ],
+    "18.8 Write property test for balance statistics": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507833515
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534862348
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535031189
+      }
+    ],
+    "18.9 Write property test for balance determinism": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507833702
+      }
+    ],
+    "19.1 MEASURE: produce and commit `baseline.json`": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507833920
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687493981
+      }
+    ],
+    "19.2 Choose `ghostHuntTicks` by simulation": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507834133
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687494914
+      }
+    ],
+    "19.3 Choose `bombRadius` from evidence": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507834349
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687495424
+      }
+    ],
+    "19.4 Choose `bombsPerLevel` and `bombFairnessDelta` from evidence": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507834804
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687495980
+      }
+    ],
+    "19.5 Choose `wispDensity` from evidence": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507835010
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687496821
+      }
+    ],
+    "19.6 Set Balance_Bands and seed counts from evidence": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507835248
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687497294
+      }
+    ],
+    "19.7 Add the analytic balance pre-filter": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507835479
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687498068
+      }
+    ],
+    "19.8 Write the balance smoke integration test": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507835687
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687498522
+      }
+    ],
+    "19.9 Write the baseline consistency test": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507835885
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687498894
+      }
+    ],
+    "20.1 Write the Tick performance test": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507836119
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687499280
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687547407
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687941234
+      }
+    ],
+    "21. Checkpoint - Core, balance baseline and performance": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507836320
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687499939
+      }
+    ],
+    "22.1 Implement placeholder drawing": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507836812
+      }
+    ],
+    "22.2 Implement the static maze layer": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507837063
+      }
+    ],
+    "22.3 Implement keyboard input capture": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507837310
+      }
+    ],
+    "22.4 Implement the accumulator frame loop and event bus": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507837518
+      }
+    ],
+    "22.5 Implement frame composition in the Renderer": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507837719
+      }
+    ],
+    "22.6 Implement minimal screens": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507837950
+      }
+    ],
+    "22.7 Wire the bootstrap and play loop": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507838150
+      }
+    ],
+    "22.8 Add the browser performance and latency harness": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507838361
+      }
+    ],
+    "22.10 Write property test that the Renderer never mutates the Simulation": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507838596
+      }
+    ],
+    "23. Checkpoint - Phase 1 gate": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507838993
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687500420
+      }
+    ],
+    "24.1 Create original ghost, Captive and allied sprites": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507839318
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687501413
+      }
+    ],
+    "24.2 Create original Squareman sprites": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507839600
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687501714
+      }
+    ],
+    "24.3 Create tiles, decoration and door sprites": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507839913
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687502022
+      }
+    ],
+    "24.4 Create item sprites": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507840344
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687502748
+      }
+    ],
+    "24.5 Implement the sprite atlas cache": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507840592
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687503138
+      }
+    ],
+    "24.6 Swap the Renderer to sprites": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507840820
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687503865
+      }
+    ],
+    "25.1 Implement lighting and glow": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507841112
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687504148
+      }
+    ],
+    "25.2 Implement the door animation layer": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507841450
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687504564
+      }
+    ],
+    "25.3 Implement power, speed and role-reversal visual effects": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507841683
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687504955
+      }
+    ],
+    "25.4 Implement allied ghost rendering": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507841951
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687505296
+      }
+    ],
+    "25.5 Implement the pixel explosion and screen shake": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507843017
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687505622
+      }
+    ],
+    "25.6 Wire lighting, doors, effects, allies and explosions into the Renderer": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507843414
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687505930
+      }
+    ],
+    "26.1 Implement the particle pool and emitters": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507843678
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687506819
+      }
+    ],
+    "26.2 Bind Simulation events to emitters": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507843989
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687507339
+      }
+    ],
+    "27.1 Implement the quality tier controller": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507844292
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687507844
+      }
+    ],
+    "28.1 Implement the tolerant high score store": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507844582
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687508126
+      }
+    ],
+    "28.4 Implement menus, transitions and score screens": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507844949
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687508513
+      }
+    ],
+    "28.5 Implement polished HUD drawing": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507846348
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687509275
+      }
+    ],
+    "29.1 Implement the audio port and mock context": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507846731
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687509608
+      }
+    ],
+    "29.2 Implement buses and volume/mute persistence": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507846964
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687509958
+      }
+    ],
+    "29.3 Implement the Soundtrack loader": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507847169
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687510234
+      }
+    ],
+    "29.4 Implement the reactive music effects chain": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507847395
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687511142
+      }
+    ],
+    "29.5 Implement procedural SFX recipes and event mapping": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507847777
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687511835
+      }
+    ],
+    "29.6 Implement the audio engine facade": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507848578
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687512203
+      }
+    ],
+    "29.7 Write mandatory audio property tests and Soundtrack tests": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507849093
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687512554
+      }
+    ],
+    "29.9 Write engine and gameplay-triggered audio event tests": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507849636
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687513353
+      }
+    ],
+    "29.10 Implement the audio settings UI and loading indicator": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507850763
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687513925
+      }
+    ],
+    "30.1 Wire Phase 2 modules into the bootstrap": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507851250
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687514209
+      }
+    ],
+    "30.2 Extend the views-read-only property test": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507851661
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687514638
+      }
+    ],
+    "30.3 Finalize ASSETS.md and its test": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507852057
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687515138
+      }
+    ],
+    "31.1 Re-run balance tuning after polish": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507852885
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687515718
+      }
+    ],
+    "32.1 Verify Simulation and generator performance budgets": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507853492
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687516160
+      }
+    ],
+    "32.2 Verify Frame_Time and input latency on modest Windows hardware": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507854060
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687516421
+      }
+    ],
+    "33.1 Write the end-to-end simulation run": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507854759
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687517114
+      }
+    ],
+    "34.1 Write the README": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507855989
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687517540
+      }
+    ],
+    "35. Final checkpoint - Everything passes": [
+      {
+        "executionId": "13f9aa5b-d5dd-4b34-9eda-5913f468885c",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794507856735
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687518081
+      }
+    ],
+    "1. Scaffolding and tooling": [
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794529596640
+      }
+    ],
+    "2. Kiro steering files and hooks (early, so they guide later tasks)": [
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530977447
+      }
+    ],
+    "4. Phase 1 core foundations": [
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794530978243
+      }
+    ],
+    "13. Spirit Wisps and scoring": [
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794531865499
+      }
+    ],
+    "8. Grid movement and buffered turns": [
+      {
+        "executionId": "a02e8ec3-d1e1-455f-ba53-147319e2a4c2",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794532532138
+      }
+    ],
+    "9. Powers, speed and cancellation": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794534837347
+      }
+    ],
+    "15. Progression": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535030153
+      }
+    ],
+    "8.3 Write property test for interpolation": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535103736
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535329804
+      }
+    ],
+    "8.4 Write example test for wrap pairs": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535103986
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535330376
+      }
+    ],
+    "9.3 Write property test for power timing and refresh": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535104482
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535330816
+      }
+    ],
+    "13.2 Write unit tests for score weights": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535104783
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535333166
+      }
+    ],
+    "13.3 Write property test for Combo semantics": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535105881
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794535333461
+      }
+    ],
+    "7. Pathfinding and dynamic doors": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536943799
+      }
+    ],
+    "11. Bombs": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536944339
+      }
+    ],
+    "16.6 Write property test for HUD completeness": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794536947264
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794537739854
+      }
+    ],
+    "10. Pickups, keys, rescue, collisions, lives": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540000705
+      }
+    ],
+    "14.4 Write property test for flee and chase behaviour": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540015681
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540296650
+      }
+    ],
+    "14. Squareman hunter AI": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794540297375
+      }
+    ],
+    "5.12 Write unit and performance tests for regeneration and generation time": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619336773
+      },
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794630638086
+      }
+    ],
+    "5. Maze generation": [
+      {
+        "executionId": "8465b845-cb6f-4f89-b54b-cc1267608d5a",
+        "chatSessionId": "sess_029cad65-4f51-435e-a93d-ecb8ac0821e6",
+        "timestamp": 1794619842569
+      }
+    ],
+    "36.1 Fair respawn and anti-spawn-kill": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794677979551
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794678789885
+      }
+    ],
+    "36.2 Stronger death, pickup and explosion feedback": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794678789374
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794679066178
+      }
+    ],
+    "36.3 Meaningful Spirit Wisps (points, Combo, HUD)": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794679067257
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794680662327
+      }
+    ],
+    "36.4 Kiro-style ghost identity redesign": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794680661312
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794681241295
+      }
+    ],
+    "36.5 Biome progression every 5 levels": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794681240778
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794682759988
+      }
+    ],
+    "36.6 Control remapping in settings": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794682760336
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794684206799
+      }
+    ],
+    "36.7 30-lives cheat code": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794684208024
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794684575802
+      }
+    ],
+    "36.8 Key placement fairness review": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794684576631
+      },
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687358456
+      }
+    ],
+    "36. Playtest iteration 1 (user hands-on playtest feedback, priority order)": [
+      {
+        "executionId": "dacc5405-46ad-46ba-9952-38581674ecf0",
+        "chatSessionId": "sess_5903e560-c960-41ad-9aff-06459dfdef2c",
+        "timestamp": 1794687359088
+      }
+    ],
+    "37.1 Implement core 1UP score milestones": [
+      {
+        "executionId": "1a808927-650b-4e4e-9486-741e675b874d",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794760980074
+      }
+    ],
+    "37.2 Implement core level milestone events": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794765819078
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794771289516
+      }
+    ],
+    "37.3 Implement 1UP and celebration presentation": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794771292035
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794774026515
+      }
+    ],
+    "37.4 Development-only gallery previews, shortcut guard and Chrome verification": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794774029327
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775248044
+      }
+    ],
+    "38.1 Clean the workspace and audit `.gitignore`": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775248478
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775675259
+      }
+    ],
+    "37. Final arcade features: 1UP and level milestone celebrations": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775249157
+      }
+    ],
+    "38.2 Write the README": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775675957
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775878758
+      }
+    ],
+    "38.3 Write the release and licensing audit": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775676554
+      },
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775879580
+      }
+    ],
+    "38. Release preparation without publishing": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775880104
+      }
+    ],
+    "39. Checkpoint - Final arcade features and release readiness": [
+      {
+        "executionId": "19ea4685-ffbe-43ae-b5cd-8ef4dac79650",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794775883915
+      }
+    ],
+    "40.1 Implement the Squareman speed multiplier and difficulty selection": [
+      {
+        "executionId": "47fe031d-6065-43fe-85f1-3b50511d5359",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794783250569
+      },
+      {
+        "executionId": "47fe031d-6065-43fe-85f1-3b50511d5359",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794789879651
+      }
+    ],
+    "40. Selectable difficulty (NORMAL, VERY HARD, EXTREME)": [
+      {
+        "executionId": "47fe031d-6065-43fe-85f1-3b50511d5359",
+        "chatSessionId": "sess_64f76587-a16d-47b2-9296-0cf7762b29c8",
+        "timestamp": 1794789880421
+      }
+    ]
+  }
+}
