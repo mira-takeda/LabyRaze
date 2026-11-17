@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: read
+  pages: write # required when configure-pages runs after public activation
 
 concurrency:
   group: pages-${{ github.ref }}
