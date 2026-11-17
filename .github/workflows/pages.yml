@@ -1,0 +1,85 @@
+name: LABYRAZE GitHub Pages
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write # required when configure-pages runs after public activation
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install exact dependencies
+        run: npm ci
+
+      - name: Build for /LabyRaze/
+        run: npm run build
+        env:
+          LABYRAZE_PAGES_BUILD: '1'
+
+      - name: Check Pages bundle and music files
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import { existsSync, readFileSync } from 'node:fs';
+          import assert from 'node:assert/strict';
+
+          const html = readFileSync('dist/index.html', 'utf8');
+          assert.match(html, /\/LabyRaze\/assets\//);
+          for (const file of [
+            'dist/audio/Pixel Pulse.opus',
+            'dist/audio/Pixel Pulse.mp3',
+            'dist/LICENSE',
+            'dist/LICENSE-SCOPE.md',
+            'dist/THIRD-PARTY-NOTICES.md',
+          ]) {
+            assert.ok(existsSync(file), `Missing Pages asset: ${file}`);
+          }
+          console.log('Static build and audio present under the Pages base.');
+          NODE
+
+      # These steps stay disabled while the repository is private.
+      - name: Configure GitHub Pages
+        if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    # No public release, Pages upload or deployment from a private repository.
+    if: github.event.repository.private == false && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy static game to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
