@@ -125,3 +125,15 @@ Original software is licensed under **GPL-3.0-only**, with the full terms in [LI
 Release verification: `npm run verify:release` runs required gates sequentially and saves actual exit codes and sanitized transcripts in `docs/verification/`. Tests with no matches, focused tests and unexecuted required assertions fail. Explicit optional skips must carry a `[optional: reason]` title and are reported separately. The historical balance baseline is never remeasured by release verification.
 
 Audio fallback: the audio-only `public/audio/Pixel Pulse.mp3` is tried when Opus is unsupported or loading fails. The master WAV is never shipped.
+
+## GitHub Pages preparation (not published)
+
+This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml` to build and deploy the **static browser game** to GitHub Pages, when public publication is approved.
+
+- **Local development and preview stay unchanged:** `npm run dev` serves `http://localhost:5173/`, and `npm run build && npm run preview` serves `http://localhost:4173/`.
+- **Pages-only build:** CI sets `LABYRAZE_PAGES_BUILD=1` so Vite uses `/LabyRaze/` as its base. The game resolves its music URLs against Vite's base; both `Pixel Pulse.opus` and its MP3 fallback are included in `dist/audio/`.
+- **Safety gate:** while the repository is private, CI can build and validate the Pages bundle but **does not upload a Pages artifact or deploy a public site**. No Pages site is active just because this workflow exists.
+- **To publish later, with the owner's approval:** make the repository public (or use a plan supporting private Pages), then in **Settings → Pages → Build and deployment → Source** choose **GitHub Actions**. Run the **LABYRAZE GitHub Pages** workflow manually on `main` under **Actions**, or push a new commit to `main`. Check the workflow result and test gameplay plus music at `https://mira-takeda.github.io/LabyRaze/`.
+- **No gameplay changes:** the Pages build changes only the asset base path. Game rules, sprites, saves, the original audio files and local development URLs are unaffected.
+
+The repository is currently private and publishing is a separate decision; see [LICENSE-SCOPE.md](LICENSE-SCOPE.md) for the distinction between the GPL-covered software and separately scoped music/artwork.
