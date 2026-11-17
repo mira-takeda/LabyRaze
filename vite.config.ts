@@ -8,7 +8,8 @@ const root = dirname(fileURLToPath(import.meta.url));
 // Serves public/ as-is (including "audio/Pixel Pulse.opus"); no plugin transforms audio.
 export default defineConfig({
   root,
-  base: '/',
+  // Keep localhost builds at '/', and use the repository subpath only in the Pages CI build.
+  base: process.env.LABYRAZE_PAGES_BUILD === '1' ? '/LabyRaze/' : '/',
   publicDir: 'public',
   plugins: [{
     name: 'distribution-license-notices',
